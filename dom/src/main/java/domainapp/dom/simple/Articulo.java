@@ -9,11 +9,20 @@ import javax.jdo.annotations.Sequence;
 import javax.jdo.annotations.SequenceStrategy;
 import javax.jdo.annotations.VersionStrategy;
 
+import org.apache.isis.applib.annotation.Action;
 import org.apache.isis.applib.annotation.BookmarkPolicy;
 import org.apache.isis.applib.annotation.DomainObject;
 import org.apache.isis.applib.annotation.DomainObjectLayout;
 import org.apache.isis.applib.annotation.MemberOrder;
+import org.apache.isis.applib.annotation.Property;
+import org.apache.isis.applib.annotation.SemanticsOf;
+import org.apache.isis.applib.services.eventbus.ActionDomainEvent;
+import org.apache.isis.applib.services.eventbus.PropertyDomainEvent;
 import org.apache.isis.applib.services.repository.RepositoryService;
+import org.apache.isis.applib.util.ObjectContracts;
+
+import domainapp.dom.simple.SimpleObject.DeleteDomainEvent;
+import domainapp.dom.simple.SimpleObject.NameDomainEvent;
 
 
 @javax.jdo.annotations.PersistenceCapable(
@@ -43,12 +52,15 @@ import org.apache.isis.applib.services.repository.RepositoryService;
 		bookmarking=BookmarkPolicy.AS_ROOT
 )
 @Sequence(name ="codigo", strategy= SequenceStrategy.CONTIGUOUS)
-public class Articulo  {
+public class Articulo  implements Comparable<Articulo>{
 	
 	@Persistent(valueStrategy = IdGeneratorStrategy.INCREMENT, sequence = "codigo")
 	@MemberOrder(sequence="1")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	
+	public static final int CODIGO_LENGTH = 8;
+	
+    
 	private int codigo;
 	public int getCodigo() {
 		return codigo;
@@ -187,9 +199,24 @@ public class Articulo  {
 //	}
 	
 	
+	public static class DeleteDomainEvent extends ActionDomainEvent<Articulo> {}
+    @Action(
+            domainEvent = DeleteDomainEvent.class,
+            semantics = SemanticsOf.NON_IDEMPOTENT_ARE_YOU_SURE
+    )
+    public void delete() {
+        repositoryService.remove(this);
+    }  
+	  
+	@Override
+    public int compareTo(final Articulo other) {
+        return ObjectContracts.compare(this, other, "codigo");
+    }
+
+
 	
-//	  @javax.inject.Inject
-//	    RepositoryService repositoryService;
+	  @javax.inject.Inject
+	    RepositoryService repositoryService;
 
 	
 	

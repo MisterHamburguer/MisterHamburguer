@@ -3,6 +3,7 @@ package domainapp.dom.simple;
 import java.util.List;
 
 import org.apache.isis.applib.DomainObjectContainer;
+import org.apache.isis.applib.Identifier;
 import org.apache.isis.applib.annotation.Action;
 import org.apache.isis.applib.annotation.ActionLayout;
 import org.apache.isis.applib.annotation.BookmarkPolicy;
@@ -13,7 +14,10 @@ import org.apache.isis.applib.annotation.NatureOfService;
 import org.apache.isis.applib.annotation.ParameterLayout;
 import org.apache.isis.applib.annotation.SemanticsOf;
 import org.apache.isis.applib.query.QueryDefault;
+import org.apache.isis.applib.services.eventbus.ActionDomainEvent;
 import org.apache.isis.applib.services.repository.RepositoryService;
+
+import domainapp.dom.simple.SimpleObjects.CreateDomainEvent;
 
 @DomainService(
         nature = NatureOfService.VIEW,
@@ -54,13 +58,25 @@ public class Articulos {
 	                        "ListarPorCodigo",
 	                        "Codigo", codigo));
 	    }
+	    
+	    public static class CreateDomainEvent extends ActionDomainEvent<Articulos> {
+	        public CreateDomainEvent(final Articulos source, final Identifier identifier, final Object... arguments) {
+	            super(source, identifier, arguments);
+	        }
+	    }
+
+	    @Action(
+	            domainEvent = CreateDomainEvent.class
+	    )
 	    @MemberOrder(sequence = "3")
-	    public Articulo create(
-	            final @ParameterLayout(named="Codigo") int codigo) {
-	        final Articulo obj = repositoryService.instantiate(Articulo.class);
-	        obj.setCodigo(codigo);
-	        repositoryService.persist(obj);
-	        return obj;
+	    
+	    public Articulo creaArticulo(
+	        final @ParameterLayout(named="Codigo") int codigo) {
+	        
+	    	final Articulo articulo = repositoryService.instantiate(Articulo.class);
+	        articulo.setCodigo(codigo);
+	        repositoryService.persist(articulo);
+	        return articulo;
 	    }
 	    
 	    @javax.inject.Inject
