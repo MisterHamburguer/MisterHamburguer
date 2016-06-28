@@ -27,7 +27,6 @@ import domainapp.dom.simple.SimpleObject.NameDomainEvent;
 
 @javax.jdo.annotations.PersistenceCapable(
         identityType=IdentityType.DATASTORE,
-        schema = "simple",
         table = "Articulo"   
 	)
 @javax.jdo.annotations.DatastoreIdentity(
@@ -38,13 +37,19 @@ import domainapp.dom.simple.SimpleObject.NameDomainEvent;
         strategy= VersionStrategy.DATE_TIME,
         column="version")
 @javax.jdo.annotations.Queries({
+		@javax.jdo.annotations.Query(
+            name = "find", language = "JDOQL",
+            value = "SELECT "
+                    + "FROM domainapp.dom.simple.Articulo "),
         @javax.jdo.annotations.Query(
                 name = "findByCodigo", language = "JDOQL",
                 value = "SELECT "
-                        + "FROM domainapp.dom.simple.Articulo "),
+                        + "FROM domainapp.dom.simple.Articulo "
+                        + "WHERE descripcion.startWith(:descripcion) "
+ ),
     
 })
-@javax.jdo.annotations.Unique(name="Articulo_name_UNQ", members= ("codigo"))
+@javax.jdo.annotations.Unique(name="Articulo_codigo_UNQ", members= ("codigo"))
 @DomainObject(
 		objectType="Articulo"
 )
@@ -57,30 +62,34 @@ public class Articulo  implements Comparable<Articulo>{
 	@Persistent(valueStrategy = IdGeneratorStrategy.INCREMENT, sequence = "codigo")
 	@MemberOrder(sequence="1")
 	@javax.jdo.annotations.Column(allowsNull="false")
-	
-	public static final int CODIGO_LENGTH = 8;
-	
-    
 	private int codigo;
 	public int getCodigo() {
 		return codigo;
 	}
-	public void setCodigo(int codigo) {
+	public void setCodigo(final int codigo) {
 		this.codigo = codigo;
 	}
 	
-//	private String descripcion;
+	public static final int DESCRIPCION_LENGTH = 60;
 	
-//	@Persistent
-//	@MemberOrder(sequence="2")
-//	@javax.jdo.annotations.Column(allowsNull="false")
-//	public String getDescripcion() {
-//		return descripcion;
-//	}
-//	public void setDescripcion(String descripcion) {
-//		this.descripcion = descripcion;
-//	}
-//	
+	
+	
+	public static class DescripcionDomainEvent extends PropertyDomainEvent<Articulo,String> {}
+    @javax.jdo.annotations.Column(
+            allowsNull="false",
+            length = DESCRIPCION_LENGTH
+    )
+    @Property(
+        domainEvent = DescripcionDomainEvent.class
+    )
+	private String descripcion;
+	public String getDescripcion() {
+		return descripcion;
+	}
+	public void setDescripcion(final String descripcion) {
+		this.descripcion = descripcion;
+	}
+	
 //	private int barra;
 //	
 //	@Persistent
@@ -215,9 +224,9 @@ public class Articulo  implements Comparable<Articulo>{
 
 
 	
-	  @javax.inject.Inject
-	    RepositoryService repositoryService;
-
-	
+    @javax.inject.Inject
+    RepositoryService repositoryService;
+//
+//	
 	
 }

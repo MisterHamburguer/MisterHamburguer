@@ -15,6 +15,7 @@ import org.apache.isis.applib.annotation.ParameterLayout;
 import org.apache.isis.applib.annotation.SemanticsOf;
 import org.apache.isis.applib.query.QueryDefault;
 import org.apache.isis.applib.services.eventbus.ActionDomainEvent;
+import org.apache.isis.applib.services.i18n.TranslatableString;
 import org.apache.isis.applib.services.repository.RepositoryService;
 
 import domainapp.dom.simple.SimpleObjects.CreateDomainEvent;
@@ -27,6 +28,9 @@ import domainapp.dom.simple.SimpleObjects.CreateDomainEvent;
         menuOrder = "20"
 )
 public class Articulos {
+		public TranslatableString title() {
+			return TranslatableString.tr("Articulos :");
+		}
 	
 	    @Action(
 	            semantics = SemanticsOf.SAFE
@@ -68,13 +72,15 @@ public class Articulos {
 	    @Action(
 	            domainEvent = CreateDomainEvent.class
 	    )
-	    @MemberOrder(sequence = "3")
 	    
+	    @MemberOrder(sequence = "3")
 	    public Articulo creaArticulo(
-	        final @ParameterLayout(named="Codigo") int codigo) {
+	        final @ParameterLayout(named="Codigo") int codigo,
+	        final @ParameterLayout(named="Descripcion") String descripcion) {
 	        
 	    	final Articulo articulo = repositoryService.instantiate(Articulo.class);
 	        articulo.setCodigo(codigo);
+	        articulo.setDescripcion(descripcion);
 	        repositoryService.persist(articulo);
 	        return articulo;
 	    }

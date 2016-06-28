@@ -74,7 +74,7 @@ public class DomainApplication extends IsisWicketApplication {
         final Module overrides = new AbstractModule() {
             @Override
             protected void configure() {
-                bind(String.class).annotatedWith(Names.named("applicationName")).toInstance("Simple App");
+                bind(String.class).annotatedWith(Names.named("applicationName")).toInstance("Mister Hamburguer");
                 bind(String.class).annotatedWith(Names.named("applicationCss")).toInstance("css/application.css");
                 bind(String.class).annotatedWith(Names.named("applicationJs")).toInstance("scripts/application.js");
                 bind(String.class).annotatedWith(Names.named("welcomeMessage")).toInstance(readLines(getClass(), "welcome.html"));
