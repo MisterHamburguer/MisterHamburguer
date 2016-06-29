@@ -76,11 +76,12 @@ public class Articulos {
 	    @MemberOrder(sequence = "3")
 	    public Articulo creaArticulo(
 	        final @ParameterLayout(named="Codigo") int codigo,
-	        final @ParameterLayout(named="Descripcion") String descripcion) {
-	        
+	        final @ParameterLayout(named="Descripcion") String descripcion, 
+	        final @ParameterLayout(named="Barra") int barra) {
 	    	final Articulo articulo = repositoryService.instantiate(Articulo.class);
 	        articulo.setCodigo(codigo);
 	        articulo.setDescripcion(descripcion);
+	        articulo.setBarra(barra);
 	        repositoryService.persist(articulo);
 	        return articulo;
 	    }

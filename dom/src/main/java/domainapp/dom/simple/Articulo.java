@@ -90,17 +90,17 @@ public class Articulo  implements Comparable<Articulo>{
 		this.descripcion = descripcion;
 	}
 	
-//	private int barra;
+	private int barra;
 //	
-//	@Persistent
-//	@MemberOrder(sequence="3")
-//	@javax.jdo.annotations.Column(allowsNull="false")
-//	public int getBarra() {
-//		return barra;
-//	}
-//	public void setBarra(int barra) {
-//		this.barra = barra;
-//	}
+	@Persistent
+	@MemberOrder(sequence="3")
+	@javax.jdo.annotations.Column(allowsNull="false")
+	public int getBarra() {
+		return barra;
+	}
+	public void setBarra(final int barra) {
+		this.barra = barra;
+	}
 //	
 //	private float precioVenta;
 //	@Persistent
