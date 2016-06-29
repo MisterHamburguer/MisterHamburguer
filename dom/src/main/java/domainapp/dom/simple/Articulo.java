@@ -90,28 +90,28 @@ public class Articulo  implements Comparable<Articulo>{
 		this.descripcion = descripcion;
 	}
 	
-	private int barra;
+	private long codBarra;
 //	
 	@Persistent
 	@MemberOrder(sequence="3")
 	@javax.jdo.annotations.Column(allowsNull="false")
-	public int getBarra() {
-		return barra;
+	public long getCodBarra() {
+		return codBarra;
 	}
-	public void setBarra(final int barra) {
-		this.barra = barra;
+	public void setCodBarra(final long codBarra) {
+		this.codBarra = codBarra;
 	}
 //	
-//	private float precioVenta;
-//	@Persistent
-//	@MemberOrder(sequence="4")
-//	@javax.jdo.annotations.Column(allowsNull="false")
-//	public float getPrecioVenta() {
-//		return precioVenta;
-//	}
-//	public void setPrecioVenta(float precioVenta) {
-//		this.precioVenta = precioVenta;
-//	}
+	private float precioVenta;
+	@Persistent
+	@MemberOrder(sequence="4")
+	@javax.jdo.annotations.Column(allowsNull="false")
+	public float getPrecioVenta() {
+		return precioVenta;
+	}
+	public void setPrecioVenta(final float precioVenta) {
+		this.precioVenta = precioVenta;
+	}
 //	
 //	private int iva;
 //	@Persistent
