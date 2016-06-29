@@ -78,12 +78,16 @@ public class Articulos {
 	        final @ParameterLayout(named="Codigo") int codigo,
 	        final @ParameterLayout(named="Descripcion") String descripcion, 
 	        final @ParameterLayout(named="Codigo Barra") long codBarra,
-	        final @ParameterLayout(named="Precio Venta") float precioVenta) {
+	        final @ParameterLayout(named="Precio Venta") float precioVenta,
+	        final @ParameterLayout(named="Iva ") float iva,
+	        final @ParameterLayout(named="Precio Costo") float precioCosto) {
 	    	final Articulo articulo = repositoryService.instantiate(Articulo.class);
 	        articulo.setCodigo(codigo);
 	        articulo.setDescripcion(descripcion);
 	        articulo.setCodBarra(codBarra);
 	        articulo.setPrecioVenta(precioVenta);
+	        articulo.setIva(iva);
+	        articulo.setPrecioCosto(precioCosto);
 	        repositoryService.persist(articulo);
 	        return articulo;
 	    }

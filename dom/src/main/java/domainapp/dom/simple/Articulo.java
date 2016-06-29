@@ -113,29 +113,29 @@ public class Articulo  implements Comparable<Articulo>{
 		this.precioVenta = precioVenta;
 	}
 //	
-//	private int iva;
+	private float iva;
 //	@Persistent
 //	@MemberOrder(sequence="5")
 //	@javax.jdo.annotations.Column(allowsNull="false")
-//	public int getIva() {
-//		return iva;
-//	}
-//	public void setIva(int iva) {
-//		this.iva = iva;
-//	}
+	public float getIva() {
+		return iva;
+	}
+	public void setIva(final float iva) {
+		this.iva = iva;
+	}
 //	
 //	
-//	private float precioCosto;
+	private float precioCosto;
 //	
 //	@Persistent
 //	@MemberOrder(sequence="6")
 //	@javax.jdo.annotations.Column(allowsNull="false")
-//	public float getPrecioCosto() {
-//		return precioCosto;
-//	}
-//	public void setPrecioCosto(float precioCosto) {
-//		this.precioCosto = precioCosto;
-//	}
+	public float getPrecioCosto() {
+		return precioCosto;
+	}
+	public void setPrecioCosto(final float precioCosto) {
+		this.precioCosto = precioCosto;
+	}
 //	
 //	//private Rubro rubro;
 //	//private Sub_Rubro sub_Rubro;
@@ -221,7 +221,6 @@ public class Articulo  implements Comparable<Articulo>{
     public int compareTo(final Articulo other) {
         return ObjectContracts.compare(this, other, "codigo");
     }
-
 
 	
     @javax.inject.Inject
