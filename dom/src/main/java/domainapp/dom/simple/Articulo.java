@@ -114,86 +114,93 @@ public class Articulo  implements Comparable<Articulo>{
 	}
 //	
 	private float iva;
-//	@Persistent
-//	@MemberOrder(sequence="5")
-//	@javax.jdo.annotations.Column(allowsNull="false")
+	
+	@Persistent
+	@MemberOrder(sequence="5")
+	@javax.jdo.annotations.Column(allowsNull="false")
 	public float getIva() {
 		return iva;
 	}
 	public void setIva(final float iva) {
 		this.iva = iva;
 	}
-//	
-//	
+	
+	
 	private float precioCosto;
-//	
-//	@Persistent
-//	@MemberOrder(sequence="6")
-//	@javax.jdo.annotations.Column(allowsNull="false")
+	
+	@Persistent
+	@MemberOrder(sequence="6")
+	@javax.jdo.annotations.Column(allowsNull="false")
 	public float getPrecioCosto() {
 		return precioCosto;
 	}
 	public void setPrecioCosto(final float precioCosto) {
 		this.precioCosto = precioCosto;
 	}
+	
+	private E_Rubro rubro;
+	
+	@Persistent
+	@MemberOrder(sequence="7")
+	@javax.jdo.annotations.Column(allowsNull="false")
+	public E_Rubro getRubro() {
+		return rubro;
+	}
+	public void setRubro(E_Rubro rubro) {
+		this.rubro = rubro;
+	}
+	
+	
+	private E_SubRubro sub_Rubro;
+	
+	@Persistent
+	@MemberOrder(sequence="8")
+	@javax.jdo.annotations.Column(allowsNull="false")
+	public E_SubRubro getSub_Rubro() {
+		return sub_Rubro;
+	}
+	public void setSub_Rubro(E_SubRubro sub_Rubro) {
+		this.sub_Rubro = sub_Rubro;
+	}
+
+	private boolean promocion;
+
+	@Persistent
+	@MemberOrder(sequence="9")
+	@javax.jdo.annotations.Column(allowsNull="false")
+
+	public boolean isPromocion() {
+		return promocion;
+	}
+	public void setPromocion(boolean promocion) {
+		this.promocion = promocion;
+	}
 //	
-//	//private Rubro rubro;
-//	//private Sub_Rubro sub_Rubro;
-//	private boolean promocion;
-//
-//	public boolean isPromocion() {
-//		return promocion;
-//	}
-//	public void setPromocion(boolean promocion) {
-//		this.promocion = promocion;
-//	}
-//	
-//	private String observaciones;
-//	@Persistent
-//	@MemberOrder(sequence="7")
-//	@javax.jdo.annotations.Column(allowsNull="false")
-//	
-//	public String getObservaciones() {
-//		return observaciones;
-//	}
-//	public void setObservaciones(String observaciones) {
-//		this.observaciones = observaciones;
-//	}
-//	private Date fechaAlta;
-//	@Persistent
-//	@MemberOrder(sequence="8")
-//	@javax.jdo.annotations.Column(allowsNull="false")
-//	public Date getFechaAlta() {
-//		return fechaAlta;
-//	}
-//	public void setFechaAlta(Date fechaAlta) {
-//		this.fechaAlta = fechaAlta;
-//	}
+	private String observaciones;
+	
+	@Persistent
+	@MemberOrder(sequence="10")
+	@javax.jdo.annotations.Column(allowsNull="false")
+	public String getObservaciones() {
+		return observaciones;
+	}
+	public void setObservaciones(final String observaciones) {
+		this.observaciones = observaciones;
+	}
+
+	private Date fechaAlta;
+	
+	@Persistent
+	@MemberOrder(sequence="11")
+	@javax.jdo.annotations.Column(allowsNull="false")
+	public Date getFechaAlta() {
+		return fechaAlta;
+	}
+	public void setFechaAlta(Date fechaAlta) {
+		this.fechaAlta = fechaAlta;
+	}
 //	private int id_Empleado;
 //	private int id_Proveedor;
-//	
-//	
-//	
-//	
-//	
-//	
-//	
-////	public Rubro getRubro() {
-////		return rubro;
-////	}
-////	public void setRubro(Rubro rubro) {
-////		this.rubro = rubro;
-////	}
-////	public Sub_Rubro getSub_Rubro() {
-////		return sub_Rubro;
-////	}
-////	public void setSub_Rubro(Sub_Rubro sub_Rubro) {
-////		this.sub_Rubro = sub_Rubro;
-////	}
-////	
-//	
-//	
-//	
 //	public int getId_Empleado() {
 //		return id_Empleado;
 //	}
@@ -221,8 +228,15 @@ public class Articulo  implements Comparable<Articulo>{
     public int compareTo(final Articulo other) {
         return ObjectContracts.compare(this, other, "codigo");
     }
-
 	
+	public enum E_Rubro{
+		bebidas,postres,comida;
+		
+	}
+	public enum E_SubRubro {
+		Con_Gas,Sin_Gas,alcohol;
+	}
+	 
     @javax.inject.Inject
     RepositoryService repositoryService;
 //
