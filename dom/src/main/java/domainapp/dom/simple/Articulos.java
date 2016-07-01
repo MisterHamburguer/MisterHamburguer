@@ -90,7 +90,9 @@ public class Articulos {
 	        final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Sub Rubro") E_SubRubro sub_Rubro,
 	        final @ParameterLayout(named="Promocion") boolean promocion,
 	        final @ParameterLayout(named="Observaciones") String observaciones,
-	        final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Fecha Alta") Date fechaAlta) {
+	        final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Fecha Alta") Date fechaAlta,
+	        final @ParameterLayout(named="Id Empleado") int id_Empleado,
+	        final @ParameterLayout(named="Id Proveedor") int id_Proveedor) {
 	    	final Articulo articulo = repositoryService.instantiate(Articulo.class);
 	        articulo.setCodigo(codigo);
 	        articulo.setDescripcion(descripcion);
@@ -103,6 +105,8 @@ public class Articulos {
 	        articulo.setPromocion(promocion);
 	        articulo.setObservaciones(observaciones);
 	        articulo.setFechaAlta(fechaAlta);
+	        articulo.setId_Empleado(id_Empleado);
+	        articulo.setId_Proveedor(id_Proveedor);
 	        repositoryService.persist(articulo);
 	        return articulo;
 	    }

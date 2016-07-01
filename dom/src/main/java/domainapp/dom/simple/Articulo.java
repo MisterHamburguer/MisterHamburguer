@@ -45,7 +45,7 @@ import domainapp.dom.simple.SimpleObject.NameDomainEvent;
                 name = "findByCodigo", language = "JDOQL",
                 value = "SELECT "
                         + "FROM domainapp.dom.simple.Articulo "
-                        + "WHERE descripcion.startWith(:descripcion) "
+                        + "WHERE codigo.startWith(:codigo) "
  ),
     
 })
@@ -59,7 +59,7 @@ import domainapp.dom.simple.SimpleObject.NameDomainEvent;
 @Sequence(name ="codigo", strategy= SequenceStrategy.CONTIGUOUS)
 public class Articulo  implements Comparable<Articulo>{
 	
-	@Persistent(valueStrategy = IdGeneratorStrategy.INCREMENT, sequence = "codigo")
+	@Persistent//(valueStrategy = IdGeneratorStrategy.INCREMENT, sequence = "codigo")
 	@MemberOrder(sequence="1")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	private int codigo;
@@ -142,7 +142,7 @@ public class Articulo  implements Comparable<Articulo>{
 	
 	@Persistent
 	@MemberOrder(sequence="7")
-	@javax.jdo.annotations.Column(allowsNull="false")
+	@javax.jdo.annotations.Column(allowsNull="true")
 	public E_Rubro getRubro() {
 		return rubro;
 	}
@@ -155,7 +155,7 @@ public class Articulo  implements Comparable<Articulo>{
 	
 	@Persistent
 	@MemberOrder(sequence="8")
-	@javax.jdo.annotations.Column(allowsNull="false")
+	@javax.jdo.annotations.Column(allowsNull="true")
 	public E_SubRubro getSub_Rubro() {
 		return sub_Rubro;
 	}
@@ -199,20 +199,29 @@ public class Articulo  implements Comparable<Articulo>{
 	public void setFechaAlta(Date fechaAlta) {
 		this.fechaAlta = fechaAlta;
 	}
-//	private int id_Empleado;
-//	private int id_Proveedor;
-//	public int getId_Empleado() {
-//		return id_Empleado;
-//	}
-//	public void setId_Empleado(int id_Empleado) {
-//		this.id_Empleado = id_Empleado;
-//	}
-//	public int getId_Proveedor() {
-//		return id_Proveedor;
-//	}
-//	public void setId_Proveedor(int id_Proveedor) {
-//		this.id_Proveedor = id_Proveedor;
-//	}
+	
+	private int id_Empleado;
+	@Persistent
+	@MemberOrder(sequence="12")
+	@javax.jdo.annotations.Column(allowsNull="false")
+	public int getId_Empleado() {
+		return id_Empleado;
+	}
+	public void setId_Empleado(int id_Empleado) {
+		this.id_Empleado = id_Empleado;
+	}
+
+	private int id_Proveedor;
+
+	@Persistent
+	@MemberOrder(sequence="13")
+	@javax.jdo.annotations.Column(allowsNull="false")
+	public int getId_Proveedor() {
+		return id_Proveedor;
+	}
+	public void setId_Proveedor(int id_Proveedor) {
+		this.id_Proveedor = id_Proveedor;
+	}
 	
 	
 	public static class DeleteDomainEvent extends ActionDomainEvent<Articulo> {}
@@ -226,7 +235,7 @@ public class Articulo  implements Comparable<Articulo>{
 	  
 	@Override
     public int compareTo(final Articulo other) {
-        return ObjectContracts.compare(this, other, "codigo");
+        return ObjectContracts.compare(this, other, String.valueOf(codigo));
     }
 	
 	public enum E_Rubro{
