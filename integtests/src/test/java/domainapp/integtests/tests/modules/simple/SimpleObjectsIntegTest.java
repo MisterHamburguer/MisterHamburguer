@@ -29,12 +29,11 @@ import org.hamcrest.Description;
 import org.hamcrest.Matcher;
 import org.hamcrest.TypeSafeMatcher;
 import org.junit.Test;
-
 import org.apache.isis.applib.fixturescripts.FixtureScript;
 import org.apache.isis.applib.fixturescripts.FixtureScripts;
 
-import domainapp.dom.simple.SimpleObject;
-import domainapp.dom.simple.SimpleObjects;
+import domainapp.dom.mister.Rubro;
+import domainapp.dom.mister.Rubros;
 import domainapp.fixture.dom.simple.SimpleObjectsTearDown;
 import domainapp.fixture.scenarios.RecreateSimpleObjects;
 import domainapp.integtests.tests.DomainAppIntegTest;
@@ -45,7 +44,7 @@ public class SimpleObjectsIntegTest extends DomainAppIntegTest {
     @Inject
     FixtureScripts fixtureScripts;
     @Inject
-    SimpleObjects simpleObjects;
+    Rubros rubros;
 
     public static class ListAll extends SimpleObjectsIntegTest {
 
@@ -58,13 +57,13 @@ public class SimpleObjectsIntegTest extends DomainAppIntegTest {
             nextTransaction();
 
             // when
-            final List<SimpleObject> all = wrap(simpleObjects).listAll();
+            final List<Rubro> all = wrap(rubros).listAll();
 
             // then
             assertThat(all).hasSize(fs.getSimpleObjects().size());
 
-            SimpleObject simpleObject = wrap(all.get(0));
-            assertThat(simpleObject.getName()).isEqualTo(fs.getSimpleObjects().get(0).getName());
+            Rubro rubro = wrap(all.get(0));
+            assertThat(rubro.getDescripcion()).isEqualTo(fs.getSimpleObjects().get(0).getDescripcion());
         }
 
         @Test
@@ -76,7 +75,7 @@ public class SimpleObjectsIntegTest extends DomainAppIntegTest {
             nextTransaction();
 
             // when
-            final List<SimpleObject> all = wrap(simpleObjects).listAll();
+            final List<Rubro> all = wrap(rubros).listAll();
 
             // then
             assertThat(all).hasSize(0);
@@ -94,10 +93,10 @@ public class SimpleObjectsIntegTest extends DomainAppIntegTest {
             nextTransaction();
 
             // when
-            wrap(simpleObjects).create("Faz");
+            wrap(rubros).create(0, "Faz");
 
             // then
-            final List<SimpleObject> all = wrap(simpleObjects).listAll();
+            final List<Rubro> all = wrap(rubros).listAll();
             assertThat(all).hasSize(1);
         }
 
@@ -108,14 +107,14 @@ public class SimpleObjectsIntegTest extends DomainAppIntegTest {
             FixtureScript fs = new SimpleObjectsTearDown();
             fixtureScripts.runFixtureScript(fs, null);
             nextTransaction();
-            wrap(simpleObjects).create("Faz");
+            wrap(rubros).create(0, "Faz");
             nextTransaction();
 
             // then
             expectedExceptions.expectCause(causalChainContains(SQLIntegrityConstraintViolationException.class));
 
             // when
-            wrap(simpleObjects).create("Faz");
+            wrap(rubros).create(0, "Faz");
             nextTransaction();
         }
 

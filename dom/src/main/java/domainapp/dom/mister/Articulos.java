@@ -1,4 +1,4 @@
-package domainapp.dom.simple;
+package domainapp.dom.mister;
 
 import java.util.Date;
 import java.util.List;
@@ -21,9 +21,8 @@ import org.apache.isis.applib.services.eventbus.ActionDomainEvent;
 import org.apache.isis.applib.services.i18n.TranslatableString;
 import org.apache.isis.applib.services.repository.RepositoryService;
 
-import domainapp.dom.simple.Articulo.E_Rubro;
-import domainapp.dom.simple.Articulo.E_SubRubro;
-import domainapp.dom.simple.SimpleObjects.CreateDomainEvent;
+import domainapp.dom.mister.Articulo.E_SubRubro;
+import domainapp.dom.mister.Rubros.CreateDomainEvent;
 
 @DomainService(
         nature = NatureOfService.VIEW,
@@ -86,7 +85,7 @@ public class Articulos {
 	        final @ParameterLayout(named="Precio Venta") float precioVenta,
 	        final @ParameterLayout(named="Iva ") float iva,
 	        final @ParameterLayout(named="Precio Costo") float precioCosto,
-	        final @Parameter(optionality = Optionality.OPTIONAL) @ParameterLayout(named="Rubro") E_Rubro rubro,
+	        final @Parameter(optionality = Optionality.OPTIONAL) @ParameterLayout(named="Rubro") Rubro rubro,
 	        final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Sub Rubro") E_SubRubro sub_Rubro,
 	        final @ParameterLayout(named="Promocion") boolean promocion,
 	        final @ParameterLayout(named="Observaciones") String observaciones,

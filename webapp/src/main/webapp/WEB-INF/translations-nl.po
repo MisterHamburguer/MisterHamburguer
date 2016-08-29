@@ -62,12 +62,12 @@ msgid "Confirm"
 msgstr "Bevestigen"
 
 
-#: domainapp.dom.simple.SimpleObjects#create()
+#: domainapp.dom.simple.Rubros#create()
 msgid "Create"
 msgstr "Creëren"
 
 
-#: domainapp.dom.simple.SimpleObject#delete()
+#: domainapp.dom.simple.Rubro#delete()
 msgid "Delete"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgid "Domain Objects"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#downloadJdoMetadata()
+#: domainapp.dom.simple.Rubro#downloadJdoMetadata()
 msgid "Download Jdo Metadata"
 msgstr ""
 
@@ -98,7 +98,7 @@ msgid "Download Translations"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#updateName()
+#: domainapp.dom.simple.Rubro#updateName()
 msgid "Exclamation mark is not allowed"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgid "Filename"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObjects#findByName()
+#: domainapp.dom.simple.Rubros#findByName()
 msgid "Find By Name"
 msgstr "Zoek op Naam"
 
@@ -124,7 +124,7 @@ msgid "Friendly Name"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject
+#: domainapp.dom.simple.Rubro
 msgid "General"
 msgstr ""
 
@@ -149,7 +149,7 @@ msgid "Json"
 msgstr "JSON"
 
 
-#: domainapp.dom.simple.SimpleObjects#listAll()
+#: domainapp.dom.simple.Rubros#listAll()
 msgid "List All"
 msgstr "Lijst Alle"
 
@@ -168,14 +168,14 @@ msgstr ""
 
 
 
-#: domainapp.dom.simple.SimpleObject#name
-#: domainapp.dom.simple.SimpleObjects#create(java.lang.String)
-#: domainapp.dom.simple.SimpleObjects#findByName(java.lang.String)
+#: domainapp.dom.simple.Rubro#name
+#: domainapp.dom.simple.Rubros#create(java.lang.String)
+#: domainapp.dom.simple.Rubros#findByName(java.lang.String)
 msgid "Name"
 msgstr "Naam"
 
 
-#: domainapp.dom.simple.SimpleObject#updateName(java.lang.String)
+#: domainapp.dom.simple.Rubro#updateName(java.lang.String)
 msgid "New name"
 msgstr "Nieuwe naam"
 
@@ -190,7 +190,7 @@ msgid "Object"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#title()
+#: domainapp.dom.simple.Rubro#title()
 msgid "Object: {name}"
 msgstr ""
 
@@ -274,7 +274,7 @@ msgid "Script-specific parameters (if any).  The format depends on the script im
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObjects#title()
+#: domainapp.dom.simple.Rubros#title()
 #: domainapp.fixture.scenarios.RecreateSimpleObjects#simpleObjects
 msgid "Simple Objects"
 msgstr "Eenvoudige Objecten"
@@ -296,12 +296,12 @@ msgid "Type"
 msgstr ""
 
 
-#: domainapp.dom.simple.SimpleObject#updateName()
+#: domainapp.dom.simple.Rubro#updateName()
 msgid "Update Name"
 msgstr "Updaten Naam"
 
 
-#: domainapp.dom.simple.SimpleObject#versionSequence
+#: domainapp.dom.simple.Rubro#versionSequence
 msgid "Version Sequence"
 msgstr ""
 
@@ -399,7 +399,7 @@ msgid "logoutLabel"
 msgstr "Logout"
 
 
-#: domainapp.dom.simple.SimpleObject
+#: domainapp.dom.simple.Rubro
 msgid "name"
 msgstr ""
 

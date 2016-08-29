@@ -16,13 +16,15 @@
  *  specific language governing permissions and limitations
  *  under the License.
  */
-package domainapp.dom.simple;
+package domainapp.dom.mister;
 
 import javax.jdo.annotations.IdentityType;
+import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.VersionStrategy;
 
 import org.apache.isis.applib.annotation.Action;
 import org.apache.isis.applib.annotation.DomainObject;
+import org.apache.isis.applib.annotation.MemberOrder;
 import org.apache.isis.applib.annotation.Property;
 import org.apache.isis.applib.annotation.SemanticsOf;
 import org.apache.isis.applib.services.eventbus.ActionDomainEvent;
@@ -33,8 +35,8 @@ import org.apache.isis.applib.util.ObjectContracts;
 
 @javax.jdo.annotations.PersistenceCapable(
         identityType=IdentityType.DATASTORE,
-       schema = "simple",
-        table = "SimpleObject"
+       schema = "mister",
+        table = "Rubro"
 )
 @javax.jdo.annotations.DatastoreIdentity(
         strategy=javax.jdo.annotations.IdGeneratorStrategy.IDENTITY,
@@ -47,48 +49,63 @@ import org.apache.isis.applib.util.ObjectContracts;
         @javax.jdo.annotations.Query(
                 name = "find", language = "JDOQL",
                 value = "SELECT "
-                        + "FROM domainapp.dom.simple.SimpleObject "),
+                        + "FROM domainapp.dom.mister.Rubro "),
         @javax.jdo.annotations.Query(
-                name = "findByName", language = "JDOQL",
+                name = "findByDescripćion", language = "JDOQL",
                 value = "SELECT "
-                        + "FROM domainapp.dom.simple.SimpleObject "
-                        + "WHERE name.indexOf(:name) >= 0 ")
+                        + "FROM domainapp.dom.mister.Rubro "
+                        + "WHERE descripcion.starsWith(:descripcion)"),
 })
-@javax.jdo.annotations.Unique(name="SimpleObject_name_UNQ", members = {"name"})
+@javax.jdo.annotations.Unique(name="Rubro_descrip_UNQ", members = {"descripcion"})
 @DomainObject
-public class SimpleObject implements Comparable<SimpleObject> {
+public class Rubro implements Comparable<Rubro> {
 
     public static final int NAME_LENGTH = 40;
 
 
     public TranslatableString title() {
-        return TranslatableString.tr("Object: {name}", "name", getName());
+        return TranslatableString.tr("Object: {descripcion}", "descripcion", getDescripcion());
     }
 
+    @Persistent
+	@MemberOrder(sequence="1")
+	@javax.jdo.annotations.Column(allowsNull="false")
+    private int codigo;
+    	
 
-    public static class NameDomainEvent extends PropertyDomainEvent<SimpleObject,String> {}
+    public int getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	
+    @SuppressWarnings("serial")
+	public static class DescripcionDomainEvent extends PropertyDomainEvent<Rubro,String> {}
     @javax.jdo.annotations.Column(
             allowsNull="false",
             length = NAME_LENGTH
     )
     @Property(
-        domainEvent = NameDomainEvent.class
+        domainEvent = DescripcionDomainEvent.class
     )
-    private String name;
-    public String getName() {
-        return name;
+    @Persistent
+	@MemberOrder(sequence="2")
+    private String descripcion;
+    public String getDescripcion() {
+        return descripcion;
     }
-    public void setName(final String name) {
-        this.name = name;
-    }
-
-    public TranslatableString validateName(final String name) {
-        return name != null && name.contains("!")? TranslatableString.tr("Exclamation mark is not allowed"): null;
+    public void setDescripcion(final String descripcion) {
+        this.descripcion = descripcion;
     }
 
+    public TranslatableString validateDescripcion(final String descripcion) {
+        return descripcion != null && descripcion.contains("!")? TranslatableString.tr("Exclamation mark is not allowed"): null;
+    }
 
 
-    public static class DeleteDomainEvent extends ActionDomainEvent<SimpleObject> {}
+
+    public static class DeleteDomainEvent extends ActionDomainEvent<Rubro> {}
     @Action(
             domainEvent = DeleteDomainEvent.class,
             semantics = SemanticsOf.NON_IDEMPOTENT_ARE_YOU_SURE
@@ -100,12 +117,14 @@ public class SimpleObject implements Comparable<SimpleObject> {
 
 
     @Override
-    public int compareTo(final SimpleObject other) {
-        return ObjectContracts.compare(this, other, "name");
+    public int compareTo(final Rubro other) {
+        return ObjectContracts.compare(this, other, "codigo");
     }
 
 
-    @javax.inject.Inject
+
+
+	@javax.inject.Inject
     RepositoryService repositoryService;
 
 }

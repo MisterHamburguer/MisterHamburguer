@@ -20,13 +20,15 @@ import java.util.List;
 
 import com.google.common.collect.Lists;
 
+import domainapp.dom.mister.Rubro;
+import domainapp.dom.mister.Rubros;
+
 import org.jmock.Expectations;
 import org.jmock.Sequence;
 import org.jmock.auto.Mock;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
-
 import org.apache.isis.applib.services.repository.RepositoryService;
 import org.apache.isis.core.unittestsupport.jmocking.JUnitRuleMockery2;
 import org.apache.isis.core.unittestsupport.jmocking.JUnitRuleMockery2.Mode;
@@ -41,12 +43,12 @@ public class SimpleObjectsTest {
     @Mock
     RepositoryService mockRepositoryService;
     
-    SimpleObjects simpleObjects;
+    Rubros rubros;
 
     @Before
     public void setUp() throws Exception {
-        simpleObjects = new SimpleObjects();
-        simpleObjects.repositoryService = mockRepositoryService;
+        rubros = new Rubros();
+        rubros.repositoryService = mockRepositoryService;
     }
 
     public static class Create extends SimpleObjectsTest {
@@ -55,26 +57,26 @@ public class SimpleObjectsTest {
         public void happyCase() throws Exception {
 
             // given
-            final SimpleObject simpleObject = new SimpleObject();
+            final Rubro rubro = new Rubro();
 
             final Sequence seq = context.sequence("create");
             context.checking(new Expectations() {
                 {
-                    oneOf(mockRepositoryService).instantiate(SimpleObject.class);
+                    oneOf(mockRepositoryService).instantiate(Rubro.class);
                     inSequence(seq);
-                    will(returnValue(simpleObject));
+                    will(returnValue(rubro));
 
-                    oneOf(mockRepositoryService).persist(simpleObject);
+                    oneOf(mockRepositoryService).persist(rubro);
                     inSequence(seq);
                 }
             });
 
             // when
-            final SimpleObject obj = simpleObjects.create("Foobar");
+            final Rubro obj = rubros.create(0, "Foobar");
 
             // then
-            assertThat(obj).isEqualTo(simpleObject);
-            assertThat(obj.getName()).isEqualTo("Foobar");
+            assertThat(obj).isEqualTo(rubro);
+            assertThat(obj.getDescripcion()).isEqualTo("Foobar");
         }
 
     }
@@ -85,17 +87,17 @@ public class SimpleObjectsTest {
         public void happyCase() throws Exception {
 
             // given
-            final List<SimpleObject> all = Lists.newArrayList();
+            final List<Rubro> all = Lists.newArrayList();
 
             context.checking(new Expectations() {
                 {
-                    oneOf(mockRepositoryService).allInstances(SimpleObject.class);
+                    oneOf(mockRepositoryService).allInstances(Rubro.class);
                     will(returnValue(all));
                 }
             });
 
             // when
-            final List<SimpleObject> list = simpleObjects.listAll();
+            final List<Rubro> list = rubros.listAll();
 
             // then
             assertThat(list).isEqualTo(all);

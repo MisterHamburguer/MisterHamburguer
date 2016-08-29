@@ -21,8 +21,8 @@ package domainapp.fixture.dom.simple;
 
 import org.apache.isis.applib.fixturescripts.FixtureScript;
 
-import domainapp.dom.simple.SimpleObject;
-import domainapp.dom.simple.SimpleObjects;
+import domainapp.dom.mister.Rubro;
+import domainapp.dom.mister.Rubros;
 
 public class SimpleObjectCreate extends FixtureScript {
 
@@ -42,15 +42,15 @@ public class SimpleObjectCreate extends FixtureScript {
     //endregion
 
 
-    //region > simpleObject (output)
-    private SimpleObject simpleObject;
+    //region > rubro (output)
+    private Rubro rubro;
 
     /**
      * The created simple object (output).
      * @return
      */
-    public SimpleObject getSimpleObject() {
-        return simpleObject;
+    public Rubro getSimpleObject() {
+        return rubro;
     }
     //endregion
 
@@ -59,13 +59,13 @@ public class SimpleObjectCreate extends FixtureScript {
 
         String name = checkParam("name", ec, String.class);
 
-        this.simpleObject = wrap(simpleObjects).create(name);
+        this.rubro = wrap(rubros).create(0, name);
 
         // also make available to UI
-        ec.addResult(this, simpleObject);
+        ec.addResult(this, rubro);
     }
 
     @javax.inject.Inject
-    private SimpleObjects simpleObjects;
+    private Rubros rubros;
 
 }

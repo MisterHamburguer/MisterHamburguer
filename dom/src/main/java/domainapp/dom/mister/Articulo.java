@@ -1,4 +1,4 @@
-package domainapp.dom.simple;
+package domainapp.dom.mister;
 
 import java.util.Date;
 
@@ -21,8 +21,8 @@ import org.apache.isis.applib.services.eventbus.PropertyDomainEvent;
 import org.apache.isis.applib.services.repository.RepositoryService;
 import org.apache.isis.applib.util.ObjectContracts;
 
-import domainapp.dom.simple.SimpleObject.DeleteDomainEvent;
-import domainapp.dom.simple.SimpleObject.NameDomainEvent;
+import domainapp.dom.mister.Rubro.DeleteDomainEvent;
+import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
 
 
 @javax.jdo.annotations.PersistenceCapable(
@@ -40,16 +40,16 @@ import domainapp.dom.simple.SimpleObject.NameDomainEvent;
 		@javax.jdo.annotations.Query(
             name = "find", language = "JDOQL",
             value = "SELECT "
-                    + "FROM domainapp.dom.simple.Articulo "),
+                    + "FROM domainapp.dom.mister.Articulo "),
         @javax.jdo.annotations.Query(
                 name = "findByCodigo", language = "JDOQL",
                 value = "SELECT "
-                        + "FROM domainapp.dom.simple.Articulo "
+                        + "FROM domainapp.dom.mister.Articulo "
                         + "WHERE codigo.startWith(:codigo) "
  ),
     
 })
-@javax.jdo.annotations.Unique(name="Articulo_codigo_UNQ", members= ("codigo"))
+//@javax.jdo.annotations.Unique(name="Articulo_codigo_UNQ", members= ("codigo"))
 @DomainObject(
 		objectType="Articulo"
 )
@@ -74,7 +74,12 @@ public class Articulo  implements Comparable<Articulo>{
 	
 	
 	
-	public static class DescripcionDomainEvent extends PropertyDomainEvent<Articulo,String> {}
+	public static class DescripcionDomainEvent extends PropertyDomainEvent<Articulo,String> {
+
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;}
     @javax.jdo.annotations.Column(
             allowsNull="false",
             length = DESCRIPCION_LENGTH
@@ -138,15 +143,15 @@ public class Articulo  implements Comparable<Articulo>{
 		this.precioCosto = precioCosto;
 	}
 	
-	private E_Rubro rubro;
+	private Rubro rubro;
 	
 	@Persistent
 	@MemberOrder(sequence="7")
 	@javax.jdo.annotations.Column(allowsNull="true")
-	public E_Rubro getRubro() {
+	public Rubro getRubro() {
 		return rubro;
 	}
-	public void setRubro(E_Rubro rubro) {
+	public void setRubro(Rubro rubro) {
 		this.rubro = rubro;
 	}
 	
@@ -224,7 +229,12 @@ public class Articulo  implements Comparable<Articulo>{
 	}
 	
 	
-	public static class DeleteDomainEvent extends ActionDomainEvent<Articulo> {}
+	public static class DeleteDomainEvent extends ActionDomainEvent<Articulo> {
+
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;}
     @Action(
             domainEvent = DeleteDomainEvent.class,
             semantics = SemanticsOf.NON_IDEMPOTENT_ARE_YOU_SURE
@@ -233,15 +243,13 @@ public class Articulo  implements Comparable<Articulo>{
         repositoryService.remove(this);
     }  
 	  
+	@SuppressWarnings("deprecation")
 	@Override
     public int compareTo(final Articulo other) {
         return ObjectContracts.compare(this, other, String.valueOf(codigo));
     }
 	
-	public enum E_Rubro{
-		bebidas,postres,comida;
-		
-	}
+	
 	public enum E_SubRubro {
 		Con_Gas,Sin_Gas,alcohol;
 	}

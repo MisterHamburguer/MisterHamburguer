@@ -16,7 +16,7 @@
  *  specific language governing permissions and limitations
  *  under the License.
  */
-package domainapp.dom.simple;
+package domainapp.dom.mister;
 
 import java.util.List;
 
@@ -37,16 +37,16 @@ import org.apache.isis.applib.services.repository.RepositoryService;
 
 @DomainService(
         nature = NatureOfService.VIEW,
-        repositoryFor = SimpleObject.class
+        repositoryFor = Rubro.class
 )
 @DomainServiceLayout(
         menuOrder = "10"
 )
-public class SimpleObjects {
+public class Rubros {
 
     //region > title
     public TranslatableString title() {
-        return TranslatableString.tr("Simple Objects");
+        return TranslatableString.tr("Rubro");
     }
     //endregion
 
@@ -58,12 +58,12 @@ public class SimpleObjects {
             bookmarking = BookmarkPolicy.AS_ROOT
     )
     @MemberOrder(sequence = "1")
-    public List<SimpleObject> listAll() {
-        return repositoryService.allInstances(SimpleObject.class);
+    public List<Rubro> listAll() {
+        return repositoryService.allInstances(Rubro.class);
     }
     //endregion
 
-    //region > findByName (action)
+    //region > findByDescripcion (action)
     @Action(
             semantics = SemanticsOf.SAFE
     )
@@ -71,21 +71,21 @@ public class SimpleObjects {
             bookmarking = BookmarkPolicy.AS_ROOT
     )
     @MemberOrder(sequence = "2")
-    public List<SimpleObject> findByName(
-            @ParameterLayout(named="Name")
-            final String name
+    public List<Rubro> findByDescripcion(
+            @ParameterLayout(named="descripcion")
+            final String descripcion
     ) {
         return repositoryService.allMatches(
-                new QueryDefault<SimpleObject>(
-                        SimpleObject.class,
-                        "findByName",
-                        "name", name));
+                new QueryDefault<Rubro>(
+                        Rubro.class,
+                        "findByDescripcion",
+                        "descripcion", descripcion));
     }
     //endregion
 
     //region > create (action)
-    public static class CreateDomainEvent extends ActionDomainEvent<SimpleObjects> {
-        public CreateDomainEvent(final SimpleObjects source, final Identifier identifier, final Object... arguments) {
+    public static class CreateDomainEvent extends ActionDomainEvent<Rubros> {
+        public CreateDomainEvent(final Rubros source, final Identifier identifier, final Object... arguments) {
             super(source, identifier, arguments);
         }
     }
@@ -94,12 +94,14 @@ public class SimpleObjects {
             domainEvent = CreateDomainEvent.class
     )
     @MemberOrder(sequence = "3")
-    public SimpleObject create(
-            final @ParameterLayout(named="Name") String name) {
-        final SimpleObject obj = repositoryService.instantiate(SimpleObject.class);
-        obj.setName(name);
-        repositoryService.persist(obj);
-        return obj;
+    public Rubro create(
+    		final @ParameterLayout(named="Codigo") int codigo,
+            final @ParameterLayout(named="Descripcion") String descripcion) {
+        final Rubro rubro = repositoryService.instantiate(Rubro.class);
+        rubro.setDescripcion(descripcion);
+        rubro.setCodigo(codigo);
+        repositoryService.persist(rubro);
+        return rubro;
     }
 
     //endregion
@@ -107,6 +109,7 @@ public class SimpleObjects {
     //region > injected services
 
     @javax.inject.Inject
+	public
     RepositoryService repositoryService;
 
     //endregion

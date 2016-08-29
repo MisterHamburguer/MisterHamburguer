@@ -19,15 +19,16 @@ package domainapp.dom.simple;
 import org.junit.Before;
 import org.junit.Test;
 
+import domainapp.dom.mister.Rubro;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SimpleObjectTest {
 
-    SimpleObject simpleObject;
+    Rubro rubro;
 
     @Before
     public void setUp() throws Exception {
-        simpleObject = new SimpleObject();
+        rubro = new Rubro();
     }
 
     public static class Name extends SimpleObjectTest {
@@ -36,13 +37,13 @@ public class SimpleObjectTest {
         public void happyCase() throws Exception {
             // given
             String name = "Foobar";
-            assertThat(simpleObject.getName()).isNull();
+            assertThat(rubro.getDescripcion()).isNull();
 
             // when
-            simpleObject.setName(name);
+            rubro.setDescripcion(name);
 
             // then
-            assertThat(simpleObject.getName()).isEqualTo(name);
+            assertThat(rubro.getDescripcion()).isEqualTo(name);
         }
     }
 

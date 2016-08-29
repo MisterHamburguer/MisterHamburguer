@@ -27,7 +27,7 @@ import com.google.common.collect.Lists;
 
 import org.apache.isis.applib.fixturescripts.FixtureScript;
 
-import domainapp.dom.simple.SimpleObject;
+import domainapp.dom.mister.Rubro;
 import domainapp.fixture.dom.simple.SimpleObjectCreate;
 import domainapp.fixture.dom.simple.SimpleObjectsTearDown;
 
@@ -56,14 +56,14 @@ public class RecreateSimpleObjects extends FixtureScript {
     }
     //endregion
 
-    //region > simpleObjects (output)
-    private final List<SimpleObject> simpleObjects = Lists.newArrayList();
+    //region > rubros (output)
+    private final List<Rubro> rubros = Lists.newArrayList();
 
     /**
      * The simpleobjects created by this fixture (output).
      */
-    public List<SimpleObject> getSimpleObjects() {
-        return simpleObjects;
+    public List<Rubro> getSimpleObjects() {
+        return rubros;
     }
     //endregion
 
@@ -86,7 +86,7 @@ public class RecreateSimpleObjects extends FixtureScript {
         for (int i = 0; i < number; i++) {
             final SimpleObjectCreate fs = new SimpleObjectCreate().setName(NAMES.get(i));
             ec.executeChild(this, fs.getName(), fs);
-            simpleObjects.add(fs.getSimpleObject());
+            rubros.add(fs.getSimpleObject());
         }
     }
 }
