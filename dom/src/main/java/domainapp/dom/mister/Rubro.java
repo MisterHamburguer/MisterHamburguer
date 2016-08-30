@@ -18,6 +18,8 @@
  */
 package domainapp.dom.mister;
 
+import java.io.Serializable;
+
 import javax.jdo.annotations.IdentityType;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.VersionStrategy;
@@ -51,20 +53,25 @@ import org.apache.isis.applib.util.ObjectContracts;
                 value = "SELECT "
                         + "FROM domainapp.dom.mister.Rubro "),
         @javax.jdo.annotations.Query(
-                name = "findByDescripćion", language = "JDOQL",
+                name = "busPorDes", language = "JDOQL",
                 value = "SELECT "
                         + "FROM domainapp.dom.mister.Rubro "
-                        + "WHERE descripcion.starsWith(:descripcion)"),
+                        + "WHERE descripcion.indexOf(:descripcion) >= 0 ")
 })
-@javax.jdo.annotations.Unique(name="Rubro_descrip_UNQ", members = {"descripcion"})
+@javax.jdo.annotations.Unique(name="Rubro_des_UNQ", members = {"descripcion"})
 @DomainObject
-public class Rubro implements Comparable<Rubro> {
+public class Rubro implements Comparable<Rubro>,Serializable {
 
-    public static final int NAME_LENGTH = 40;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	public static final int NAME_LENGTH = 40;
 
 
     public TranslatableString title() {
-        return TranslatableString.tr("Object: {descripcion}", "descripcion", getDescripcion());
+        return TranslatableString.tr("Object: {name}", "descripcion", getDescripcion());
     }
 
     @Persistent
@@ -80,7 +87,7 @@ public class Rubro implements Comparable<Rubro> {
 		this.codigo = codigo;
 	}
 	
-    @SuppressWarnings("serial")
+    
 	public static class DescripcionDomainEvent extends PropertyDomainEvent<Rubro,String> {}
     @javax.jdo.annotations.Column(
             allowsNull="false",
@@ -99,30 +106,29 @@ public class Rubro implements Comparable<Rubro> {
         this.descripcion = descripcion;
     }
 
-    public TranslatableString validateDescripcion(final String descripcion) {
-        return descripcion != null && descripcion.contains("!")? TranslatableString.tr("Exclamation mark is not allowed"): null;
-    }
+//    public TranslatableString validateDescripcion(final String descripcion) {
+//        return descripcion != null && descripcion.contains("!")? TranslatableString.tr("Exclamation mark is not allowed"): null;
+//    }
 
 
 
-    public static class DeleteDomainEvent extends ActionDomainEvent<Rubro> {}
-    @Action(
-            domainEvent = DeleteDomainEvent.class,
-            semantics = SemanticsOf.NON_IDEMPOTENT_ARE_YOU_SURE
-    )
-    public void delete() {
-        repositoryService.remove(this);
-    }
+//    public static class DeleteDomainEvent extends ActionDomainEvent<Rubro> {}
+//    @Action(
+//            domainEvent = DeleteDomainEvent.class,
+//            semantics = SemanticsOf.NON_IDEMPOTENT_ARE_YOU_SURE
+//    )
+//    public void delete() {
+//        repositoryService.remove(this);
+//    }
 
 
 
     @Override
     public int compareTo(final Rubro other) {
-        return ObjectContracts.compare(this, other, "codigo");
+    	int salida=this.descripcion.compareTo(other.getDescripcion());
+        return salida;
     }
-
-
-
+ 
 
 	@javax.inject.Inject
     RepositoryService repositoryService;

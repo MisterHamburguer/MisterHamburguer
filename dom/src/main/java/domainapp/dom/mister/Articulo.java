@@ -21,12 +21,13 @@ import org.apache.isis.applib.services.eventbus.PropertyDomainEvent;
 import org.apache.isis.applib.services.repository.RepositoryService;
 import org.apache.isis.applib.util.ObjectContracts;
 
-import domainapp.dom.mister.Rubro.DeleteDomainEvent;
+//import domainapp.dom.mister.Rubro.DeleteDomainEvent;
 import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
 
 
 @javax.jdo.annotations.PersistenceCapable(
         identityType=IdentityType.DATASTORE,
+        schema = "mister",
         table = "Articulo"   
 	)
 @javax.jdo.annotations.DatastoreIdentity(
@@ -42,14 +43,14 @@ import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
             value = "SELECT "
                     + "FROM domainapp.dom.mister.Articulo "),
         @javax.jdo.annotations.Query(
-                name = "findByCodigo", language = "JDOQL",
+                name = "busXCodigo", language = "JDOQL",
                 value = "SELECT "
                         + "FROM domainapp.dom.mister.Articulo "
                         + "WHERE codigo.startWith(:codigo) "
  ),
     
 })
-//@javax.jdo.annotations.Unique(name="Articulo_codigo_UNQ", members= ("codigo"))
+@javax.jdo.annotations.Unique(name="Articulo_codigo_UNQ", members= ("codigo"))
 @DomainObject(
 		objectType="Articulo"
 )

@@ -71,14 +71,14 @@ public class Rubros {
             bookmarking = BookmarkPolicy.AS_ROOT
     )
     @MemberOrder(sequence = "2")
-    public List<Rubro> findByDescripcion(
+    public List<Rubro> BuscarPorDescripcion(
             @ParameterLayout(named="descripcion")
             final String descripcion
     ) {
         return repositoryService.allMatches(
                 new QueryDefault<Rubro>(
                         Rubro.class,
-                        "findByDescripcion",
+                        "busPorDes",
                         "descripcion", descripcion));
     }
     //endregion

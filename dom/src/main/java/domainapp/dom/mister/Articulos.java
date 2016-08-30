@@ -63,7 +63,7 @@ public class Articulos {
 	        return repositoryService.allMatches(
 	                new QueryDefault<Articulo>(
 	                        Articulo.class,
-	                        "ListarPorCodigo",
+	                        "busXCodigo",
 	                        "Codigo", codigo));
 	    }
 	    
