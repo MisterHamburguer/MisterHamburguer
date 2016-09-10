@@ -44,6 +44,7 @@ import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
                     + "FROM domainapp.dom.mister.Articulo "),
         @javax.jdo.annotations.Query(
 <<<<<<< HEAD
+<<<<<<< HEAD
                 name = "busXNombre", language = "JDOQL",
                 value = "SELECT "
                         + "FROM domainapp.dom.mister.Articulo "
@@ -54,6 +55,8 @@ import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
 @javax.jdo.annotations.Unique(name="Articulo_des_UNQ", members= ("descripcion"))
 
 =======
+=======
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
                 name = "busXCodigo", language = "JDOQL",
                 value = "SELECT "
                         + "FROM domainapp.dom.mister.Articulo "
@@ -62,6 +65,9 @@ import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
     
 })
 @javax.jdo.annotations.Unique(name="Articulo_codigo_UNQ", members= ("codigo"))
+<<<<<<< HEAD
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
+=======
 >>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
 @DomainObject(
 		objectType="Articulo"
@@ -70,7 +76,11 @@ import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
 		bookmarking=BookmarkPolicy.AS_ROOT
 )
 <<<<<<< HEAD
+<<<<<<< HEAD
 @Sequence(name ="descripcion", strategy= SequenceStrategy.CONTIGUOUS)
+=======
+@Sequence(name ="codigo", strategy= SequenceStrategy.CONTIGUOUS)
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
 =======
 @Sequence(name ="codigo", strategy= SequenceStrategy.CONTIGUOUS)
 >>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6

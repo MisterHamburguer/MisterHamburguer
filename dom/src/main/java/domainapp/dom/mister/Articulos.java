@@ -57,9 +57,15 @@ public class Articulos {
 	    )
 	    @MemberOrder(sequence = "2")
 <<<<<<< HEAD
+<<<<<<< HEAD
 	    public List<Articulo> BuscarPorNombre(
 	            @ParameterLayout(named="descripcion")
 	            final String descripcion
+=======
+	    public List<Articulo> findByCodigo(
+	            @ParameterLayout(named="Codigo")
+	            final int codigo
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
 =======
 	    public List<Articulo> findByCodigo(
 	            @ParameterLayout(named="Codigo")
@@ -70,8 +76,13 @@ public class Articulos {
 	                new QueryDefault<Articulo>(
 	                        Articulo.class,
 <<<<<<< HEAD
+<<<<<<< HEAD
 	                        "busXNombre",
 	                        "descripcion", descripcion));
+=======
+	                        "busXCodigo",
+	                        "Codigo", codigo));
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
 =======
 	                        "busXCodigo",
 	                        "Codigo", codigo));

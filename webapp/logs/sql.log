@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 2016-09-06 21:39:23.055 La columna ""DELETEME1473208763040"."UNUSED"" añadió a la representación de la table.
 2016-09-06 21:39:23.071 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
 2016-09-06 21:39:23.071 Crear la tabla "DELETEME1473208763040"
@@ -115,6 +116,8 @@
 2016-09-06 21:41:59.682 SELECT 'domainapp.dom.mister.Rubro' AS "NUCLEUS_TYPE","A0"."codigo","A0"."descripcion","A0"."id","A0"."version" FROM "mister"."Rubro" "A0"
 2016-09-06 21:41:59.702 SELECT 'domainapp.dom.mister.Rubro' AS "NUCLEUS_TYPE","A0"."codigo","A0"."descripcion","A0"."id","A0"."version" FROM "mister"."Rubro" "A0"
 =======
+=======
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
 2016-07-22 12:25:20.629 La columna ""DELETEME1469201120584"."UNUSED"" añadió a la representación de la table.
 2016-07-22 12:25:20.656 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
 2016-07-22 12:25:20.661 Crear la tabla "DELETEME1469201120584"
@@ -216,4 +219,7 @@
 2016-07-22 12:26:25.394 SELECT "A0"."codBarra","A0"."codigo","A0"."descripcion","A0"."fechaAlta","A0"."id_Empleado","A0"."id_Proveedor","A0"."iva","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."rubro","A0"."sub_Rubro","A0"."version" FROM "Articulo" "A0" WHERE "A0"."id" = <1>
 2016-07-22 12:26:25.416 SELECT "A0"."codBarra","A0"."codigo","A0"."descripcion","A0"."fechaAlta","A0"."id_Empleado","A0"."id_Proveedor","A0"."iva","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."rubro","A0"."sub_Rubro","A0"."version" FROM "Articulo" "A0" WHERE "A0"."id" = <2>
 2016-07-22 12:26:25.434 SELECT "A0"."codBarra","A0"."codigo","A0"."descripcion","A0"."fechaAlta","A0"."id_Empleado","A0"."id_Proveedor","A0"."iva","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."rubro","A0"."sub_Rubro","A0"."version" FROM "Articulo" "A0" WHERE "A0"."id" = <3>
+<<<<<<< HEAD
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
+=======
 >>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6

@@ -12,7 +12,11 @@
 		</buildCommand>
 		<buildCommand>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<name>org.datanucleus.ide.eclipse.enhancerbuilder</name>
+=======
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
 =======
 			<name>org.eclipse.m2e.core.maven2Builder</name>
 >>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
@@ -21,7 +25,11 @@
 		</buildCommand>
 		<buildCommand>
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<name>org.eclipse.m2e.core.maven2Builder</name>
+=======
+			<name>org.datanucleus.ide.eclipse.enhancerbuilder</name>
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
 =======
 			<name>org.datanucleus.ide.eclipse.enhancerbuilder</name>
 >>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
