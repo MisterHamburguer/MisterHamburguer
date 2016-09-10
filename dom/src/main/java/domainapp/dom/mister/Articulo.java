@@ -43,6 +43,7 @@ import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
             value = "SELECT "
                     + "FROM domainapp.dom.mister.Articulo "),
         @javax.jdo.annotations.Query(
+<<<<<<< HEAD
                 name = "busXNombre", language = "JDOQL",
                 value = "SELECT "
                         + "FROM domainapp.dom.mister.Articulo "
@@ -52,13 +53,27 @@ import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
 })
 @javax.jdo.annotations.Unique(name="Articulo_des_UNQ", members= ("descripcion"))
 
+=======
+                name = "busXCodigo", language = "JDOQL",
+                value = "SELECT "
+                        + "FROM domainapp.dom.mister.Articulo "
+                        + "WHERE codigo.startWith(:codigo) "
+ ),
+    
+})
+@javax.jdo.annotations.Unique(name="Articulo_codigo_UNQ", members= ("codigo"))
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
 @DomainObject(
 		objectType="Articulo"
 )
 @DomainObjectLayout(
 		bookmarking=BookmarkPolicy.AS_ROOT
 )
+<<<<<<< HEAD
 @Sequence(name ="descripcion", strategy= SequenceStrategy.CONTIGUOUS)
+=======
+@Sequence(name ="codigo", strategy= SequenceStrategy.CONTIGUOUS)
+>>>>>>> 1d5da771daa8e2a5be395a8722bb5d3b2c006be6
 public class Articulo  implements Comparable<Articulo>{
 	
 	@Persistent//(valueStrategy = IdGeneratorStrategy.INCREMENT, sequence = "codigo")
