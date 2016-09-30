@@ -23,8 +23,8 @@ import org.apache.isis.core.specsupport.specs.CukeGlueAbstract;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
-import domainapp.dom.mister.Rubro;
-import domainapp.dom.mister.Rubros;
+import domainapp.dom.mister.Rubro.Rubro;
+import domainapp.dom.mister.Rubro.Rubros;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 

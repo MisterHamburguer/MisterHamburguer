@@ -32,8 +32,8 @@ import org.junit.Test;
 import org.apache.isis.applib.fixturescripts.FixtureScript;
 import org.apache.isis.applib.fixturescripts.FixtureScripts;
 
-import domainapp.dom.mister.Rubro;
-import domainapp.dom.mister.Rubros;
+import domainapp.dom.mister.Rubro.Rubro;
+import domainapp.dom.mister.Rubro.Rubros;
 import domainapp.fixture.dom.simple.SimpleObjectsTearDown;
 import domainapp.fixture.scenarios.RecreateSimpleObjects;
 import domainapp.integtests.tests.DomainAppIntegTest;

@@ -19,7 +19,7 @@ package domainapp.dom.simple;
 import org.junit.Before;
 import org.junit.Test;
 
-import domainapp.dom.mister.Rubro;
+import domainapp.dom.mister.Rubro.Rubro;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SimpleObjectTest {

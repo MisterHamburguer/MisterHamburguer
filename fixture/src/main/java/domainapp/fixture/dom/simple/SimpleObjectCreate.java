@@ -21,8 +21,8 @@ package domainapp.fixture.dom.simple;
 
 import org.apache.isis.applib.fixturescripts.FixtureScript;
 
-import domainapp.dom.mister.Rubro;
-import domainapp.dom.mister.Rubros;
+import domainapp.dom.mister.Rubro.Rubro;
+import domainapp.dom.mister.Rubro.Rubros;
 
 public class SimpleObjectCreate extends FixtureScript {
 

@@ -27,7 +27,7 @@ import com.google.common.collect.Lists;
 
 import org.apache.isis.applib.fixturescripts.FixtureScript;
 
-import domainapp.dom.mister.Rubro;
+import domainapp.dom.mister.Rubro.Rubro;
 import domainapp.fixture.dom.simple.SimpleObjectCreate;
 import domainapp.fixture.dom.simple.SimpleObjectsTearDown;
 

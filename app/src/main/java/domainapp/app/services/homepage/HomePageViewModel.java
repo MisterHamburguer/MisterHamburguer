@@ -22,8 +22,8 @@ import java.util.List;
 
 import org.apache.isis.applib.annotation.ViewModel;
 
-import domainapp.dom.mister.Rubro;
-import domainapp.dom.mister.Rubros;
+import domainapp.dom.mister.Rubro.Rubro;
+import domainapp.dom.mister.Rubro.Rubros;
 
 @ViewModel
 public class HomePageViewModel {

@@ -20,8 +20,8 @@ import java.util.List;
 
 import com.google.common.collect.Lists;
 
-import domainapp.dom.mister.Rubro;
-import domainapp.dom.mister.Rubros;
+import domainapp.dom.mister.Rubro.Rubro;
+import domainapp.dom.mister.Rubro.Rubros;
 
 import org.jmock.Expectations;
 import org.jmock.Sequence;

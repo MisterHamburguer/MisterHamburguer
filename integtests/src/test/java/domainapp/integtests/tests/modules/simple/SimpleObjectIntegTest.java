@@ -30,7 +30,7 @@ import org.apache.isis.applib.services.wrapper.InvalidException;
 import org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusIdLong;
 import org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusVersionTimestamp;
 
-import domainapp.dom.mister.Rubro;
+import domainapp.dom.mister.Rubro.Rubro;
 import domainapp.fixture.scenarios.RecreateSimpleObjects;
 import domainapp.integtests.tests.DomainAppIntegTest;
 import static org.assertj.core.api.Assertions.assertThat;
