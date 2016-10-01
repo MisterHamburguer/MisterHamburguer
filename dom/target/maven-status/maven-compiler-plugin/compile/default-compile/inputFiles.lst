@@ -1,10 +1,12 @@
 C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\NameDomainEvent.java
-C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Rubros.java
 C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Cliente\Cliente.java
 C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Persona.java
+C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Rubro\Rubros.java
 C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\DomainAppDomainModule.java
 C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\DomainAppDomManifest.java
-C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Articulo.java
-C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Articulos.java
-C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Rubro.java
-C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Clientes.java
+C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Personal\Personal.java
+C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Cliente\Clientes.java
+C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Articulo\Articulos.java
+C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Personal\Personals.java
+C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Rubro\Rubro.java
+C:\Users\Francisco\workspace\MisterHamburguer\dom\src\main\java\domainapp\dom\mister\Articulo\Articulo.java

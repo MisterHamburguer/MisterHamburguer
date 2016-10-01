@@ -59,12 +59,21 @@ public class Personals {
     public Personal create(
     		final @ParameterLayout(named="Legajo") int legajo,
             final @ParameterLayout(named="Nombre") String nombre,
-              final @ParameterLayout(named="Apellido") String apellido)
+            final @ParameterLayout(named="Apellido") String apellido,
+            final @ParameterLayout(named="Direccion") String direccion,
+            final @ParameterLayout(named="Telefono") int telefono,
+            final @ParameterLayout(named="Email") String email,
+            final @ParameterLayout(named="DNI") int dni)
+            
     {
         final Personal personal = repositoryService.instantiate(Personal.class);
-        personal.setNombre(nombre);
         personal.setLegajo(legajo);
+        personal.setNombre(nombre);
         personal.setApellido(apellido);
+        personal.setDireccion(direccion);
+        personal.setTelefono(telefono);
+        personal.setEmail(email);
+        personal.setDni(dni);
         repositoryService.persist(personal);
         return personal;
     }

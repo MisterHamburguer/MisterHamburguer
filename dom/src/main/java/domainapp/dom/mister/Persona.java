@@ -19,7 +19,8 @@ import org.apache.isis.applib.services.repository.RepositoryService;
 public abstract class Persona implements Serializable {
 	
 private static final long serialVersionUID = 1L;
-	
+
+
 	@Persistent 
 	@MemberOrder(sequence="1")
 	@javax.jdo.annotations.Column(allowsNull="false")
@@ -47,6 +48,7 @@ private static final long serialVersionUID = 1L;
 	@Persistent
 	@MemberOrder(sequence="7")
 	@javax.jdo.annotations.Column(allowsNull="false")
+	
 	
 	public String getNombre() {
 		return nombre;

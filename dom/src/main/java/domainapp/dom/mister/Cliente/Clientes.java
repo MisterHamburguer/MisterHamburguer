@@ -22,7 +22,7 @@ import org.apache.isis.applib.services.repository.RepositoryService;
         repositoryFor = Cliente.class
 )
 @DomainServiceLayout(
-        menuOrder = "30"
+        menuOrder = "20"
 )
 public class Clientes {
 	 //region > title

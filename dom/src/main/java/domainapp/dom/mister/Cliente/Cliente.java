@@ -25,7 +25,7 @@ import domainapp.dom.mister.Persona;
 	)
 @javax.jdo.annotations.DatastoreIdentity(
         strategy=javax.jdo.annotations.IdGeneratorStrategy.IDENTITY,
-         column="idcliente")
+         column="id")
 @javax.jdo.annotations.Version(
 //        strategy=VersionStrategy.VERSION_NUMBER,
         strategy= VersionStrategy.DATE_TIME,
@@ -42,43 +42,35 @@ import domainapp.dom.mister.Persona;
                                     + "WHERE apellido.indexOf(:apellido) >= 0 ")
 })
 
-@javax.jdo.annotations.Unique(name="Cliente_idcliente_UNQ", members= ("idcliente"))
+@javax.jdo.annotations.Unique(name="Cliente_apellido_UNQ", members= ("apellido"))
 @DomainObject(
 		objectType="Cliente"
 )
 @DomainObjectLayout(
 		bookmarking=BookmarkPolicy.AS_ROOT
 )
-@Sequence(name ="idcliente", strategy= SequenceStrategy.CONTIGUOUS)
+@Sequence(name ="apellido", strategy= SequenceStrategy.CONTIGUOUS)
 
 public class Cliente extends Persona implements Comparable<Cliente>,Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	
+	
 	@Persistent 
 	@MemberOrder(sequence="1")
 	@javax.jdo.annotations.Column(allowsNull="false")
-	private int idcliente;	
-	@Persistent 
-	@MemberOrder(sequence="2")
-	@javax.jdo.annotations.Column(allowsNull="false")
 	private String observaciones;
 	@Persistent 
-	@MemberOrder(sequence="3")
+	@MemberOrder(sequence="2")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	private String empresa;	
 	
 	@Persistent
-	@MemberOrder(sequence="4")
+	@MemberOrder(sequence="3")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	
 	
-	public int getIdcliente() {
-		return idcliente;
-	}
-	public void setIdcliente(int idcliente) {
-		this.idcliente = idcliente;
-	}
+	
 	public String getObservaciones() {
 		return observaciones;
 	}
