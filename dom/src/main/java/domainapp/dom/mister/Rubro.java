@@ -18,23 +18,30 @@
  */
 package domainapp.dom.mister;
 
-import java.io.Serializable;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 import javax.jdo.annotations.IdentityType;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.VersionStrategy;
 
-import org.apache.isis.applib.annotation.Action;
+import org.apache.isis.applib.annotation.BookmarkPolicy;
+import org.apache.isis.applib.annotation.CollectionLayout;
 import org.apache.isis.applib.annotation.DomainObject;
+import org.apache.isis.applib.annotation.DomainObjectLayout;
+import org.apache.isis.applib.annotation.Editing;
 import org.apache.isis.applib.annotation.MemberOrder;
 import org.apache.isis.applib.annotation.Property;
-import org.apache.isis.applib.annotation.SemanticsOf;
-import org.apache.isis.applib.services.eventbus.ActionDomainEvent;
+import org.apache.isis.applib.annotation.Render;
+import org.apache.isis.applib.annotation.RenderType;
+import org.apache.isis.applib.annotation.Title;
+import org.apache.isis.applib.annotation.Render.Type;
 import org.apache.isis.applib.services.eventbus.PropertyDomainEvent;
 import org.apache.isis.applib.services.i18n.TranslatableString;
 import org.apache.isis.applib.services.repository.RepositoryService;
 import org.apache.isis.applib.util.ObjectContracts;
 
+@SuppressWarnings("deprecation")
 @javax.jdo.annotations.PersistenceCapable(
         identityType=IdentityType.DATASTORE,
        schema = "mister",
@@ -42,95 +49,92 @@ import org.apache.isis.applib.util.ObjectContracts;
 )
 @javax.jdo.annotations.DatastoreIdentity(
         strategy=javax.jdo.annotations.IdGeneratorStrategy.IDENTITY,
-         column="id")
+         column="rubro_id")
 @javax.jdo.annotations.Version(
-//        strategy=VersionStrategy.VERSION_NUMBER,
-        strategy= VersionStrategy.DATE_TIME,
+        strategy=VersionStrategy.VERSION_NUMBER,
+//       strategy= VersionStrategy.DATE_TIME,
         column="version")
 @javax.jdo.annotations.Queries({
         @javax.jdo.annotations.Query(
-                name = "find", language = "JDOQL",
+                name = "leerTodos", language = "JDOQL",
                 value = "SELECT "
                         + "FROM domainapp.dom.mister.Rubro "),
         @javax.jdo.annotations.Query(
-                name = "busPorDes", language = "JDOQL",
+                name = "busPorNom", language = "JDOQL",
                 value = "SELECT "
                         + "FROM domainapp.dom.mister.Rubro "
-                        + "WHERE descripcion.indexOf(:descripcion) >= 0 ")
+                        + "WHERE nombre == :nombre"
+                        + "|| nombre.indexOf(:nombre) >= 0 "),
+        @javax.jdo.annotations.Query(
+                name = "traerRubro", language = "JDOQL",
+                value = "SELECT "
+                        + "FROM domainapp.dom.mister.Rubro "
+                        + "WHERE nombre == :nombre"
+                        + "|| nombre.indexOf(:nombre) >= 0 ")
 })
-@javax.jdo.annotations.Unique(name="Rubro_des_UNQ", members = {"descripcion"})
-@DomainObject
-public class Rubro implements Comparable<Rubro>,Serializable {
+@javax.jdo.annotations.Unique(name="Rubro_nomb_UNQ", members = {"nombre"})
+@DomainObject(bounded=true)
+@DomainObjectLayout(bookmarking=BookmarkPolicy.AS_ROOT)
+public class Rubro implements Comparable<Rubro> {
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+ 
 	
 	public static final int NAME_LENGTH = 40;
 
 
     public TranslatableString title() {
-        return TranslatableString.tr("Object: {name}", "descripcion", getDescripcion());
+        return TranslatableString.tr("{nombre}", "nombre", this.getNombre());
     }
 
-    @Persistent
-	@MemberOrder(sequence="1")
-	@javax.jdo.annotations.Column(allowsNull="false")
-    private int codigo;
-    	
-
-    public int getCodigo() {
-		return codigo;
-	}
-	public void setCodigo(int codigo) {
-		this.codigo = codigo;
-	}
-	
-    
-	public static class DescripcionDomainEvent extends PropertyDomainEvent<Rubro,String> {}
+    public static class DescripcionDomainEvent extends PropertyDomainEvent<Rubro,String> {
+    	private static final long serialVersionUID = 1L;
+    }   
+	/**
+	 *  Descripcion del Rublo
+	 */
     @javax.jdo.annotations.Column(
             allowsNull="false",
-            length = NAME_LENGTH
+            length = 40
     )
     @Property(
-        domainEvent = DescripcionDomainEvent.class
+        editing=Editing.ENABLED
     )
-    @Persistent
-	@MemberOrder(sequence="2")
-    private String descripcion;
-    public String getDescripcion() {
-        return descripcion;
+   
+    @Title(sequence="1")
+	@MemberOrder(sequence="1")
+    private String nombre;
+    public String getNombre() {
+        return nombre;
     }
-    public void setDescripcion(final String descripcion) {
-        this.descripcion = descripcion;
+    public void setNombre(final String nombre) {
+        this.nombre = nombre;
     }
 
-//    public TranslatableString validateDescripcion(final String descripcion) {
-//        return descripcion != null && descripcion.contains("!")? TranslatableString.tr("Exclamation mark is not allowed"): null;
-//    }
-
-
-
-//    public static class DeleteDomainEvent extends ActionDomainEvent<Rubro> {}
-//    @Action(
-//            domainEvent = DeleteDomainEvent.class,
-//            semantics = SemanticsOf.NON_IDEMPOTENT_ARE_YOU_SURE
-//    )
-//    public void delete() {
-//        repositoryService.remove(this);
-//    }
-
-
-
+    
+   
+    
+    @MemberOrder(sequence ="2")
+    @Persistent(mappedBy = "rubro", dependentElement="false")
+    @CollectionLayout(render=RenderType.EAGERLY)
+    private SortedSet<SubRubro> subrubro= new TreeSet<SubRubro>();
+ 
+   
+    public SortedSet<SubRubro> getSubRubro(){
+    	return subrubro;
+    }
+    public void setSubRubro(final SortedSet<SubRubro> subrubro){
+    	this.subrubro=subrubro;
+    }
+    
+    
     @Override
     public int compareTo(final Rubro other) {
-    	int salida=this.descripcion.compareTo(other.getDescripcion());
-        return salida;
+        return ObjectContracts.compare(this, other , "nombre");
     }
- 
-
 	@javax.inject.Inject
     RepositoryService repositoryService;
+	
+	@javax.inject.Inject
+    RubroServicio rubroService;
 
 }

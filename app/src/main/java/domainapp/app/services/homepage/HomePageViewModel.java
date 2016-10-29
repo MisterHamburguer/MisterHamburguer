@@ -23,7 +23,7 @@ import java.util.List;
 import org.apache.isis.applib.annotation.ViewModel;
 
 import domainapp.dom.mister.Rubro;
-import domainapp.dom.mister.Rubros;
+import domainapp.dom.mister.RubroServicio;
 
 @ViewModel
 public class HomePageViewModel {
@@ -37,14 +37,14 @@ public class HomePageViewModel {
     //region > object (collection)
     @org.apache.isis.applib.annotation.HomePage
     public List<Rubro> getObjects() {
-        return rubros.listAll();
+        return rubroServicio.listAll();
     }
     //endregion
 
     //region > injected services
 
     @javax.inject.Inject
-    Rubros rubros;
+    RubroServicio rubroServicio;
 
     //endregion
 }

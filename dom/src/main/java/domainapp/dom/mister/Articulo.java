@@ -1,6 +1,6 @@
 package domainapp.dom.mister;
 
-import java.util.Date;
+
 
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.IdentityType;
@@ -20,11 +20,14 @@ import org.apache.isis.applib.services.eventbus.ActionDomainEvent;
 import org.apache.isis.applib.services.eventbus.PropertyDomainEvent;
 import org.apache.isis.applib.services.repository.RepositoryService;
 import org.apache.isis.applib.util.ObjectContracts;
+import org.joda.time.LocalDate;
+
 
 //import domainapp.dom.mister.Rubro.DeleteDomainEvent;
-import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
+//import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
 
 
+@SuppressWarnings("unused")
 @javax.jdo.annotations.PersistenceCapable(
         identityType=IdentityType.DATASTORE,
         schema = "mister",
@@ -32,7 +35,7 @@ import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
 	)
 @javax.jdo.annotations.DatastoreIdentity(
         strategy=javax.jdo.annotations.IdGeneratorStrategy.IDENTITY,
-         column="id")
+         column="articulo_id")
 @javax.jdo.annotations.Version(
 //        strategy=VersionStrategy.VERSION_NUMBER,
         strategy= VersionStrategy.DATE_TIME,
@@ -60,7 +63,7 @@ import domainapp.dom.mister.Rubro.DescripcionDomainEvent;
 @Sequence(name ="codigo", strategy= SequenceStrategy.CONTIGUOUS)
 public class Articulo  implements Comparable<Articulo>{
 	
-	@Persistent//(valueStrategy = IdGeneratorStrategy.INCREMENT, sequence = "codigo")
+	//(valueStrategy = IdGeneratorStrategy.INCREMENT, sequence = "codigo")
 	@MemberOrder(sequence="1")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	private int codigo;
@@ -71,7 +74,7 @@ public class Articulo  implements Comparable<Articulo>{
 		this.codigo = codigo;
 	}
 	
-	public static final int DESCRIPCION_LENGTH = 60;
+	public static final int NOMBRE_LENGTH = 60;
 	
 	
 	
@@ -83,22 +86,22 @@ public class Articulo  implements Comparable<Articulo>{
 		private static final long serialVersionUID = 1L;}
     @javax.jdo.annotations.Column(
             allowsNull="false",
-            length = DESCRIPCION_LENGTH
+            length = NOMBRE_LENGTH
     )
     @Property(
         domainEvent = DescripcionDomainEvent.class
     )
-	private String descripcion;
-	public String getDescripcion() {
-		return descripcion;
+	private String nombre;
+	public String getNombre() {
+		return nombre;
 	}
-	public void setDescripcion(final String descripcion) {
-		this.descripcion = descripcion;
+	public void setNombre(final String nombre) {
+		this.nombre = nombre;
 	}
 	
 	private long codBarra;
 //	
-	@Persistent
+	
 	@MemberOrder(sequence="3")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	public long getCodBarra() {
@@ -109,7 +112,7 @@ public class Articulo  implements Comparable<Articulo>{
 	}
 //	
 	private float precioVenta;
-	@Persistent
+	
 	@MemberOrder(sequence="4")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	public float getPrecioVenta() {
@@ -121,7 +124,7 @@ public class Articulo  implements Comparable<Articulo>{
 //	
 	private float iva;
 	
-	@Persistent
+	
 	@MemberOrder(sequence="5")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	public float getIva() {
@@ -134,7 +137,7 @@ public class Articulo  implements Comparable<Articulo>{
 	
 	private float precioCosto;
 	
-	@Persistent
+	
 	@MemberOrder(sequence="6")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	public float getPrecioCosto() {
@@ -146,7 +149,7 @@ public class Articulo  implements Comparable<Articulo>{
 	
 	private Rubro rubro;
 	
-	@Persistent
+	
 	@MemberOrder(sequence="7")
 	@javax.jdo.annotations.Column(allowsNull="true")
 	public Rubro getRubro() {
@@ -157,21 +160,21 @@ public class Articulo  implements Comparable<Articulo>{
 	}
 	
 	
-	private E_SubRubro sub_Rubro;
+	private SubRubro sub_Rubro;
 	
-	@Persistent
+	
 	@MemberOrder(sequence="8")
 	@javax.jdo.annotations.Column(allowsNull="true")
-	public E_SubRubro getSub_Rubro() {
+	public SubRubro getSub_Rubro() {
 		return sub_Rubro;
 	}
-	public void setSub_Rubro(E_SubRubro sub_Rubro) {
+	public void setSub_Rubro(SubRubro sub_Rubro) {
 		this.sub_Rubro = sub_Rubro;
 	}
 
 	private boolean promocion;
 
-	@Persistent
+	
 	@MemberOrder(sequence="9")
 	@javax.jdo.annotations.Column(allowsNull="false")
 
@@ -184,7 +187,6 @@ public class Articulo  implements Comparable<Articulo>{
 //	
 	private String observaciones;
 	
-	@Persistent
 	@MemberOrder(sequence="10")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	public String getObservaciones() {
@@ -194,32 +196,32 @@ public class Articulo  implements Comparable<Articulo>{
 		this.observaciones = observaciones;
 	}
 
-	private Date fechaAlta;
+	private LocalDate fechaAlta;
 	
-	@Persistent
+	
 	@MemberOrder(sequence="11")
 	@javax.jdo.annotations.Column(allowsNull="false")
-	public Date getFechaAlta() {
+	public LocalDate getFechaAlta() {
 		return fechaAlta;
 	}
-	public void setFechaAlta(Date fechaAlta) {
+	public void setFechaAlta(LocalDate fechaAlta) {
 		this.fechaAlta = fechaAlta;
 	}
 	
-	private int id_Empleado;
-	@Persistent
+	private Personal personal;
+	
 	@MemberOrder(sequence="12")
 	@javax.jdo.annotations.Column(allowsNull="false")
-	public int getId_Empleado() {
-		return id_Empleado;
+	public Personal getPersonal() {
+		return personal;
 	}
-	public void setId_Empleado(int id_Empleado) {
-		this.id_Empleado = id_Empleado;
+	public void setPersonal(Personal personal) {
+	 this.personal=personal;
 	}
 
 	private int id_Proveedor;
 
-	@Persistent
+	
 	@MemberOrder(sequence="13")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	public int getId_Proveedor() {
@@ -251,9 +253,7 @@ public class Articulo  implements Comparable<Articulo>{
     }
 	
 	
-	public enum E_SubRubro {
-		Con_Gas,Sin_Gas,alcohol;
-	}
+	
 	 
     @javax.inject.Inject
     RepositoryService repositoryService;
