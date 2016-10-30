@@ -22,29 +22,27 @@ import java.util.List;
 
 import org.apache.isis.applib.annotation.ViewModel;
 
-import domainapp.dom.mister.Rubro;
-import domainapp.dom.mister.RubroServicio;
+import domainapp.dom.mister.Rubro.Rubro;
+
+
+
+
 
 @ViewModel
 public class HomePageViewModel {
 
     //region > title
-    public String title() {
-        return getObjects().size() + " objects";
-    }
+   
     //endregion
 
     //region > object (collection)
-    @org.apache.isis.applib.annotation.HomePage
-    public List<Rubro> getObjects() {
-        return rubroServicio.listAll();
-    }
+   
     //endregion
 
     //region > injected services
 
     @javax.inject.Inject
-    RubroServicio rubroServicio;
+    domainapp.dom.mister.Rubro.RubroServicio rubroServicio;
 
     //endregion
 }

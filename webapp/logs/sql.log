@@ -1,0 +1,251 @@
+2016-10-30 19:07:15.397 La columna ""DELETEME1477865235389"."UNUSED"" añadió a la representación de la table.
+2016-10-30 19:07:15.402 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:15.402 Crear la tabla "DELETEME1477865235389"
+2016-10-30 19:07:15.408 CREATE TABLE "DELETEME1477865235389"
+(
+    "UNUSED" int4 NOT NULL
+)
+2016-10-30 19:07:15.412 Tiempo de cumplir = 3 ms
+2016-10-30 19:07:15.417 No era posible determinar el nombre del catalogo por este DataStore
+2016-10-30 19:07:15.417 Borrar la tabla "DELETEME1477865235389"
+2016-10-30 19:07:15.418 DROP TABLE "DELETEME1477865235389" CASCADE
+2016-10-30 19:07:15.419 Tiempo de cumplir = 1 ms
+2016-10-30 19:07:15.854 La columna ""DELETEME1477865235854"."UNUSED"" añadió a la representación de la table.
+2016-10-30 19:07:15.855 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:15.855 Crear la tabla "DELETEME1477865235854"
+2016-10-30 19:07:15.855 CREATE TABLE "DELETEME1477865235854"
+(
+    "UNUSED" int4 NOT NULL
+)
+2016-10-30 19:07:15.858 Tiempo de cumplir = 3 ms
+2016-10-30 19:07:15.863 No era posible determinar el nombre del catalogo por este DataStore
+2016-10-30 19:07:15.863 Borrar la tabla "DELETEME1477865235854"
+2016-10-30 19:07:15.864 DROP TABLE "DELETEME1477865235854" CASCADE
+2016-10-30 19:07:15.866 Tiempo de cumplir = 1 ms
+2016-10-30 19:07:16.149 La columna ""mister"."Personal"."personal_id"" añadió a la representación de la table.
+2016-10-30 19:07:16.150 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.150 Campo [DATASTORE_ID] -> Columnas ["mister"."Personal"."personal_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.155 La columna ""mister"."SubRubro"."subrubro_id"" añadió a la representación de la table.
+2016-10-30 19:07:16.156 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.157 Campo [DATASTORE_ID] -> Columnas ["mister"."SubRubro"."subrubro_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.159 La columna ""mister"."Rubro"."rubro_id"" añadió a la representación de la table.
+2016-10-30 19:07:16.161 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.162 Campo [DATASTORE_ID] -> Columnas ["mister"."Rubro"."rubro_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.162 La columna ""mister"."Articulo"."articulo_id"" añadió a la representación de la table.
+2016-10-30 19:07:16.162 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.162 Campo [DATASTORE_ID] -> Columnas ["mister"."Articulo"."articulo_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.163 La columna ""mister"."Cliente"."idcliente"" añadió a la representación de la table.
+2016-10-30 19:07:16.163 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.163 Campo [DATASTORE_ID] -> Columnas ["mister"."Cliente"."idcliente"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.164 La tabla "mister"."Rubro" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Rubro.Rubro (estrategia de heredar="new-table")
+2016-10-30 19:07:16.164 La columna ""mister"."Rubro"."nombre"" añadió a la representación de la table.
+2016-10-30 19:07:16.168 Campo [domainapp.dom.mister.Rubro.Rubro.nombre] -> Columnas ["mister"."Rubro"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.174 Campo [domainapp.dom.mister.Rubro.Rubro.subrubro] -> Columnas [[none]] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+2016-10-30 19:07:16.175 La columna ""mister"."Rubro"."version"" añadió a la representación de la table.
+2016-10-30 19:07:16.175 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.176 Campo [VERSION] -> Columnas ["mister"."Rubro"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.176 Table/View "mister"."Rubro" ha sido inicializado
+2016-10-30 19:07:16.176 La tabla "mister"."SubRubro" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.SubRubro.SubRubro (estrategia de heredar="new-table")
+2016-10-30 19:07:16.176 La columna ""mister"."SubRubro"."nombre"" añadió a la representación de la table.
+2016-10-30 19:07:16.176 Campo [domainapp.dom.mister.SubRubro.SubRubro.nombre] -> Columnas ["mister"."SubRubro"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.179 La columna ""mister"."SubRubro"."rubro_rubro_id_OID"" añadió a la representación de la table.
+2016-10-30 19:07:16.179 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.179 Campo [domainapp.dom.mister.SubRubro.SubRubro.rubro] -> Columnas ["mister"."SubRubro"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.180 La columna ""mister"."SubRubro"."version"" añadió a la representación de la table.
+2016-10-30 19:07:16.180 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.180 Campo [VERSION] -> Columnas ["mister"."SubRubro"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.180 Table/View "mister"."SubRubro" ha sido inicializado
+2016-10-30 19:07:16.180 La tabla "mister"."Personal" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Personal.Personal (estrategia de heredar="new-table")
+2016-10-30 19:07:16.181 La columna ""mister"."Personal"."legajo"" añadió a la representación de la table.
+2016-10-30 19:07:16.181 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.181 Campo [domainapp.dom.mister.Personal.Personal.legajo] -> Columnas ["mister"."Personal"."legajo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-10-30 19:07:16.181 La tabla "mister"."Personal" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Persona (estrategia de heredar="subclass-table")
+2016-10-30 19:07:16.181 La columna ""mister"."Personal"."apellido"" añadió a la representación de la table.
+2016-10-30 19:07:16.182 Campo [domainapp.dom.mister.Persona.apellido] -> Columnas ["mister"."Personal"."apellido"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.182 La columna ""mister"."Personal"."direccion"" añadió a la representación de la table.
+2016-10-30 19:07:16.182 Campo [domainapp.dom.mister.Persona.direccion] -> Columnas ["mister"."Personal"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.182 La columna ""mister"."Personal"."dni"" añadió a la representación de la table.
+2016-10-30 19:07:16.183 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.183 Campo [domainapp.dom.mister.Persona.dni] -> Columnas ["mister"."Personal"."dni"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-10-30 19:07:16.183 La columna ""mister"."Personal"."email"" añadió a la representación de la table.
+2016-10-30 19:07:16.183 Campo [domainapp.dom.mister.Persona.email] -> Columnas ["mister"."Personal"."email"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.183 La columna ""mister"."Personal"."nombre"" añadió a la representación de la table.
+2016-10-30 19:07:16.184 Campo [domainapp.dom.mister.Persona.nombre] -> Columnas ["mister"."Personal"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.184 La columna ""mister"."Personal"."telefono"" añadió a la representación de la table.
+2016-10-30 19:07:16.184 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.184 Campo [domainapp.dom.mister.Persona.telefono] -> Columnas ["mister"."Personal"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-10-30 19:07:16.185 La columna ""mister"."Personal"."version"" añadió a la representación de la table.
+2016-10-30 19:07:16.185 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.186 Campo [VERSION] -> Columnas ["mister"."Personal"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2016-10-30 19:07:16.186 Table/View "mister"."Personal" ha sido inicializado
+2016-10-30 19:07:16.186 La tabla "mister"."Cliente" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Cliente.Cliente (estrategia de heredar="new-table")
+2016-10-30 19:07:16.186 La columna ""mister"."Cliente"."empresa"" añadió a la representación de la table.
+2016-10-30 19:07:16.186 Campo [domainapp.dom.mister.Cliente.Cliente.empresa] -> Columnas ["mister"."Cliente"."empresa"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.187 La columna ""mister"."Cliente"."idcliente_0"" añadió a la representación de la table.
+2016-10-30 19:07:16.187 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.187 Campo [domainapp.dom.mister.Cliente.Cliente.idcliente] -> Columnas ["mister"."Cliente"."idcliente_0"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-10-30 19:07:16.187 La columna ""mister"."Cliente"."observaciones"" añadió a la representación de la table.
+2016-10-30 19:07:16.187 Campo [domainapp.dom.mister.Cliente.Cliente.observaciones] -> Columnas ["mister"."Cliente"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.188 La tabla "mister"."Cliente" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Persona (estrategia de heredar="subclass-table")
+2016-10-30 19:07:16.188 La columna ""mister"."Cliente"."apellido"" añadió a la representación de la table.
+2016-10-30 19:07:16.188 Campo [domainapp.dom.mister.Persona.apellido] -> Columnas ["mister"."Cliente"."apellido"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.188 La columna ""mister"."Cliente"."direccion"" añadió a la representación de la table.
+2016-10-30 19:07:16.188 Campo [domainapp.dom.mister.Persona.direccion] -> Columnas ["mister"."Cliente"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.188 La columna ""mister"."Cliente"."dni"" añadió a la representación de la table.
+2016-10-30 19:07:16.189 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.189 Campo [domainapp.dom.mister.Persona.dni] -> Columnas ["mister"."Cliente"."dni"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-10-30 19:07:16.189 La columna ""mister"."Cliente"."email"" añadió a la representación de la table.
+2016-10-30 19:07:16.189 Campo [domainapp.dom.mister.Persona.email] -> Columnas ["mister"."Cliente"."email"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.189 La columna ""mister"."Cliente"."nombre"" añadió a la representación de la table.
+2016-10-30 19:07:16.189 Campo [domainapp.dom.mister.Persona.nombre] -> Columnas ["mister"."Cliente"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.190 La columna ""mister"."Cliente"."telefono"" añadió a la representación de la table.
+2016-10-30 19:07:16.190 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.190 Campo [domainapp.dom.mister.Persona.telefono] -> Columnas ["mister"."Cliente"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-10-30 19:07:16.190 La columna ""mister"."Cliente"."version"" añadió a la representación de la table.
+2016-10-30 19:07:16.190 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.190 Campo [VERSION] -> Columnas ["mister"."Cliente"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2016-10-30 19:07:16.191 Table/View "mister"."Cliente" ha sido inicializado
+2016-10-30 19:07:16.191 La tabla "mister"."Articulo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.Articulo (estrategia de heredar="new-table")
+2016-10-30 19:07:16.191 La columna ""mister"."Articulo"."codBarra"" añadió a la representación de la table.
+2016-10-30 19:07:16.191 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.191 Campo [domainapp.dom.mister.Articulo.Articulo.codBarra] -> Columnas ["mister"."Articulo"."codBarra"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.LongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.192 La columna ""mister"."Articulo"."codigo"" añadió a la representación de la table.
+2016-10-30 19:07:16.192 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.192 Campo [domainapp.dom.mister.Articulo.Articulo.codigo] -> Columnas ["mister"."Articulo"."codigo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-10-30 19:07:16.195 La columna ""mister"."Articulo"."fechaAlta"" añadió a la representación de la table.
+2016-10-30 19:07:16.196 Campo [domainapp.dom.mister.Articulo.Articulo.fechaAlta] -> Columnas ["mister"."Articulo"."fechaAlta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.TypeConverterMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+2016-10-30 19:07:16.196 La columna ""mister"."Articulo"."id_Proveedor"" añadió a la representación de la table.
+2016-10-30 19:07:16.197 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.197 Campo [domainapp.dom.mister.Articulo.Articulo.id_Proveedor] -> Columnas ["mister"."Articulo"."id_Proveedor"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-10-30 19:07:16.197 La columna ""mister"."Articulo"."iva"" añadió a la representación de la table.
+2016-10-30 19:07:16.198 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.198 Campo [domainapp.dom.mister.Articulo.Articulo.iva] -> Columnas ["mister"."Articulo"."iva"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2016-10-30 19:07:16.199 La columna ""mister"."Articulo"."nombre"" añadió a la representación de la table.
+2016-10-30 19:07:16.199 Campo [domainapp.dom.mister.Articulo.Articulo.nombre] -> Columnas ["mister"."Articulo"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.199 La columna ""mister"."Articulo"."observaciones"" añadió a la representación de la table.
+2016-10-30 19:07:16.199 Campo [domainapp.dom.mister.Articulo.Articulo.observaciones] -> Columnas ["mister"."Articulo"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-10-30 19:07:16.200 La columna ""mister"."Articulo"."personal_personal_id_OID"" añadió a la representación de la table.
+2016-10-30 19:07:16.200 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.200 Campo [domainapp.dom.mister.Articulo.Articulo.personal] -> Columnas ["mister"."Articulo"."personal_personal_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.201 La columna ""mister"."Articulo"."precioCosto"" añadió a la representación de la table.
+2016-10-30 19:07:16.201 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.201 Campo [domainapp.dom.mister.Articulo.Articulo.precioCosto] -> Columnas ["mister"."Articulo"."precioCosto"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2016-10-30 19:07:16.201 La columna ""mister"."Articulo"."precioVenta"" añadió a la representación de la table.
+2016-10-30 19:07:16.201 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.202 Campo [domainapp.dom.mister.Articulo.Articulo.precioVenta] -> Columnas ["mister"."Articulo"."precioVenta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2016-10-30 19:07:16.202 La columna ""mister"."Articulo"."promocion"" añadió a la representación de la table.
+2016-10-30 19:07:16.203 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.203 Campo [domainapp.dom.mister.Articulo.Articulo.promocion] -> Columnas ["mister"."Articulo"."promocion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+2016-10-30 19:07:16.203 La columna ""mister"."Articulo"."rubro_rubro_id_OID"" añadió a la representación de la table.
+2016-10-30 19:07:16.204 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.204 Campo [domainapp.dom.mister.Articulo.Articulo.rubro] -> Columnas ["mister"."Articulo"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.204 La columna ""mister"."Articulo"."sub_Rubro_subrubro_id_OID"" añadió a la representación de la table.
+2016-10-30 19:07:16.204 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.204 Campo [domainapp.dom.mister.Articulo.Articulo.sub_Rubro] -> Columnas ["mister"."Articulo"."sub_Rubro_subrubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-10-30 19:07:16.205 La columna ""mister"."Articulo"."version"" añadió a la representación de la table.
+2016-10-30 19:07:16.205 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2016-10-30 19:07:16.205 Campo [VERSION] -> Columnas ["mister"."Articulo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2016-10-30 19:07:16.205 Table/View "mister"."Articulo" ha sido inicializado
+2016-10-30 19:07:16.208 Empezando transaccion del esquema con conneccion "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@e8051c" y isolacion "serializable"
+2016-10-30 19:07:16.210 Check of existence of "mister"."Rubro" returned table type of TABLE
+2016-10-30 19:07:16.211 Cargando información de columna para las tablas "Rubro" por el Catalogo "", el Esquema "mister"
+2016-10-30 19:07:16.219 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 8 ms
+2016-10-30 19:07:16.219 Información de columna cargado por la tabla "Rubro" : hemos encontrado 3 columnas
+2016-10-30 19:07:16.222 Check of existence of "mister"."SubRubro" returned table type of TABLE
+2016-10-30 19:07:16.222 Cargando información de columna para las tablas "SubRubro" por el Catalogo "", el Esquema "mister"
+2016-10-30 19:07:16.226 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 4 ms
+2016-10-30 19:07:16.226 Información de columna cargado por la tabla "SubRubro" : hemos encontrado 4 columnas
+2016-10-30 19:07:16.228 Check of existence of "mister"."Personal" returned table type of TABLE
+2016-10-30 19:07:16.228 Cargando información de columna para las tablas "Personal" por el Catalogo "", el Esquema "mister"
+2016-10-30 19:07:16.232 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 4 ms
+2016-10-30 19:07:16.232 Información de columna cargado por la tabla "Personal" : hemos encontrado 5 columnas
+2016-10-30 19:07:16.232 Crear la columna "apellido" de la tabla "mister"."Personal"
+2016-10-30 19:07:16.233 Crear la columna "telefono" de la tabla "mister"."Personal"
+2016-10-30 19:07:16.233 Crear la columna "dni" de la tabla "mister"."Personal"
+2016-10-30 19:07:16.233 Crear la columna "email" de la tabla "mister"."Personal"
+2016-10-30 19:07:16.233 ALTER TABLE "mister"."Personal" ADD COLUMN "apellido" varchar(255) NOT NULL
+2016-10-30 19:07:16.234 Tiempo de cumplir = 1 ms
+2016-10-30 19:07:16.234 ALTER TABLE "mister"."Personal" ADD COLUMN "telefono" int4 NOT NULL
+2016-10-30 19:07:16.235 Tiempo de cumplir = 1 ms
+2016-10-30 19:07:16.235 ALTER TABLE "mister"."Personal" ADD COLUMN "dni" int4 NOT NULL
+2016-10-30 19:07:16.236 Tiempo de cumplir = 1 ms
+2016-10-30 19:07:16.236 ALTER TABLE "mister"."Personal" ADD COLUMN "email" varchar(255) NOT NULL
+2016-10-30 19:07:16.237 Tiempo de cumplir = 1 ms
+2016-10-30 19:07:16.239 Check of existence of "mister"."Cliente" returned no table
+2016-10-30 19:07:16.239 Crear la tabla "mister"."Cliente"
+2016-10-30 19:07:16.240 CREATE TABLE "mister"."Cliente"
+(
+    "idcliente" SERIAL,
+    "empresa" varchar(255) NOT NULL,
+    "idcliente_0" int4 NOT NULL,
+    "observaciones" varchar(255) NOT NULL,
+    "apellido" varchar(255) NOT NULL,
+    "direccion" varchar(255) NOT NULL,
+    "dni" int4 NOT NULL,
+    "email" varchar(255) NOT NULL,
+    "nombre" varchar(255) NOT NULL,
+    "telefono" int4 NOT NULL,
+    "version" timestamptz NOT NULL,
+    CONSTRAINT "Cliente_PK" PRIMARY KEY ("idcliente")
+)
+2016-10-30 19:07:16.325 Tiempo de cumplir = 85 ms
+2016-10-30 19:07:16.330 Check of existence of "mister"."Articulo" returned table type of TABLE
+2016-10-30 19:07:16.330 Cargando información de columna para las tablas "Articulo" por el Catalogo "", el Esquema "mister"
+2016-10-30 19:07:16.336 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 6 ms
+2016-10-30 19:07:16.336 Información de columna cargado por la tabla "Articulo" : hemos encontrado 15 columnas
+2016-10-30 19:07:16.349 Validando 2 llaves unicas de la tabla "mister"."Rubro"
+2016-10-30 19:07:16.387 Validando 0 foreign key(s) de la tabla "mister"."Rubro"
+2016-10-30 19:07:16.397 Validando 2 indic(es) de la tabla "mister"."Rubro"
+2016-10-30 19:07:16.402 Validando 2 llaves unicas de la tabla "mister"."SubRubro"
+2016-10-30 19:07:16.443 Validando 11 foreign key(s) de la tabla "mister"."SubRubro"
+2016-10-30 19:07:16.445 Crear el constreñimiento del foreign key "SubRubro_FK4d" en catalogo "" equema ""mister""
+2016-10-30 19:07:16.445 ALTER TABLE "mister"."SubRubro" ADD CONSTRAINT "SubRubro_FK4d" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
+2016-10-30 19:07:16.448 Tiempo de cumplir = 3 ms
+2016-10-30 19:07:16.453 Validando 3 indic(es) de la tabla "mister"."SubRubro"
+2016-10-30 19:07:16.458 Validando 2 llaves unicas de la tabla "mister"."Personal"
+2016-10-30 19:07:16.479 Validando 0 foreign key(s) de la tabla "mister"."Personal"
+2016-10-30 19:07:16.486 Validando 2 indic(es) de la tabla "mister"."Personal"
+2016-10-30 19:07:16.487 Crear la llave unica "Cliente_idcliente_UNQ" en catalogo "" equema ""mister""
+2016-10-30 19:07:16.487 ALTER TABLE "mister"."Cliente" ADD CONSTRAINT "Cliente_idcliente_UNQ" UNIQUE ("idcliente_0")
+2016-10-30 19:07:16.514 Tiempo de cumplir = 27 ms
+2016-10-30 19:07:16.518 Validando 2 llaves unicas de la tabla "mister"."Articulo"
+2016-10-30 19:07:16.519 Crear la llave unica "Articulo_des_UNQ" en catalogo "" equema ""mister""
+2016-10-30 19:07:16.519 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_des_UNQ" UNIQUE ("nombre")
+2016-10-30 19:07:16.548 Tiempo de cumplir = 29 ms
+2016-10-30 19:07:16.586 Validando 33 foreign key(s) de la tabla "mister"."Articulo"
+2016-10-30 19:07:16.587 Crear el constreñimiento del foreign key "Articulo_FK64" en catalogo "" equema ""mister""
+2016-10-30 19:07:16.587 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FK64" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
+2016-10-30 19:07:16.590 Tiempo de cumplir = 3 ms
+2016-10-30 19:07:16.590 Crear el constreñimiento del foreign key "Articulo_FK63" en catalogo "" equema ""mister""
+2016-10-30 19:07:16.591 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FK63" FOREIGN KEY ("personal_personal_id_OID") REFERENCES "mister"."Personal" ("personal_id") INITIALLY DEFERRED 
+2016-10-30 19:07:16.594 Tiempo de cumplir = 2 ms
+2016-10-30 19:07:16.594 Crear el constreñimiento del foreign key "Articulo_FK65" en catalogo "" equema ""mister""
+2016-10-30 19:07:16.594 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FK65" FOREIGN KEY ("sub_Rubro_subrubro_id_OID") REFERENCES "mister"."SubRubro" ("subrubro_id") INITIALLY DEFERRED 
+2016-10-30 19:07:16.596 Tiempo de cumplir = 2 ms
+2016-10-30 19:07:16.602 Validando 6 indic(es) de la tabla "mister"."Articulo"
+2016-10-30 19:07:16.602 Committing transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@e8051c"
+2016-10-30 19:07:16.615 Cerrando la conneccion de la transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@e8051c"
+2016-10-30 19:07:47.160 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
+2016-10-30 19:07:47.530 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
+2016-10-30 19:07:47.532 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <2>
+2016-10-30 19:07:47.534 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <3>
+2016-10-30 19:07:51.103 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
+2016-10-30 19:07:54.204 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
+2016-10-30 19:07:54.237 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."rubro_rubro_id_OID" = <1>
+2016-10-30 19:07:54.269 SELECT "B0"."nombre","B0"."rubro_id","B0"."version","A0"."version" FROM "mister"."SubRubro" "A0" INNER JOIN "mister"."Rubro" "B0" ON "A0"."rubro_rubro_id_OID" = "B0"."rubro_id" WHERE "A0"."subrubro_id" = <1>
+2016-10-30 19:07:54.277 SELECT "B0"."nombre","B0"."rubro_id","B0"."version","A0"."version" FROM "mister"."SubRubro" "A0" INNER JOIN "mister"."Rubro" "B0" ON "A0"."rubro_rubro_id_OID" = "B0"."rubro_id" WHERE "A0"."subrubro_id" = <4>
+2016-10-30 19:07:56.901 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
+2016-10-30 19:07:57.026 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
+2016-10-30 19:07:57.028 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <2>
+2016-10-30 19:07:57.029 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <3>
+2016-10-30 19:07:57.031 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <4>
+2016-10-30 19:07:57.033 SELECT "B0"."nombre","B0"."rubro_id","B0"."version","A0"."version" FROM "mister"."SubRubro" "A0" INNER JOIN "mister"."Rubro" "B0" ON "A0"."rubro_rubro_id_OID" = "B0"."rubro_id" WHERE "A0"."subrubro_id" = <1>
+2016-10-30 19:07:57.038 SELECT "B0"."nombre","B0"."rubro_id","B0"."version","A0"."version" FROM "mister"."SubRubro" "A0" INNER JOIN "mister"."Rubro" "B0" ON "A0"."rubro_rubro_id_OID" = "B0"."rubro_id" WHERE "A0"."subrubro_id" = <2>
+2016-10-30 19:07:57.042 SELECT "B0"."nombre","B0"."rubro_id","B0"."version","A0"."version" FROM "mister"."SubRubro" "A0" INNER JOIN "mister"."Rubro" "B0" ON "A0"."rubro_rubro_id_OID" = "B0"."rubro_id" WHERE "A0"."subrubro_id" = <3>
+2016-10-30 19:07:57.046 SELECT "B0"."nombre","B0"."rubro_id","B0"."version","A0"."version" FROM "mister"."SubRubro" "A0" INNER JOIN "mister"."Rubro" "B0" ON "A0"."rubro_rubro_id_OID" = "B0"."rubro_id" WHERE "A0"."subrubro_id" = <4>
+2016-10-30 19:08:03.822 SELECT 'domainapp.dom.mister.Articulo.Articulo' AS "NUCLEUS_TYPE","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."id_Proveedor","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."articulo_id","A0"."version" FROM "mister"."Articulo" "A0"
+2016-10-30 19:08:06.892 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
+2016-10-30 19:08:07.067 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
+2016-10-30 19:08:17.539 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
+2016-10-30 19:08:29.657 INSERT INTO "mister"."Personal" ("legajo","apellido","direccion","dni","email","nombre","telefono","version") VALUES (<21321>,<'weqrw'>,<'werweq'>,<1221122>,<'123'>,<'were'>,<1212>,<2016-10-30 19:08:29.655>)
+2016-10-30 19:08:29.782 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <7>

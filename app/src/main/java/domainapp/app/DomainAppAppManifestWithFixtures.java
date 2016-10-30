@@ -37,7 +37,8 @@ public class DomainAppAppManifestWithFixtures extends DomainAppAppManifest {
     /**
      * Fixtures to be installed.
      */
-    @Override
+    @SuppressWarnings("unchecked")
+	@Override
     public List<Class<? extends FixtureScript>> getFixtures() {
         return Lists.newArrayList(RecreateSimpleObjects.class);
     }
