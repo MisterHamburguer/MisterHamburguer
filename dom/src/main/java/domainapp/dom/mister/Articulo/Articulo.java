@@ -55,9 +55,7 @@ import domainapp.dom.mister.SubRubro.SubRubro;
 })
 @javax.jdo.annotations.Unique(name="Articulo_des_UNQ", members= ("nombre"))
 
-@DomainObject(
-		objectType="Articulo"
-)
+@DomainObject(bounded=true)
 @DomainObjectLayout(
 		bookmarking=BookmarkPolicy.AS_ROOT
 )

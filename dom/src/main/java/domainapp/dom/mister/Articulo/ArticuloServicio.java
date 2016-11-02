@@ -35,7 +35,8 @@ import domainapp.dom.mister.SubRubro.SubRubro;
         repositoryFor = Articulo.class
 )
 @DomainServiceLayout(
-        menuOrder = "30"
+        menuOrder = "30",
+        named=" Articulos "
 )
 public class ArticuloServicio {
 		public TranslatableString title() {
@@ -123,13 +124,54 @@ public class ArticuloServicio {
 	        return articulo;
 	    }
 	    
+	    @Action(
+	            semantics = SemanticsOf.SAFE
+	    )
+	    @ActionLayout(
+	            bookmarking = BookmarkPolicy.AS_ROOT
+	    )
+	    @MemberOrder(sequence = "30.4")
+	    public List<Combo> listaAll() {
+	        return repositoryService.allInstances(Combo.class);
+	    }
+	  //endregion
+
+	    @Action(
+	            domainEvent = CreateDomainEvent.class
+	    )
+	    
+	    @MemberOrder(sequence = "30.5")
+	    public Combo creaCombo(
+	        
+	        final @ParameterLayout(named="Nombre") String nombre, 
+	        final @ParameterLayout(named="Precio Venta") float precioVenta,
+	        final @ParameterLayout(named="Activo") boolean activo,
+	        final @ParameterLayout(named="Observaciones") String observaciones,
+	        final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Fecha Alta") LocalDate fechaAlta,
+	        final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Personal ") Personal personal 
+			){
+	    	final Combo combo = repositoryService.instantiate(Combo.class);
+	        combo.setNombre(nombre);
+	        combo.setPrecioVenta(precioVenta);
+	        combo.setActivo(activo);
+	        combo.setObservaciones(observaciones);
+	        combo.setFechaAlta(fechaAlta);
+	        combo.setPersonal(personal);
+	        repositoryService.persist(combo);
+	        return combo;
+	    }
+	    
+	    //EndRegion
 	    
 	  //endregion
 	    @ActionLayout(hidden=Where.EVERYWHERE)
-	    public List<Personal> buscarPersonal(String rb){
+	    public List<Personal> buscarRubro(String rb){
 	 		return repositoryService.allMatches(QueryDefault.create(Personal.class,"traerRubro","nombre",rb));
 	 	}
-	    
+	    @ActionLayout(hidden=Where.EVERYWHERE)
+	    public List<Personal> buscarPersonal(String pr){
+	 		return repositoryService.allMatches(QueryDefault.create(Personal.class,"traerPersonal","nombre",pr));
+	 	}
 	  //region > injected services
 	    @javax.inject.Inject
 	 	PersonalServicio PersonalService;

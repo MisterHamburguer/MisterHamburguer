@@ -1,5 +1,6 @@
 domainapp/dom/mister/Cliente/Cliente.class
 domainapp/dom/mister/Articulo/ArticuloServicio$CreateDomainEvent.class
+domainapp/dom/mister/Articulo/Combo.class
 domainapp/dom/mister/Rubro/RubroServicio.class
 domainapp/dom/DomainAppDomainModule.class
 domainapp/dom/mister/Cliente/QCliente.class
@@ -17,6 +18,7 @@ domainapp/dom/mister/Personal/Personal.class
 domainapp/dom/mister/Personal/QPersonal.class
 domainapp/dom/mister/QPersona.class
 domainapp/dom/mister/SubRubro/SubRubroService.class
+domainapp/dom/mister/Articulo/Combo$DescripcionDomainEvent.class
 domainapp/dom/mister/Rubro/Rubro.class
 domainapp/dom/mister/SubRubro/SubRubro.class
 domainapp/dom/mister/Personal/PersonalServicio.class
@@ -27,3 +29,4 @@ domainapp/dom/mister/SubRubro/SubRubroService$CreateDomainEvent.class
 domainapp/dom/mister/Articulo/QArticulo.class
 domainapp/dom/mister/Articulo/Articulo$DeleteDomainEvent.class
 domainapp/dom/mister/Rubro/QRubro.class
+domainapp/dom/mister/Articulo/QCombo.class

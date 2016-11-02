@@ -25,7 +25,7 @@ import domainapp.dom.mister.Persona;
 	)
 @javax.jdo.annotations.DatastoreIdentity(
         strategy=javax.jdo.annotations.IdGeneratorStrategy.IDENTITY,
-         column="idcliente")
+         column="cliente_id")
 @javax.jdo.annotations.Version(
 //        strategy=VersionStrategy.VERSION_NUMBER,
         strategy= VersionStrategy.DATE_TIME,
@@ -35,62 +35,47 @@ import domainapp.dom.mister.Persona;
             name = "find", language = "JDOQL",
             value = "SELECT "
                     + "FROM domainapp.dom.mister.Cliente "),
-                    @javax.jdo.annotations.Query(
-                            name = "busPorApe", language = "JDOQL",
-                            value = "SELECT "
-                                    + "FROM domainapp.dom.mister.Cliente "
-                                    + "WHERE apellido.indexOf(:apellido) >= 0 ")
+         @javax.jdo.annotations.Query(
+               name = "busPorApe", language = "JDOQL",
+               value = "SELECT "
+               + "FROM domainapp.dom.mister.Cliente "
+               + "WHERE apellido.indexOf(:apellido) >= 0 ")
 })
 
-@javax.jdo.annotations.Unique(name="Cliente_idcliente_UNQ", members= ("idcliente"))
-@DomainObject(
-		objectType="Cliente"
-)
+@javax.jdo.annotations.Unique(name="Cliente_nom_UNQ", members= ("nombre"))
+//@DomainObject(
+//		objectType="Cliente"
+//)
+@DomainObject(bounded=true)
 @DomainObjectLayout(
 		bookmarking=BookmarkPolicy.AS_ROOT
 )
-@Sequence(name ="idcliente", strategy= SequenceStrategy.CONTIGUOUS)
+@Sequence(name ="nombre", strategy= SequenceStrategy.CONTIGUOUS)
 
-public class Cliente extends Persona implements Comparable<Cliente>,Serializable {
+public class Cliente extends Persona implements Comparable<Cliente> {
 	
 	private static final long serialVersionUID = 1L;
 	
-	@Persistent 
+		
+	
 	@MemberOrder(sequence="1")
 	@javax.jdo.annotations.Column(allowsNull="false")
-	private int idcliente;	
-	@Persistent 
+	private String observaciones;
+	
+	
+	
 	@MemberOrder(sequence="2")
 	@javax.jdo.annotations.Column(allowsNull="false")
-	private String observaciones;
-	@Persistent 
-	@MemberOrder(sequence="3")
-	@javax.jdo.annotations.Column(allowsNull="false")
-	private String empresa;	
-	
-	@Persistent
-	@MemberOrder(sequence="4")
-	@javax.jdo.annotations.Column(allowsNull="false")
 	
 	
-	public int getIdcliente() {
-		return idcliente;
-	}
-	public void setIdcliente(int idcliente) {
-		this.idcliente = idcliente;
-	}
+	
 	public String getObservaciones() {
 		return observaciones;
 	}
 	public void setObservaciones(String observaciones) {
 		this.observaciones = observaciones;
 	}
-	public String getEmpresa() {
-		return empresa;
-	}
-	public void setEmpresa(String empresa) {
-		this.empresa = empresa;
-	}
+	
 	
 	@javax.inject.Inject
     RepositoryService repositoryService;

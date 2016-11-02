@@ -21,7 +21,8 @@ import org.apache.isis.applib.services.repository.RepositoryService;
         repositoryFor = Personal.class
 )
 @DomainServiceLayout(
-        menuOrder = "10"
+        menuOrder = "10",
+        named=" Personal "
 )
 public class PersonalServicio {
 

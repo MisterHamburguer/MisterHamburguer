@@ -26,7 +26,8 @@ import domainapp.dom.mister.Rubro.RubroServicio;
         repositoryFor = SubRubro.class
 )
 @DomainServiceLayout(
-        menuOrder = "12"
+        menuOrder = "12",
+        named =" Sub Rubros "
 )
 public class SubRubroService {
 	public TranslatableString title() {

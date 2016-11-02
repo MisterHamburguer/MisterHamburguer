@@ -22,7 +22,8 @@ import org.apache.isis.applib.services.repository.RepositoryService;
         repositoryFor = Cliente.class
 )
 @DomainServiceLayout(
-        menuOrder = "30"
+        menuOrder = "30",
+        named=" Clientes "
 )
 public class ClienteServicio {
 	 //region > title
@@ -96,7 +97,7 @@ public class ClienteServicio {
         cliente.setEmail(email);
         cliente.setDni(dni);
         cliente.setObservaciones(observaciones);
-        cliente.setEmpresa(empresa);
+        //cliente.setEmpresa(empresa);
         
         repositoryService.persist(cliente);
         return cliente;
