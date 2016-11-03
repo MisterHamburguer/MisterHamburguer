@@ -23,6 +23,7 @@ import org.apache.isis.applib.util.ObjectContracts;
 import org.joda.time.LocalDate;
 
 import domainapp.dom.mister.Personal.Personal;
+import domainapp.dom.mister.Proveedor.Proveedor;
 import domainapp.dom.mister.Rubro.Rubro;
 import domainapp.dom.mister.SubRubro.SubRubro;
 
@@ -55,11 +56,13 @@ import domainapp.dom.mister.SubRubro.SubRubro;
 })
 @javax.jdo.annotations.Unique(name="Articulo_des_UNQ", members= ("nombre"))
 
-@DomainObject(bounded=true)
+@DomainObject(
+		objectType="Articulo"
+)
 @DomainObjectLayout(
 		bookmarking=BookmarkPolicy.AS_ROOT
 )
-@Sequence(name ="descripcion", strategy= SequenceStrategy.CONTIGUOUS)
+@Sequence(name ="nombre", strategy= SequenceStrategy.CONTIGUOUS)
 public class Articulo  implements Comparable<Articulo>{
 	
 	//(valueStrategy = IdGeneratorStrategy.INCREMENT, sequence = "codigo")
@@ -83,6 +86,7 @@ public class Articulo  implements Comparable<Articulo>{
 		 * 
 		 */
 		private static final long serialVersionUID = 1L;}
+	@MemberOrder(sequence="2")
     @javax.jdo.annotations.Column(
             allowsNull="false",
             length = NOMBRE_LENGTH
@@ -102,7 +106,7 @@ public class Articulo  implements Comparable<Articulo>{
 //	
 	
 	@MemberOrder(sequence="3")
-	@javax.jdo.annotations.Column(allowsNull="false")
+	@javax.jdo.annotations.Column(allowsNull="true")
 	public long getCodBarra() {
 		return codBarra;
 	}
@@ -172,8 +176,6 @@ public class Articulo  implements Comparable<Articulo>{
 	}
 
 	private boolean promocion;
-
-	
 	@MemberOrder(sequence="9")
 	@javax.jdo.annotations.Column(allowsNull="false")
 
@@ -183,11 +185,22 @@ public class Articulo  implements Comparable<Articulo>{
 	public void setPromocion(boolean promocion) {
 		this.promocion = promocion;
 	}
-//	
-	private String observaciones;
 	
+	private Boolean activo;
+	@MemberOrder(sequence="9")
+	@javax.jdo.annotations.Column(allowsNull="true")
+	public Boolean getActivo() {
+		return activo;
+	}
+	public void setActivo(Boolean activo) {
+		this.activo = activo;
+	}
+	
+	
+	private String observaciones;
+
 	@MemberOrder(sequence="10")
-	@javax.jdo.annotations.Column(allowsNull="false")
+	@javax.jdo.annotations.Column(allowsNull="true")
 	public String getObservaciones() {
 		return observaciones;
 	}
@@ -218,16 +231,14 @@ public class Articulo  implements Comparable<Articulo>{
 	 this.personal=personal;
 	}
 
-	private int id_Proveedor;
-
-	
+	private Proveedor proveedor;
 	@MemberOrder(sequence="13")
 	@javax.jdo.annotations.Column(allowsNull="false")
-	public int getId_Proveedor() {
-		return id_Proveedor;
+	public Proveedor getProveedor() {
+		return proveedor;
 	}
-	public void setId_Proveedor(int id_Proveedor) {
-		this.id_Proveedor = id_Proveedor;
+	public void setProveedor(Proveedor proveedor) {
+		this.proveedor = proveedor;
 	}
 	
 	
@@ -248,7 +259,7 @@ public class Articulo  implements Comparable<Articulo>{
 	@SuppressWarnings("deprecation")
 	@Override
     public int compareTo(final Articulo other) {
-        return ObjectContracts.compare(this, other, String.valueOf(codigo));
+        return ObjectContracts.compare(this, other, String.valueOf(nombre));
     }
 	
 	
@@ -256,7 +267,6 @@ public class Articulo  implements Comparable<Articulo>{
 	 
     @javax.inject.Inject
     RepositoryService repositoryService;
-//
-//	
+
 	
 }
