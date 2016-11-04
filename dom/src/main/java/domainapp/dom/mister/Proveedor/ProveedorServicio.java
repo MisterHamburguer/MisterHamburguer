@@ -23,6 +23,7 @@ import domainapp.dom.mister.Articulo.Articulo;
 import domainapp.dom.mister.Personal.Personal;
 import domainapp.dom.mister.Personal.PersonalServicio;
 import domainapp.dom.mister.Personal.PersonalServicio.CreateDomainEvent;
+import domainapp.dom.mister.Rubro.Rubro;
 
 @SuppressWarnings("unused")
 @DomainService(
@@ -72,7 +73,9 @@ public class ProveedorServicio {
             final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Condicion Iva ") CondicionIva condicion,
             final @ParameterLayout(named="CUIT") @Parameter(regexPattern = RegexValidation.ValidaCuit.CUIT,
 					regexPatternReplacement= "Formato 00-00000000-0 " 
-            		) String cuit)
+            		) String cuit,
+            final @Parameter(optionality = Optionality.OPTIONAL) @ParameterLayout(named="Rubro") Rubro rubro		
+    		)
     {
         final Proveedor proveedor = repositoryService.instantiate(Proveedor.class);
         
@@ -83,6 +86,7 @@ public class ProveedorServicio {
         proveedor.setCorreoElectronico(email);
         proveedor.setCondicion(condicion);
         proveedor.setCuit(cuit);
+        proveedor.setRubro(rubro);
         repositoryService.persist(proveedor);
         return proveedor;
     }

@@ -16,6 +16,7 @@ import org.apache.isis.applib.services.repository.RepositoryService;
 import domainapp.dom.mister.Persona;
 import domainapp.dom.mister.Articulo.Articulo;
 import domainapp.dom.mister.Personal.PersonalServicio;
+import domainapp.dom.mister.Rubro.Rubro;
 
 @SuppressWarnings({ "unused", "serial" })
 @javax.jdo.annotations.PersistenceCapable(
@@ -134,6 +135,17 @@ public class Proveedor implements Comparable<Proveedor> {
 
 	public void setCondicion(CondicionIva condicion) {
 		this.condicion = condicion;
+	}
+	
+	@MemberOrder(sequence="8")
+	@javax.jdo.annotations.Column(allowsNull="false")
+	private Rubro rubro;
+	
+	public Rubro getRubro() {
+		return rubro;
+	}
+	public void setRubro(Rubro rubro) {
+		this.rubro = rubro;
 	}
 	@Override
 	public int compareTo(Proveedor o) {
