@@ -2,19 +2,26 @@ package domainapp.dom.mister.Articulo;
 
 
 import java.util.List;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+import javax.jdo.annotations.Persistent;
 
 import org.apache.isis.applib.DomainObjectContainer;
 import org.apache.isis.applib.Identifier;
 import org.apache.isis.applib.annotation.Action;
 import org.apache.isis.applib.annotation.ActionLayout;
 import org.apache.isis.applib.annotation.BookmarkPolicy;
+import org.apache.isis.applib.annotation.CollectionLayout;
 import org.apache.isis.applib.annotation.DomainService;
 import org.apache.isis.applib.annotation.DomainServiceLayout;
+import org.apache.isis.applib.annotation.LabelPosition;
 import org.apache.isis.applib.annotation.MemberOrder;
 import org.apache.isis.applib.annotation.NatureOfService;
 import org.apache.isis.applib.annotation.Optionality;
 import org.apache.isis.applib.annotation.Parameter;
 import org.apache.isis.applib.annotation.ParameterLayout;
+import org.apache.isis.applib.annotation.RenderType;
 import org.apache.isis.applib.annotation.SemanticsOf;
 import org.apache.isis.applib.annotation.Where;
 import org.apache.isis.applib.query.QueryDefault;
@@ -36,7 +43,7 @@ import domainapp.dom.mister.SubRubro.SubRubro;
         repositoryFor = Articulo.class
 )
 @DomainServiceLayout(
-        menuOrder = "30",
+        menuOrder = "20",
         named=" Articulos "
 )
 public class ArticuloServicio {
@@ -148,8 +155,8 @@ public class ArticuloServicio {
 	    @MemberOrder(sequence = "30.5")
 	    public Combo creaCombo(
 	        
-	        final @ParameterLayout(named="Nombre") String nombre, 
-	        final @ParameterLayout(named="Precio Venta") float precioVenta,
+	        final @ParameterLayout( named="Nombre") String nombre, 
+	        final @ParameterLayout( named="Precio Venta",multiLine=4 ) float precioVenta,
 	        final @ParameterLayout(named="Activo") boolean activo,
 	        final @ParameterLayout(named="Observaciones") String observaciones,
 	        final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Fecha Alta") LocalDate fechaAlta,
@@ -167,6 +174,52 @@ public class ArticuloServicio {
 	    }
 	    
 	    //EndRegion
+	    
+	    
+	 	    
+	    @Action(
+	            domainEvent = CreateDomainEvent.class
+	    )
+	    
+	    @MemberOrder(sequence = "30.6")
+	    public ComboArticulo cargaCombo(
+	        
+	            final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Combo") Combo combo,
+	            final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Articulo ") Articulo articulo,
+	            final @ParameterLayout(named =" Cantidad ") int cantidad
+			){
+	    	final ComboArticulo comboart = repositoryService.instantiate(ComboArticulo.class);
+	    	comboart.setArticulo(articulo);
+	    	comboart.setCombo(combo);
+	    	comboart.setCantidad(cantidad);
+	    	repositoryService.persist(comboart);
+	        return comboart;
+	    }
+    
+	    //EndRegion
+	    @Action(
+	            semantics = SemanticsOf.SAFE
+	    )
+	    @ActionLayout(
+	            bookmarking = BookmarkPolicy.AS_ROOT
+	    )
+	    @MemberOrder(sequence = "30.7")
+	    public List<ComboArticulo> listComboArt() {
+	        return repositoryService.allInstances(ComboArticulo.class);
+	    }	    
+	    
+	    @MemberOrder(sequence ="30.8")
+	    @Persistent(mappedBy = "Combo", dependentElement="false")
+	    @CollectionLayout(render=RenderType.EAGERLY)
+	    private SortedSet<ComboArticulo> comboar= new TreeSet<ComboArticulo>();
+	 
+	   
+	    public SortedSet<ComboArticulo> getComboArticulo(){
+	    	return comboar;
+	    }
+	    public void setcomboArticulo(final SortedSet<ComboArticulo> comboar){
+	    	this.comboar=comboar;
+	    }
 	    
 	    @ActionLayout(hidden=Where.EVERYWHERE)
 	    public List<Personal> buscarPersonal(String pr){

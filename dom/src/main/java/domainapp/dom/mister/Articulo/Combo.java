@@ -4,15 +4,18 @@ import javax.jdo.annotations.IdentityType;
 import javax.jdo.annotations.Sequence;
 import javax.jdo.annotations.SequenceStrategy;
 import javax.jdo.annotations.VersionStrategy;
+
 import org.apache.isis.applib.annotation.BookmarkPolicy;
 import org.apache.isis.applib.annotation.DomainObject;
 import org.apache.isis.applib.annotation.DomainObjectLayout;
 import org.apache.isis.applib.annotation.MemberOrder;
 import org.apache.isis.applib.annotation.Property;
 import org.apache.isis.applib.services.eventbus.PropertyDomainEvent;
+import org.apache.isis.applib.services.i18n.TranslatableString;
 import org.apache.isis.applib.services.repository.RepositoryService;
 import org.apache.isis.applib.util.ObjectContracts;
 import org.joda.time.LocalDate;
+
 import domainapp.dom.mister.Articulo.Articulo.DescripcionDomainEvent;
 import domainapp.dom.mister.Personal.Personal;
 @SuppressWarnings("unused")
@@ -39,19 +42,32 @@ import domainapp.dom.mister.Personal.Personal;
                         + "FROM domainapp.dom.mister.Combo "
                         + "WHERE nombre.indexOf(:nombre)  >= 0 "
  ),
+ 		@javax.jdo.annotations.Query(
+ 				name = "traerCombo", language = "JDOQL",
+ 				value = "SELECT "
+                 + "FROM domainapp.dom.mister.Combo "
+                 + "WHERE nombre == :nombre"
+                 + "|| nombre.indexOf(:nombre) >= 0 ")
     
 })
 @javax.jdo.annotations.Unique(name="Combo_nom_UNQ", members= ("nombre"))
 
-@DomainObject(
-		objectType="Combo"
-)
+//@DomainObject(
+//		objectType="Combo"
+//)
+@DomainObject(bounded=true)
 @DomainObjectLayout(
 		bookmarking=BookmarkPolicy.AS_ROOT
 )
 @Sequence(name ="nombre", strategy= SequenceStrategy.CONTIGUOUS)
 public class Combo implements Comparable<Combo> {
+	
 	public static final int NOMBRE_LENGTH = 40;
+	
+	public TranslatableString title() {
+        return TranslatableString.tr("{nombre}", "nombre", this.getNombre());
+    }
+	
 	public static class DescripcionDomainEvent extends PropertyDomainEvent<Combo,String> {
 		private static final long serialVersionUID = 1L;
 	}

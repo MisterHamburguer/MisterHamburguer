@@ -18,6 +18,7 @@ import org.apache.isis.applib.annotation.Property;
 import org.apache.isis.applib.annotation.SemanticsOf;
 import org.apache.isis.applib.services.eventbus.ActionDomainEvent;
 import org.apache.isis.applib.services.eventbus.PropertyDomainEvent;
+import org.apache.isis.applib.services.i18n.TranslatableString;
 import org.apache.isis.applib.services.repository.RepositoryService;
 import org.apache.isis.applib.util.ObjectContracts;
 import org.joda.time.LocalDate;
@@ -56,9 +57,10 @@ import domainapp.dom.mister.SubRubro.SubRubro;
 })
 @javax.jdo.annotations.Unique(name="Articulo_des_UNQ", members= ("nombre"))
 
-@DomainObject(
-		objectType="Articulo"
-)
+//@DomainObject(
+//		objectType="Articulo"
+//)
+@DomainObject(bounded=true)
 @DomainObjectLayout(
 		bookmarking=BookmarkPolicy.AS_ROOT
 )
@@ -66,6 +68,20 @@ import domainapp.dom.mister.SubRubro.SubRubro;
 public class Articulo  implements Comparable<Articulo>{
 	
 	//(valueStrategy = IdGeneratorStrategy.INCREMENT, sequence = "codigo")
+	public TranslatableString title() {
+        return TranslatableString.tr("{nombre}", "nombre", this.getNombre());
+    }
+	
+	
+	
+	public static final int NOMBRE_LENGTH = 60;
+	
+	
+	
+	public static class DescripcionDomainEvent extends PropertyDomainEvent<Articulo,String> {
+		private static final long serialVersionUID = 1L;
+	}
+
 	@MemberOrder(sequence="1")
 	@javax.jdo.annotations.Column(allowsNull="false")
 	private int codigo;
@@ -76,16 +92,6 @@ public class Articulo  implements Comparable<Articulo>{
 		this.codigo = codigo;
 	}
 	
-	public static final int NOMBRE_LENGTH = 60;
-	
-	
-	
-	public static class DescripcionDomainEvent extends PropertyDomainEvent<Articulo,String> {
-
-		/**
-		 * 
-		 */
-		private static final long serialVersionUID = 1L;}
 	@MemberOrder(sequence="2")
     @javax.jdo.annotations.Column(
             allowsNull="false",
@@ -188,7 +194,7 @@ public class Articulo  implements Comparable<Articulo>{
 	
 	private Boolean activo;
 	@MemberOrder(sequence="9")
-	@javax.jdo.annotations.Column(allowsNull="true")
+	@javax.jdo.annotations.Column(allowsNull="false")
 	public Boolean getActivo() {
 		return activo;
 	}
@@ -244,11 +250,12 @@ public class Articulo  implements Comparable<Articulo>{
 	
 	public static class DeleteDomainEvent extends ActionDomainEvent<Articulo> {
 
-		/**
-		 * 
-		 */
-		private static final long serialVersionUID = 1L;}
-    @Action(
+
+		private static final long serialVersionUID = 1L;
+	
+	}
+    
+	@Action(
             domainEvent = DeleteDomainEvent.class,
             semantics = SemanticsOf.NON_IDEMPOTENT_ARE_YOU_SURE
     )
