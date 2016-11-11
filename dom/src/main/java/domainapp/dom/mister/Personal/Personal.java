@@ -65,7 +65,7 @@ public class Personal extends Persona implements Comparable<Personal> {
 
 
     public TranslatableString title() {
-        return TranslatableString.tr("{nombre}", "nombre", this.getApellido()+" "+this.getNombre());
+        return TranslatableString.tr("{nombre}", "nombre", this.getApellido()+" "+this.getNombre()+"--"+this.getCategoria());
     }
 	private static final long serialVersionUID = 1L;
 	
@@ -82,6 +82,15 @@ public class Personal extends Persona implements Comparable<Personal> {
 		this.legajo = legajo;
 	}
 	
+	@MemberOrder(sequence="2")
+	@javax.jdo.annotations.Column(allowsNull="false")
+	private Categoria categoria;
+	public Categoria getCategoria() {
+		return categoria;
+	}
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
 	
 	@ActionLayout(hidden = Where.EVERYWHERE)
     public List<Personal> buscarPersonal(String personal){

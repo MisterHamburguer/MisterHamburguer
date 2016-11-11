@@ -10,6 +10,8 @@ import org.apache.isis.applib.annotation.DomainService;
 import org.apache.isis.applib.annotation.DomainServiceLayout;
 import org.apache.isis.applib.annotation.MemberOrder;
 import org.apache.isis.applib.annotation.NatureOfService;
+import org.apache.isis.applib.annotation.Optionality;
+import org.apache.isis.applib.annotation.Parameter;
 import org.apache.isis.applib.annotation.ParameterLayout;
 import org.apache.isis.applib.annotation.SemanticsOf;
 import org.apache.isis.applib.services.eventbus.ActionDomainEvent;
@@ -39,7 +41,7 @@ public class PersonalServicio {
     @ActionLayout(
             bookmarking = BookmarkPolicy.AS_ROOT
     )
-    @MemberOrder(sequence = "1")
+    @MemberOrder(sequence = "35.1")
     public List<Personal> listAll() {
         return repositoryService.allInstances(Personal.class);
     }
@@ -56,7 +58,7 @@ public class PersonalServicio {
     @Action(
             domainEvent = CreateDomainEvent.class
     )
-    @MemberOrder(sequence = "3")
+    @MemberOrder(sequence = "35.2")
     public Personal create(
     		final @ParameterLayout(named="Legajo") int legajo,
             final @ParameterLayout(named="Nombre") String nombre,
@@ -64,7 +66,8 @@ public class PersonalServicio {
             final @ParameterLayout(named="Direccion") String direccion,
             final @ParameterLayout(named="Telefono") int telefono,
             final @ParameterLayout(named="Email") String email,
-            final @ParameterLayout(named="DNI") int dni)
+            final @ParameterLayout(named="DNI") int dni,
+            final @Parameter(optionality=Optionality.OPTIONAL) @ParameterLayout(named="Categoria") Categoria categoria)
             
     {
         final Personal personal = repositoryService.instantiate(Personal.class);
@@ -75,6 +78,7 @@ public class PersonalServicio {
         personal.setTelefono(telefono);
         personal.setEmail(email);
         personal.setDni(dni);
+        personal.setCategoria(categoria);
         repositoryService.persist(personal);
         return personal;
     }

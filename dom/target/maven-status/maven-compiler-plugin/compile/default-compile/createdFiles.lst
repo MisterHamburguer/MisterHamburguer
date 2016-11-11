@@ -31,6 +31,7 @@ domainapp/dom/mister/Articulo/Articulo.class
 domainapp/dom/mister/SubRubro/QSubRubro.class
 domainapp/dom/mister/Persona.class
 domainapp/dom/mister/Articulo/ComboArticulo.class
+domainapp/dom/mister/Personal/Categoria.class
 domainapp/dom/mister/Personal/PersonalServicio.class
 domainapp/dom/mister/Articulo/Articulo$DescripcionDomainEvent.class
 domainapp/dom/mister/Cliente/ClienteServicio.class
