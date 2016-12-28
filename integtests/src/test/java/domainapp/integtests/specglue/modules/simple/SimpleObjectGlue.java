@@ -24,27 +24,27 @@ import org.apache.isis.core.specsupport.specs.CukeGlueAbstract;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import domainapp.dom.mister.Rubro.Rubro;
-import domainapp.dom.mister.Rubro.Rubros;
+//import domainapp.dom.mister.Rubro.Rubros;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class SimpleObjectGlue extends CukeGlueAbstract {
 
-    @Given("^there are.* (\\d+) simple objects$")
-    public void there_are_N_simple_objects(int n) throws Throwable {
-        try {
-            final List<Rubro> findAll = service(Rubros.class).listAll();
-            assertThat(findAll.size(), is(n));
-            putVar("list", "all", findAll);
-            
-        } finally {
-            assertMocksSatisfied();
-        }
-    }
+//    @Given("^there are.* (\\d+) simple objects$")
+//    public void there_are_N_simple_objects(int n) throws Throwable {
+//        try {
+//            final List<Rubro> findAll = service(Rubros.class).listAll();
+//            assertThat(findAll.size(), is(n));
+//            putVar("list", "all", findAll);
+//            
+//        } finally {
+//            assertMocksSatisfied();
+//        }
+//    }
     
     @When("^I create a new simple object$")
     public void I_create_a_new_simple_object() throws Throwable {
-        service(Rubros.class).create(0, UUID.randomUUID().toString());
+//        service(Rubros.class).create(0, UUID.randomUUID().toString());
     }
     
 }

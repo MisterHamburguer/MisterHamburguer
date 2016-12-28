@@ -22,7 +22,7 @@ package domainapp.fixture.dom.simple;
 import org.apache.isis.applib.fixturescripts.FixtureScript;
 
 import domainapp.dom.mister.Rubro.Rubro;
-import domainapp.dom.mister.Rubro.Rubros;
+//import domainapp.dom.mister.Rubro.Rubros;
 
 public class SimpleObjectCreate extends FixtureScript {
 
@@ -59,13 +59,13 @@ public class SimpleObjectCreate extends FixtureScript {
 
         String name = checkParam("name", ec, String.class);
 
-        this.rubro = wrap(rubros).create(0, name);
+//        this.rubro = wrap(rubros).create(0, name);
 
         // also make available to UI
         ec.addResult(this, rubro);
     }
 
-    @javax.inject.Inject
-    private Rubros rubros;
+//    @javax.inject.Inject
+//    private Rubros rubros;
 
 }

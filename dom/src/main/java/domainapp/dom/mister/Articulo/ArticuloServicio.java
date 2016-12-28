@@ -32,7 +32,7 @@ import org.joda.time.LocalDate;
 
 import domainapp.dom.mister.Personal.Personal;
 import domainapp.dom.mister.Personal.PersonalServicio;
-import domainapp.dom.mister.Proveedor.Proveedor;
+import domainapp.dom.mister.Provedor.Proveedor;
 import domainapp.dom.mister.Rubro.Rubro;
 import domainapp.dom.mister.SubRubro.SubRubro;
 
