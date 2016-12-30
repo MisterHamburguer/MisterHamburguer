@@ -19,11 +19,17 @@
 package domainapp.app.services.homepage;
 
 import java.util.List;
-
+import org.apache.isis.applib.annotation.CollectionLayout;
+import org.apache.isis.applib.annotation.HomePage;
 import org.apache.isis.applib.annotation.ViewModel;
 
 import domainapp.dom.mister.Rubro.Rubro;
-
+import domainapp.dom.mister.Cliente.Cliente;
+import domainapp.dom.mister.Cliente.ClienteServicio;
+import domainapp.dom.mister.Personal.Personal;
+import domainapp.dom.mister.Personal.PersonalServicio;
+import domainapp.dom.mister.Provedor.Proveedor;
+import domainapp.dom.mister.Provedor.ProveedorServicio;
 
 
 
@@ -31,18 +37,43 @@ import domainapp.dom.mister.Rubro.Rubro;
 @ViewModel
 public class HomePageViewModel {
 
-    //region > title
-   
+	 //region > titulo del Homepage
+    public String title() {
+        return "Consola de Administracion";
+    }
     //endregion
 
-    //region > object (collection)
-   
-    //endregion
+    @HomePage()
+    @CollectionLayout(named="Listado Clientes")
+    public List<Cliente> getClientes() {
+    return clienteServicio.VerTodos();
+     }
+    
+    @HomePage()
+    @CollectionLayout(named="Listado Proveedores")
+    public List<Proveedor> getProveedores() {
+    return proveedorServicio.listAll();
+    }
+    
+    @HomePage()
+    @CollectionLayout(named="Listado Personal")
+    public List<Personal> getPersonals() {
+    return personalServicio.listAll();
+    }
 
     //region > injected services
 
     @javax.inject.Inject
     domainapp.dom.mister.Rubro.RubroServicio rubroServicio;
 
+    @javax.inject.Inject
+    domainapp.dom.mister.Cliente.ClienteServicio clienteServicio;
+    
+    @javax.inject.Inject
+    domainapp.dom.mister.Provedor.ProveedorServicio proveedorServicio;
+    
+    @javax.inject.Inject
+    domainapp.dom.mister.Personal.PersonalServicio personalServicio;
+    
     //endregion
 }

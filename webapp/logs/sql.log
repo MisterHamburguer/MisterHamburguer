@@ -1,564 +1,306 @@
-2016-12-27 10:26:38.241 La columna ""DELETEME1482845198211"."UNUSED"" añadió a la representación de la table.
-2016-12-27 10:26:38.268 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:38.268 Crear la tabla "DELETEME1482845198211"
-2016-12-27 10:26:38.293 CREATE TABLE "DELETEME1482845198211"
+2016-12-30 11:31:31.297 La columna ""DELETEME1483108291252"."UNUSED"" añadió a la representación de la table.
+2016-12-30 11:31:31.324 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:31.328 Crear la tabla "DELETEME1483108291252"
+2016-12-30 11:31:31.358 CREATE TABLE "DELETEME1483108291252"
 (
     "UNUSED" int4 NOT NULL
 )
-2016-12-27 10:26:38.358 Tiempo de cumplir = 65 ms
-2016-12-27 10:26:38.388 No era posible determinar el nombre del catalogo por este DataStore
-2016-12-27 10:26:38.393 Borrar la tabla "DELETEME1482845198211"
-2016-12-27 10:26:38.393 DROP TABLE "DELETEME1482845198211" CASCADE
-2016-12-27 10:26:38.408 Tiempo de cumplir = 15 ms
-2016-12-27 10:26:40.258 La columna ""DELETEME1482845200258"."UNUSED"" añadió a la representación de la table.
-2016-12-27 10:26:40.258 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:40.258 Crear la tabla "DELETEME1482845200258"
-2016-12-27 10:26:40.258 CREATE TABLE "DELETEME1482845200258"
+2016-12-30 11:31:31.383 Tiempo de cumplir = 25 ms
+2016-12-30 11:31:31.413 No era posible determinar el nombre del catalogo por este DataStore
+2016-12-30 11:31:31.413 Borrar la tabla "DELETEME1483108291252"
+2016-12-30 11:31:31.413 DROP TABLE "DELETEME1483108291252" CASCADE
+2016-12-30 11:31:31.428 Tiempo de cumplir = 15 ms
+2016-12-30 11:31:33.405 La columna ""DELETEME1483108293405"."UNUSED"" añadió a la representación de la table.
+2016-12-30 11:31:33.410 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:33.410 Crear la tabla "DELETEME1483108293405"
+2016-12-30 11:31:33.410 CREATE TABLE "DELETEME1483108293405"
 (
     "UNUSED" int4 NOT NULL
 )
-2016-12-27 10:26:40.275 Tiempo de cumplir = 17 ms
-2016-12-27 10:26:40.295 No era posible determinar el nombre del catalogo por este DataStore
-2016-12-27 10:26:40.295 Borrar la tabla "DELETEME1482845200258"
-2016-12-27 10:26:40.300 DROP TABLE "DELETEME1482845200258" CASCADE
-2016-12-27 10:26:40.305 Tiempo de cumplir = 5 ms
-2016-12-27 10:26:43.514 La columna ""mister"."Personal"."personal_id"" añadió a la representación de la table.
-2016-12-27 10:26:43.514 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.519 Campo [DATASTORE_ID] -> Columnas ["mister"."Personal"."personal_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.529 La columna ""mister"."SubRubro"."subrubro_id"" añadió a la representación de la table.
-2016-12-27 10:26:43.534 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.534 Campo [DATASTORE_ID] -> Columnas ["mister"."SubRubro"."subrubro_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.534 La columna ""mister"."Rubro"."rubro_id"" añadió a la representación de la table.
-2016-12-27 10:26:43.534 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.534 Campo [DATASTORE_ID] -> Columnas ["mister"."Rubro"."rubro_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.534 La columna ""mister"."Proveedor"."proveedor_id"" añadió a la representación de la table.
-2016-12-27 10:26:43.534 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.539 Campo [DATASTORE_ID] -> Columnas ["mister"."Proveedor"."proveedor_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.539 La columna ""mister"."Articulo"."articulo_id"" añadió a la representación de la table.
-2016-12-27 10:26:43.539 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.539 Campo [DATASTORE_ID] -> Columnas ["mister"."Articulo"."articulo_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.544 La columna ""mister"."Combo"."combo_id"" añadió a la representación de la table.
-2016-12-27 10:26:43.544 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.544 Campo [DATASTORE_ID] -> Columnas ["mister"."Combo"."combo_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.544 La columna ""mister"."ComboArticulo"."comboArt_id"" añadió a la representación de la table.
-2016-12-27 10:26:43.549 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.549 Campo [DATASTORE_ID] -> Columnas ["mister"."ComboArticulo"."comboArt_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.549 La columna ""mister"."Cliente"."cliente_id"" añadió a la representación de la table.
-2016-12-27 10:26:43.549 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.549 Campo [DATASTORE_ID] -> Columnas ["mister"."Cliente"."cliente_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.554 La tabla "mister"."Rubro" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Rubro.Rubro (estrategia de heredar="new-table")
-2016-12-27 10:26:43.559 La columna ""mister"."Rubro"."nombre"" añadió a la representación de la table.
-2016-12-27 10:26:43.574 Campo [domainapp.dom.mister.Rubro.Rubro.nombre] -> Columnas ["mister"."Rubro"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.594 Campo [domainapp.dom.mister.Rubro.Rubro.subrubro] -> Columnas [[none]] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
-2016-12-27 10:26:43.599 La columna ""mister"."Rubro"."version"" añadió a la representación de la table.
-2016-12-27 10:26:43.599 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.599 Campo [VERSION] -> Columnas ["mister"."Rubro"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.599 Table/View "mister"."Rubro" ha sido inicializado
-2016-12-27 10:26:43.604 La tabla "mister"."Combo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.Combo (estrategia de heredar="new-table")
-2016-12-27 10:26:43.604 La columna ""mister"."Combo"."activo"" añadió a la representación de la table.
-2016-12-27 10:26:43.604 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.609 Campo [domainapp.dom.mister.Articulo.Combo.activo] -> Columnas ["mister"."Combo"."activo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
-2016-12-27 10:26:43.624 La columna ""mister"."Combo"."fechaAlta"" añadió a la representación de la table.
-2016-12-27 10:26:43.629 Campo [domainapp.dom.mister.Articulo.Combo.fechaAlta] -> Columnas ["mister"."Combo"."fechaAlta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.TypeConverterMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
-2016-12-27 10:26:43.629 La columna ""mister"."Combo"."nombre"" añadió a la representación de la table.
-2016-12-27 10:26:43.629 Campo [domainapp.dom.mister.Articulo.Combo.nombre] -> Columnas ["mister"."Combo"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.629 La columna ""mister"."Combo"."observaciones"" añadió a la representación de la table.
-2016-12-27 10:26:43.634 Campo [domainapp.dom.mister.Articulo.Combo.observaciones] -> Columnas ["mister"."Combo"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.644 La columna ""mister"."Combo"."personal_personal_id_OID"" añadió a la representación de la table.
-2016-12-27 10:26:43.644 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.644 Campo [domainapp.dom.mister.Articulo.Combo.personal] -> Columnas ["mister"."Combo"."personal_personal_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.644 La columna ""mister"."Combo"."precioVenta"" añadió a la representación de la table.
-2016-12-27 10:26:43.649 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.654 Campo [domainapp.dom.mister.Articulo.Combo.precioVenta] -> Columnas ["mister"."Combo"."precioVenta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
-2016-12-27 10:26:43.659 La columna ""mister"."Combo"."version"" añadió a la representación de la table.
-2016-12-27 10:26:43.664 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.664 Campo [VERSION] -> Columnas ["mister"."Combo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2016-12-27 10:26:43.664 Table/View "mister"."Combo" ha sido inicializado
-2016-12-27 10:26:43.664 La tabla "mister"."ComboArticulo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.ComboArticulo (estrategia de heredar="new-table")
-2016-12-27 10:26:43.669 La columna ""mister"."ComboArticulo"."articulo_articulo_id_OID"" añadió a la representación de la table.
-2016-12-27 10:26:43.669 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.669 Campo [domainapp.dom.mister.Articulo.ComboArticulo.articulo] -> Columnas ["mister"."ComboArticulo"."articulo_articulo_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.669 La columna ""mister"."ComboArticulo"."cantidad"" añadió a la representación de la table.
-2016-12-27 10:26:43.669 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.669 Campo [domainapp.dom.mister.Articulo.ComboArticulo.cantidad] -> Columnas ["mister"."ComboArticulo"."cantidad"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-27 10:26:43.674 La columna ""mister"."ComboArticulo"."combo_combo_id_OID"" añadió a la representación de la table.
-2016-12-27 10:26:43.674 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.674 Campo [domainapp.dom.mister.Articulo.ComboArticulo.combo] -> Columnas ["mister"."ComboArticulo"."combo_combo_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.674 La columna ""mister"."ComboArticulo"."version"" añadió a la representación de la table.
-2016-12-27 10:26:43.679 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.679 Campo [VERSION] -> Columnas ["mister"."ComboArticulo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2016-12-27 10:26:43.679 Table/View "mister"."ComboArticulo" ha sido inicializado
-2016-12-27 10:26:43.679 La tabla "mister"."SubRubro" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.SubRubro.SubRubro (estrategia de heredar="new-table")
-2016-12-27 10:26:43.679 La columna ""mister"."SubRubro"."nombre"" añadió a la representación de la table.
-2016-12-27 10:26:43.679 Campo [domainapp.dom.mister.SubRubro.SubRubro.nombre] -> Columnas ["mister"."SubRubro"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.684 La columna ""mister"."SubRubro"."rubro_rubro_id_OID"" añadió a la representación de la table.
-2016-12-27 10:26:43.684 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.684 Campo [domainapp.dom.mister.SubRubro.SubRubro.rubro] -> Columnas ["mister"."SubRubro"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.689 La columna ""mister"."SubRubro"."version"" añadió a la representación de la table.
-2016-12-27 10:26:43.689 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.689 Campo [VERSION] -> Columnas ["mister"."SubRubro"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.689 Table/View "mister"."SubRubro" ha sido inicializado
-2016-12-27 10:26:43.689 La tabla "mister"."Proveedor" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Provedor.Proveedor (estrategia de heredar="new-table")
-2016-12-27 10:26:43.704 La columna ""mister"."Proveedor"."condicion"" añadió a la representación de la table.
-2016-12-27 10:26:43.709 Campo [domainapp.dom.mister.Provedor.Proveedor.condicion] -> Columnas ["mister"."Proveedor"."condicion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.709 La columna ""mister"."Proveedor"."contacto"" añadió a la representación de la table.
-2016-12-27 10:26:43.714 Campo [domainapp.dom.mister.Provedor.Proveedor.contacto] -> Columnas ["mister"."Proveedor"."contacto"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.714 La columna ""mister"."Proveedor"."correoElectronico"" añadió a la representación de la table.
-2016-12-27 10:26:43.714 Campo [domainapp.dom.mister.Provedor.Proveedor.correoElectronico] -> Columnas ["mister"."Proveedor"."correoElectronico"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.719 La columna ""mister"."Proveedor"."cuit"" añadió a la representación de la table.
-2016-12-27 10:26:43.719 Campo [domainapp.dom.mister.Provedor.Proveedor.cuit] -> Columnas ["mister"."Proveedor"."cuit"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.724 La columna ""mister"."Proveedor"."direccion"" añadió a la representación de la table.
-2016-12-27 10:26:43.724 Campo [domainapp.dom.mister.Provedor.Proveedor.direccion] -> Columnas ["mister"."Proveedor"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.724 La columna ""mister"."Proveedor"."nombreComercial"" añadió a la representación de la table.
-2016-12-27 10:26:43.729 Campo [domainapp.dom.mister.Provedor.Proveedor.nombreComercial] -> Columnas ["mister"."Proveedor"."nombreComercial"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.729 La columna ""mister"."Proveedor"."rubro_rubro_id_OID"" añadió a la representación de la table.
-2016-12-27 10:26:43.729 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.729 Campo [domainapp.dom.mister.Provedor.Proveedor.rubro] -> Columnas ["mister"."Proveedor"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.734 La columna ""mister"."Proveedor"."telefono"" añadió a la representación de la table.
-2016-12-27 10:26:43.734 Campo [domainapp.dom.mister.Provedor.Proveedor.telefono] -> Columnas ["mister"."Proveedor"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.734 La columna ""mister"."Proveedor"."version"" añadió a la representación de la table.
-2016-12-27 10:26:43.734 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.739 Campo [VERSION] -> Columnas ["mister"."Proveedor"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.744 Table/View "mister"."Proveedor" ha sido inicializado
-2016-12-27 10:26:43.744 La tabla "mister"."Personal" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Personal.Personal (estrategia de heredar="new-table")
-2016-12-27 10:26:43.744 La columna ""mister"."Personal"."categoria"" añadió a la representación de la table.
-2016-12-27 10:26:43.749 Campo [domainapp.dom.mister.Personal.Personal.categoria] -> Columnas ["mister"."Personal"."categoria"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.754 La columna ""mister"."Personal"."legajo"" añadió a la representación de la table.
-2016-12-27 10:26:43.754 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.759 Campo [domainapp.dom.mister.Personal.Personal.legajo] -> Columnas ["mister"."Personal"."legajo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-27 10:26:43.759 La tabla "mister"."Personal" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Persona (estrategia de heredar="subclass-table")
-2016-12-27 10:26:43.759 La columna ""mister"."Personal"."apellido"" añadió a la representación de la table.
-2016-12-27 10:26:43.759 Campo [domainapp.dom.mister.Persona.apellido] -> Columnas ["mister"."Personal"."apellido"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.759 La columna ""mister"."Personal"."direccion"" añadió a la representación de la table.
-2016-12-27 10:26:43.759 Campo [domainapp.dom.mister.Persona.direccion] -> Columnas ["mister"."Personal"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.764 La columna ""mister"."Personal"."dni"" añadió a la representación de la table.
-2016-12-27 10:26:43.764 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.764 Campo [domainapp.dom.mister.Persona.dni] -> Columnas ["mister"."Personal"."dni"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-27 10:26:43.764 La columna ""mister"."Personal"."email"" añadió a la representación de la table.
-2016-12-27 10:26:43.769 Campo [domainapp.dom.mister.Persona.email] -> Columnas ["mister"."Personal"."email"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.769 La columna ""mister"."Personal"."nombre"" añadió a la representación de la table.
-2016-12-27 10:26:43.774 Campo [domainapp.dom.mister.Persona.nombre] -> Columnas ["mister"."Personal"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.774 La columna ""mister"."Personal"."telefono"" añadió a la representación de la table.
-2016-12-27 10:26:43.774 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.779 Campo [domainapp.dom.mister.Persona.telefono] -> Columnas ["mister"."Personal"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-27 10:26:43.779 La columna ""mister"."Personal"."version"" añadió a la representación de la table.
-2016-12-27 10:26:43.779 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.779 Campo [VERSION] -> Columnas ["mister"."Personal"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2016-12-27 10:26:43.779 Table/View "mister"."Personal" ha sido inicializado
-2016-12-27 10:26:43.779 La tabla "mister"."Cliente" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Cliente.Cliente (estrategia de heredar="new-table")
-2016-12-27 10:26:43.779 La columna ""mister"."Cliente"."observaciones"" añadió a la representación de la table.
-2016-12-27 10:26:43.779 Campo [domainapp.dom.mister.Cliente.Cliente.observaciones] -> Columnas ["mister"."Cliente"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.784 La tabla "mister"."Cliente" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Persona (estrategia de heredar="subclass-table")
-2016-12-27 10:26:43.784 La columna ""mister"."Cliente"."apellido"" añadió a la representación de la table.
-2016-12-27 10:26:43.784 Campo [domainapp.dom.mister.Persona.apellido] -> Columnas ["mister"."Cliente"."apellido"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.784 La columna ""mister"."Cliente"."direccion"" añadió a la representación de la table.
-2016-12-27 10:26:43.789 Campo [domainapp.dom.mister.Persona.direccion] -> Columnas ["mister"."Cliente"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.789 La columna ""mister"."Cliente"."dni"" añadió a la representación de la table.
-2016-12-27 10:26:43.789 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.789 Campo [domainapp.dom.mister.Persona.dni] -> Columnas ["mister"."Cliente"."dni"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-27 10:26:43.789 La columna ""mister"."Cliente"."email"" añadió a la representación de la table.
-2016-12-27 10:26:43.789 Campo [domainapp.dom.mister.Persona.email] -> Columnas ["mister"."Cliente"."email"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.794 La columna ""mister"."Cliente"."nombre"" añadió a la representación de la table.
-2016-12-27 10:26:43.794 Campo [domainapp.dom.mister.Persona.nombre] -> Columnas ["mister"."Cliente"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.794 La columna ""mister"."Cliente"."telefono"" añadió a la representación de la table.
-2016-12-27 10:26:43.794 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.794 Campo [domainapp.dom.mister.Persona.telefono] -> Columnas ["mister"."Cliente"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-27 10:26:43.794 La columna ""mister"."Cliente"."version"" añadió a la representación de la table.
-2016-12-27 10:26:43.794 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.794 Campo [VERSION] -> Columnas ["mister"."Cliente"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2016-12-27 10:26:43.799 Table/View "mister"."Cliente" ha sido inicializado
-2016-12-27 10:26:43.799 La tabla "mister"."Articulo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.Articulo (estrategia de heredar="new-table")
-2016-12-27 10:26:43.799 La columna ""mister"."Articulo"."activo"" añadió a la representación de la table.
-2016-12-27 10:26:43.799 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.799 Campo [domainapp.dom.mister.Articulo.Articulo.activo] -> Columnas ["mister"."Articulo"."activo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
-2016-12-27 10:26:43.799 La columna ""mister"."Articulo"."codBarra"" añadió a la representación de la table.
-2016-12-27 10:26:43.799 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.804 Campo [domainapp.dom.mister.Articulo.Articulo.codBarra] -> Columnas ["mister"."Articulo"."codBarra"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.LongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.804 La columna ""mister"."Articulo"."codigo"" añadió a la representación de la table.
-2016-12-27 10:26:43.804 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.804 Campo [domainapp.dom.mister.Articulo.Articulo.codigo] -> Columnas ["mister"."Articulo"."codigo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-27 10:26:43.809 La columna ""mister"."Articulo"."fechaAlta"" añadió a la representación de la table.
-2016-12-27 10:26:43.809 Campo [domainapp.dom.mister.Articulo.Articulo.fechaAlta] -> Columnas ["mister"."Articulo"."fechaAlta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.TypeConverterMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
-2016-12-27 10:26:43.809 La columna ""mister"."Articulo"."iva"" añadió a la representación de la table.
-2016-12-27 10:26:43.809 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.809 Campo [domainapp.dom.mister.Articulo.Articulo.iva] -> Columnas ["mister"."Articulo"."iva"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
-2016-12-27 10:26:43.814 La columna ""mister"."Articulo"."nombre"" añadió a la representación de la table.
-2016-12-27 10:26:43.814 Campo [domainapp.dom.mister.Articulo.Articulo.nombre] -> Columnas ["mister"."Articulo"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.814 La columna ""mister"."Articulo"."observaciones"" añadió a la representación de la table.
-2016-12-27 10:26:43.814 Campo [domainapp.dom.mister.Articulo.Articulo.observaciones] -> Columnas ["mister"."Articulo"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-27 10:26:43.819 La columna ""mister"."Articulo"."personal_personal_id_OID"" añadió a la representación de la table.
-2016-12-27 10:26:43.819 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.824 Campo [domainapp.dom.mister.Articulo.Articulo.personal] -> Columnas ["mister"."Articulo"."personal_personal_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.824 La columna ""mister"."Articulo"."precioCosto"" añadió a la representación de la table.
-2016-12-27 10:26:43.824 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.824 Campo [domainapp.dom.mister.Articulo.Articulo.precioCosto] -> Columnas ["mister"."Articulo"."precioCosto"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
-2016-12-27 10:26:43.824 La columna ""mister"."Articulo"."precioVenta"" añadió a la representación de la table.
-2016-12-27 10:26:43.824 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.829 Campo [domainapp.dom.mister.Articulo.Articulo.precioVenta] -> Columnas ["mister"."Articulo"."precioVenta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
-2016-12-27 10:26:43.829 La columna ""mister"."Articulo"."promocion"" añadió a la representación de la table.
-2016-12-27 10:26:43.829 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.829 Campo [domainapp.dom.mister.Articulo.Articulo.promocion] -> Columnas ["mister"."Articulo"."promocion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
-2016-12-27 10:26:43.829 La columna ""mister"."Articulo"."proveedor_proveedor_id_OID"" añadió a la representación de la table.
-2016-12-27 10:26:43.829 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.836 Campo [domainapp.dom.mister.Articulo.Articulo.proveedor] -> Columnas ["mister"."Articulo"."proveedor_proveedor_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.836 La columna ""mister"."Articulo"."rubro_rubro_id_OID"" añadió a la representación de la table.
-2016-12-27 10:26:43.841 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.841 Campo [domainapp.dom.mister.Articulo.Articulo.rubro] -> Columnas ["mister"."Articulo"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.846 La columna ""mister"."Articulo"."sub_Rubro_subrubro_id_OID"" añadió a la representación de la table.
-2016-12-27 10:26:43.846 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.846 Campo [domainapp.dom.mister.Articulo.Articulo.sub_Rubro] -> Columnas ["mister"."Articulo"."sub_Rubro_subrubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-27 10:26:43.846 La columna ""mister"."Articulo"."version"" añadió a la representación de la table.
-2016-12-27 10:26:43.846 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
-2016-12-27 10:26:43.846 Campo [VERSION] -> Columnas ["mister"."Articulo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2016-12-27 10:26:43.851 Table/View "mister"."Articulo" ha sido inicializado
-2016-12-27 10:26:43.871 Empezando transaccion del esquema con conneccion "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@1eec06b" y isolacion "serializable"
-2016-12-27 10:26:43.881 Check of existence of "mister"."Rubro" returned table type of TABLE
-2016-12-27 10:26:43.891 Cargando información de columna para las tablas "Rubro" por el Catalogo "", el Esquema "mister"
-2016-12-27 10:26:43.951 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 60 ms
-2016-12-27 10:26:43.951 Información de columna cargado por la tabla "Rubro" : hemos encontrado 3 columnas
-2016-12-27 10:26:43.961 Check of existence of "mister"."Combo" returned table type of TABLE
-2016-12-27 10:26:43.966 Cargando información de columna para las tablas "Combo" por el Catalogo "", el Esquema "mister"
-2016-12-27 10:26:43.986 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 20 ms
-2016-12-27 10:26:43.986 Información de columna cargado por la tabla "Combo" : hemos encontrado 8 columnas
-2016-12-27 10:26:44.001 Check of existence of "mister"."ComboArticulo" returned table type of TABLE
-2016-12-27 10:26:44.001 Cargando información de columna para las tablas "ComboArticulo" por el Catalogo "", el Esquema "mister"
-2016-12-27 10:26:44.026 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
-2016-12-27 10:26:44.026 Información de columna cargado por la tabla "ComboArticulo" : hemos encontrado 5 columnas
-2016-12-27 10:26:44.036 Check of existence of "mister"."SubRubro" returned table type of TABLE
-2016-12-27 10:26:44.041 Cargando información de columna para las tablas "SubRubro" por el Catalogo "", el Esquema "mister"
-2016-12-27 10:26:44.066 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
-2016-12-27 10:26:44.066 Información de columna cargado por la tabla "SubRubro" : hemos encontrado 4 columnas
-2016-12-27 10:26:44.076 Check of existence of "mister"."Proveedor" returned table type of TABLE
-2016-12-27 10:26:44.076 Cargando información de columna para las tablas "Proveedor" por el Catalogo "", el Esquema "mister"
-2016-12-27 10:26:44.101 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
-2016-12-27 10:26:44.101 Información de columna cargado por la tabla "Proveedor" : hemos encontrado 10 columnas
-2016-12-27 10:26:44.116 Check of existence of "mister"."Personal" returned table type of TABLE
-2016-12-27 10:26:44.116 Cargando información de columna para las tablas "Personal" por el Catalogo "", el Esquema "mister"
-2016-12-27 10:26:44.141 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
-2016-12-27 10:26:44.141 Información de columna cargado por la tabla "Personal" : hemos encontrado 10 columnas
-2016-12-27 10:26:44.151 Check of existence of "mister"."Cliente" returned table type of TABLE
-2016-12-27 10:26:44.156 Cargando información de columna para las tablas "Cliente" por el Catalogo "", el Esquema "mister"
-2016-12-27 10:26:44.181 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
-2016-12-27 10:26:44.181 Información de columna cargado por la tabla "Cliente" : hemos encontrado 9 columnas
-2016-12-27 10:26:44.191 Check of existence of "mister"."Articulo" returned table type of TABLE
-2016-12-27 10:26:44.196 Cargando información de columna para las tablas "Articulo" por el Catalogo "", el Esquema "mister"
-2016-12-27 10:26:44.221 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 20 ms
-2016-12-27 10:26:44.221 Información de columna cargado por la tabla "Articulo" : hemos encontrado 16 columnas
-2016-12-27 10:26:44.286 Validando 2 llaves unicas de la tabla "mister"."Rubro"
-2016-12-27 10:26:44.456 Validando 0 foreign key(s) de la tabla "mister"."Rubro"
-2016-12-27 10:26:44.501 Validando 2 indic(es) de la tabla "mister"."Rubro"
-2016-12-27 10:26:44.531 Validando 2 llaves unicas de la tabla "mister"."Combo"
-2016-12-27 10:26:44.716 Validando 12 foreign key(s) de la tabla "mister"."Combo"
-2016-12-27 10:26:44.726 Crear el constreñimiento del foreign key "Combo_FK4e" en catalogo "" equema ""mister""
-2016-12-27 10:26:44.726 ALTER TABLE "mister"."Combo" ADD CONSTRAINT "Combo_FK4e" FOREIGN KEY ("personal_personal_id_OID") REFERENCES "mister"."Personal" ("personal_id") INITIALLY DEFERRED 
-2016-12-27 10:26:44.761 Tiempo de cumplir = 35 ms
-2016-12-27 10:26:44.791 Validando 3 indic(es) de la tabla "mister"."Combo"
-2016-12-27 10:26:44.821 Validando 1 llaves unicas de la tabla "mister"."ComboArticulo"
-2016-12-27 10:26:45.054 Validando 24 foreign key(s) de la tabla "mister"."ComboArticulo"
-2016-12-27 10:26:45.054 Crear el constreñimiento del foreign key "ComboArticulo_FK5a" en catalogo "" equema ""mister""
-2016-12-27 10:26:45.054 ALTER TABLE "mister"."ComboArticulo" ADD CONSTRAINT "ComboArticulo_FK5a" FOREIGN KEY ("articulo_articulo_id_OID") REFERENCES "mister"."Articulo" ("articulo_id") INITIALLY DEFERRED 
-2016-12-27 10:26:45.079 Tiempo de cumplir = 25 ms
-2016-12-27 10:26:45.079 Crear el constreñimiento del foreign key "ComboArticulo_FK5b" en catalogo "" equema ""mister""
-2016-12-27 10:26:45.079 ALTER TABLE "mister"."ComboArticulo" ADD CONSTRAINT "ComboArticulo_FK5b" FOREIGN KEY ("combo_combo_id_OID") REFERENCES "mister"."Combo" ("combo_id") INITIALLY DEFERRED 
-2016-12-27 10:26:45.089 Tiempo de cumplir = 10 ms
-2016-12-27 10:26:45.119 Validando 3 indic(es) de la tabla "mister"."ComboArticulo"
-2016-12-27 10:26:45.159 Validando 2 llaves unicas de la tabla "mister"."SubRubro"
-2016-12-27 10:26:45.329 Validando 12 foreign key(s) de la tabla "mister"."SubRubro"
-2016-12-27 10:26:45.329 Crear el constreñimiento del foreign key "SubRubro_FK4e" en catalogo "" equema ""mister""
-2016-12-27 10:26:45.329 ALTER TABLE "mister"."SubRubro" ADD CONSTRAINT "SubRubro_FK4e" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
-2016-12-27 10:26:45.349 Tiempo de cumplir = 20 ms
-2016-12-27 10:26:45.384 Validando 3 indic(es) de la tabla "mister"."SubRubro"
-2016-12-27 10:26:45.419 Validando 2 llaves unicas de la tabla "mister"."Proveedor"
-2016-12-27 10:26:45.574 Validando 12 foreign key(s) de la tabla "mister"."Proveedor"
-2016-12-27 10:26:45.574 Crear el constreñimiento del foreign key "Proveedor_FK4e" en catalogo "" equema ""mister""
-2016-12-27 10:26:45.574 ALTER TABLE "mister"."Proveedor" ADD CONSTRAINT "Proveedor_FK4e" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
-2016-12-27 10:26:45.599 Tiempo de cumplir = 25 ms
-2016-12-27 10:26:45.629 Validando 3 indic(es) de la tabla "mister"."Proveedor"
-2016-12-27 10:26:45.659 Validando 2 llaves unicas de la tabla "mister"."Personal"
-2016-12-27 10:26:45.799 Validando 0 foreign key(s) de la tabla "mister"."Personal"
-2016-12-27 10:26:45.829 Validando 2 indic(es) de la tabla "mister"."Personal"
-2016-12-27 10:26:45.856 Validando 2 llaves unicas de la tabla "mister"."Cliente"
-2016-12-27 10:26:45.991 Validando 0 foreign key(s) de la tabla "mister"."Cliente"
-2016-12-27 10:26:46.021 Validando 2 indic(es) de la tabla "mister"."Cliente"
-2016-12-27 10:26:46.051 Validando 2 llaves unicas de la tabla "mister"."Articulo"
-2016-12-27 10:26:46.306 Validando 48 foreign key(s) de la tabla "mister"."Articulo"
-2016-12-27 10:26:46.316 Crear el constreñimiento del foreign key "Articulo_FK75" en catalogo "" equema ""mister""
-2016-12-27 10:26:46.316 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FK75" FOREIGN KEY ("sub_Rubro_subrubro_id_OID") REFERENCES "mister"."SubRubro" ("subrubro_id") INITIALLY DEFERRED 
-2016-12-27 10:26:46.326 Tiempo de cumplir = 10 ms
-2016-12-27 10:26:46.326 Crear el constreñimiento del foreign key "Articulo_FK74" en catalogo "" equema ""mister""
-2016-12-27 10:26:46.331 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FK74" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
-2016-12-27 10:26:46.341 Tiempo de cumplir = 10 ms
-2016-12-27 10:26:46.341 Crear el constreñimiento del foreign key "Articulo_FK73" en catalogo "" equema ""mister""
-2016-12-27 10:26:46.341 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FK73" FOREIGN KEY ("proveedor_proveedor_id_OID") REFERENCES "mister"."Proveedor" ("proveedor_id") INITIALLY DEFERRED 
-2016-12-27 10:26:46.351 Tiempo de cumplir = 10 ms
-2016-12-27 10:26:46.351 Crear el constreñimiento del foreign key "Articulo_FK72" en catalogo "" equema ""mister""
-2016-12-27 10:26:46.351 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FK72" FOREIGN KEY ("personal_personal_id_OID") REFERENCES "mister"."Personal" ("personal_id") INITIALLY DEFERRED 
-2016-12-27 10:26:46.366 Tiempo de cumplir = 15 ms
-2016-12-27 10:26:46.396 Validando 6 indic(es) de la tabla "mister"."Articulo"
-2016-12-27 10:26:46.396 Committing transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@1eec06b"
-2016-12-27 10:26:46.406 Cerrando la conneccion de la transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@1eec06b"
-2016-12-27 10:32:01.506 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:33:14.875 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:33:20.558 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:33:22.210 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:34:10.952 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:34:16.752 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:34:19.539 INSERT INTO "mister"."Combo" ("activo","fechaAlta","nombre","observaciones","personal_personal_id_OID","precioVenta","version") VALUES (<true>,<2016-12-05>,<'Hamburguesa Goliat'>,<'Hamburguesa completa, gaseosa, fritas con huevo.'>,<null>,<295.0>,<2016-12-27 10:34:19.535>)
-2016-12-27 10:37:12.054 INSERT INTO "mister"."Personal" ("categoria","legajo","apellido","direccion","dni","email","nombre","telefono","version") VALUES (<'Cocinero'>,<214>,<'Bellani'>,<'Rioja 587'>,<32020471>,<'francho@gmail.com'>,<'Francisco'>,<155171541>,<2016-12-27 10:37:12.052>)
-2016-12-27 10:37:13.567 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 10:37:33.958 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:40:05.604 INSERT INTO "mister"."Personal" ("categoria","legajo","apellido","direccion","dni","email","nombre","telefono","version") VALUES (<'Supervisor'>,<1254>,<'Tapia'>,<'Roca 234|'>,<34584665>,<'josecho@gmail.com'>,<'Jose'>,<4569871>,<2016-12-27 10:40:05.601>)
-2016-12-27 10:40:06.546 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:40:22.457 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:40:24.272 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 10:40:24.286 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:41:14.121 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:41:22.921 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:41:25.199 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:41:46.412 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:41:47.029 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:41:54.258 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 10:41:54.276 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:42:20.239 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 10:42:20.256 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:42:24.618 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 10:42:24.703 INSERT INTO "mister"."Combo" ("activo","fechaAlta","nombre","observaciones","personal_personal_id_OID","precioVenta","version") VALUES (<true>,<2016-11-29>,<'Hamburguesa Goliat'>,<'Hamburguesa Completa, fritas con huevo y gaseosa'>,<1>,<298.0>,<2016-12-27 10:42:24.697>)
-2016-12-27 10:42:25.656 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 10:42:25.719 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 10:42:37.433 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 10:42:37.490 SELECT 'domainapp.dom.mister.Articulo.Articulo' AS "NUCLEUS_TYPE","A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."articulo_id","A0"."version" FROM "mister"."Articulo" "A0"
-2016-12-27 10:42:50.536 SELECT 'domainapp.dom.mister.Articulo.Articulo' AS "NUCLEUS_TYPE","A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."articulo_id","A0"."version" FROM "mister"."Articulo" "A0"
-2016-12-27 10:43:21.317 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:43:21.500 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:43:21.648 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:43:21.786 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:43:29.011 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:43:29.060 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:43:29.123 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:43:29.169 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:43:47.808 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:43:47.862 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:43:47.929 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:43:47.971 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:43:55.053 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:43:55.098 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:43:55.142 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:43:55.188 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:43:58.650 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:43:58.691 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:43:58.783 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:43:58.830 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:44:09.516 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:44:09.545 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:44:09.584 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:44:09.628 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:44:13.595 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:44:13.630 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:44:13.681 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:44:13.734 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:44:14.010 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:44:14.026 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <2>
-2016-12-27 10:44:14.039 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <3>
-2016-12-27 10:44:17.709 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:44:17.727 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <2>
-2016-12-27 10:44:17.741 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <3>
-2016-12-27 10:44:19.644 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:44:19.656 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:44:19.683 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:44:19.716 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:44:19.748 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:44:22.036 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:44:22.049 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <2>
-2016-12-27 10:44:22.057 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <3>
-2016-12-27 10:44:22.067 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <4>
-2016-12-27 10:44:22.078 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <5>
-2016-12-27 10:44:24.298 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:44:24.310 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:44:24.321 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:44:24.342 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:44:24.372 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:44:24.399 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:44:30.389 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:44:30.397 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:44:30.406 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:44:30.427 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:44:30.453 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:44:30.484 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:44:36.553 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 10:44:36.568 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:44:39.572 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:44:39.592 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:44:39.602 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:44:39.613 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:44:39.636 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:44:39.665 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:44:39.690 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:44:44.811 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:44:44.821 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:44:44.838 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:44:44.851 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:44:44.887 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:44:44.935 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:44:44.964 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:44:48.185 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:44:48.196 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:44:49.938 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:45:03.167 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:45:03.177 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:45:03.188 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:45:03.201 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:45:03.221 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:45:03.247 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:45:03.269 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:45:04.124 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:45:04.134 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:45:04.146 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:45:04.193 INSERT INTO "mister"."Articulo" ("activo","codBarra","codigo","fechaAlta","iva","nombre","observaciones","personal_personal_id_OID","precioCosto","precioVenta","promocion","proveedor_proveedor_id_OID","rubro_rubro_id_OID","sub_Rubro_subrubro_id_OID","version") VALUES (<true>,<11123698547>,<1123456>,<2016-11-29>,<18.0>,<'Coca Cola'>,<'Promocion Verano 2017'>,<2>,<12.0>,<25.0>,<false>,<null>,<1>,<1>,<2016-12-27 10:45:04.191>)
-2016-12-27 10:45:14.464 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:47:39.071 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:47:43.648 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:47:48.463 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:47:52.537 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:48:01.307 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:48:07.593 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:48:16.034 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:48:16.044 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <2>
-2016-12-27 10:48:16.055 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <3>
-2016-12-27 10:48:18.751 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:48:18.767 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:48:27.508 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:48:41.438 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:48:55.017 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:48:55.034 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:48:55.953 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:48:55.983 INSERT INTO "mister"."Proveedor" ("condicion","contacto","correoElectronico","cuit","direccion","nombreComercial","rubro_rubro_id_OID","telefono","version") VALUES (<'RESPONSABLE_INSCRIPTO'>,<'German Placios'>,<'cocacolaargentina@gmail.com'>,<'20-32245823-9'>,<'Planas 2384'>,<'Coca Cola Polar'>,<1>,<'4473481'>,<1>)
-2016-12-27 10:48:56.467 SELECT "A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."version" FROM "mister"."Proveedor" "A0" WHERE "A0"."proveedor_id" = <1>
-2016-12-27 10:48:56.527 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:49:43.936 SELECT 'domainapp.dom.mister.Articulo.Combo' AS "NUCLEUS_TYPE","A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."combo_id","A0"."version" FROM "mister"."Combo" "A0"
-2016-12-27 10:49:44.218 SELECT "B0"."apellido","B0"."direccion","B0"."dni","B0"."email","B0"."nombre","B0"."telefono","B0"."categoria","B0"."legajo","B0"."personal_id","B0"."version","A0"."version" FROM "mister"."Combo" "A0" INNER JOIN "mister"."Personal" "B0" ON "A0"."personal_personal_id_OID" = "B0"."personal_id" WHERE "A0"."combo_id" = <2>
-2016-12-27 10:49:44.640 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 10:49:44.702 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 10:49:52.150 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 10:49:52.209 SELECT 'domainapp.dom.mister.Articulo.Articulo' AS "NUCLEUS_TYPE","A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."articulo_id","A0"."version" FROM "mister"."Articulo" "A0"
-2016-12-27 10:50:01.337 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 10:50:01.350 SELECT 'domainapp.dom.mister.Articulo.Articulo' AS "NUCLEUS_TYPE","A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."articulo_id","A0"."version" FROM "mister"."Articulo" "A0"
-2016-12-27 10:50:09.724 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:09.873 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:10.035 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:10.166 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:15.373 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:15.419 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:15.475 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:15.507 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:19.542 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:19.573 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:19.626 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:19.661 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:22.641 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:22.681 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:22.766 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:22.801 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:26.962 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:27.010 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:27.050 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:27.092 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:30.287 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:30.312 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:30.351 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:30.379 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:32.979 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:33.043 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:33.076 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:33.132 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:36.313 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:50:36.342 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <2>
-2016-12-27 10:50:36.353 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <3>
-2016-12-27 10:50:37.851 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:50:37.862 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:37.884 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:37.914 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:37.937 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:38.886 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:50:38.894 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <2>
-2016-12-27 10:50:38.904 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <3>
-2016-12-27 10:50:38.913 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <4>
-2016-12-27 10:50:38.920 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <5>
-2016-12-27 10:50:41.738 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:50:41.751 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:50:41.761 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:41.788 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:41.817 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:41.852 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:45.875 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:50:45.883 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:50:45.893 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:45.912 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:45.940 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:45.962 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:59.001 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:50:59.014 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:50:59.027 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:50:59.048 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:50:59.080 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:50:59.115 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:50:59.379 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 10:50:59.409 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:51:04.829 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 10:51:04.861 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:51:07.565 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:51:07.581 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:51:07.593 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:51:07.602 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:51:07.660 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:51:07.690 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:51:07.719 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:51:09.147 SELECT "A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."version" FROM "mister"."Proveedor" "A0" WHERE "A0"."proveedor_id" = <1>
-2016-12-27 10:51:11.337 SELECT "A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."version" FROM "mister"."Proveedor" "A0" WHERE "A0"."proveedor_id" = <1>
-2016-12-27 10:51:11.350 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:51:11.388 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:51:11.401 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:51:11.426 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 10:51:11.469 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 10:51:11.499 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 10:51:11.526 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 10:51:18.021 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:51:18.033 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:51:18.051 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:51:18.067 SELECT "A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."version" FROM "mister"."Proveedor" "A0" WHERE "A0"."proveedor_id" = <1>
-2016-12-27 10:51:18.132 INSERT INTO "mister"."Articulo" ("activo","codBarra","codigo","fechaAlta","iva","nombre","observaciones","personal_personal_id_OID","precioCosto","precioVenta","promocion","proveedor_proveedor_id_OID","rubro_rubro_id_OID","sub_Rubro_subrubro_id_OID","version") VALUES (<true>,<2364478>,<236589>,<2016-11-28>,<21.0>,<'Coca Cola'>,<'Sin observacion'>,<2>,<15.0>,<31.0>,<false>,<1>,<1>,<1>,<2016-12-27 10:51:18.129>)
-2016-12-27 10:51:19.099 SELECT "A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."version" FROM "mister"."Articulo" "A0" WHERE "A0"."articulo_id" = <2>
-2016-12-27 10:51:19.211 SELECT "A0"."nombre","A0"."version" FROM "mister"."Rubro" "A0" WHERE "A0"."rubro_id" = <1>
-2016-12-27 10:51:19.243 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <2>
-2016-12-27 10:51:19.318 SELECT "A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."version" FROM "mister"."Proveedor" "A0" WHERE "A0"."proveedor_id" = <1>
-2016-12-27 10:51:19.346 SELECT "A0"."nombre","A0"."version" FROM "mister"."SubRubro" "A0" WHERE "A0"."subrubro_id" = <1>
-2016-12-27 10:51:32.546 SELECT "A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."version" FROM "mister"."Articulo" "A0" WHERE "A0"."articulo_id" = <2>
-2016-12-27 10:51:32.599 SELECT 'domainapp.dom.mister.Articulo.Combo' AS "NUCLEUS_TYPE","A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."combo_id","A0"."version" FROM "mister"."Combo" "A0"
-2016-12-27 10:51:36.002 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 10:51:37.984 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 10:51:38.001 SELECT "A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."version" FROM "mister"."Articulo" "A0" WHERE "A0"."articulo_id" = <2>
-2016-12-27 10:51:38.014 SELECT 'domainapp.dom.mister.Articulo.Combo' AS "NUCLEUS_TYPE","A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."combo_id","A0"."version" FROM "mister"."Combo" "A0"
-2016-12-27 11:08:28.266 SELECT "A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."version" FROM "mister"."Articulo" "A0" WHERE "A0"."articulo_id" = <2>
-2016-12-27 11:08:28.297 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 11:08:28.318 SELECT 'domainapp.dom.mister.Articulo.Combo' AS "NUCLEUS_TYPE","A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."combo_id","A0"."version" FROM "mister"."Combo" "A0"
-2016-12-27 11:08:28.848 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 11:08:28.861 SELECT "A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."version" FROM "mister"."Articulo" "A0" WHERE "A0"."articulo_id" = <2>
-2016-12-27 11:08:28.896 INSERT INTO "mister"."ComboArticulo" ("articulo_articulo_id_OID","cantidad","combo_combo_id_OID","version") VALUES (<2>,<1>,<2>,<2016-12-27 11:08:28.895>)
-2016-12-27 11:08:29.388 SELECT "A0"."cantidad","A0"."version" FROM "mister"."ComboArticulo" "A0" WHERE "A0"."comboArt_id" = <1>
-2016-12-27 11:08:29.441 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 11:08:29.470 SELECT "A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."version" FROM "mister"."Articulo" "A0" WHERE "A0"."articulo_id" = <2>
-2016-12-27 11:10:17.342 SELECT 'domainapp.dom.mister.Articulo.Combo' AS "NUCLEUS_TYPE","A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."combo_id","A0"."version" FROM "mister"."Combo" "A0"
-2016-12-27 11:10:17.554 SELECT "B0"."apellido","B0"."direccion","B0"."dni","B0"."email","B0"."nombre","B0"."telefono","B0"."categoria","B0"."legajo","B0"."personal_id","B0"."version","A0"."version" FROM "mister"."Combo" "A0" INNER JOIN "mister"."Personal" "B0" ON "A0"."personal_personal_id_OID" = "B0"."personal_id" WHERE "A0"."combo_id" = <2>
-2016-12-27 11:10:17.907 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 11:10:17.962 SELECT "A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."version" FROM "mister"."Personal" "A0" WHERE "A0"."personal_id" = <1>
-2016-12-27 11:10:29.071 SELECT "A0"."activo","A0"."fechaAlta","A0"."nombre","A0"."observaciones","A0"."precioVenta","A0"."version" FROM "mister"."Combo" "A0" WHERE "A0"."combo_id" = <2>
-2016-12-27 11:10:29.128 SELECT 'domainapp.dom.mister.Articulo.Articulo' AS "NUCLEUS_TYPE","A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."articulo_id","A0"."version" FROM "mister"."Articulo" "A0"
-2016-12-27 11:10:33.090 SELECT "A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."version" FROM "mister"."Articulo" "A0" WHERE "A0"."articulo_id" = <2>
-2016-12-27 11:10:38.784 SELECT "A0"."activo","A0"."codBarra","A0"."codigo","A0"."fechaAlta","A0"."iva","A0"."nombre","A0"."observaciones","A0"."precioCosto","A0"."precioVenta","A0"."promocion","A0"."version" FROM "mister"."Articulo" "A0" WHERE "A0"."articulo_id" = <2>
-2016-12-27 11:11:05.474 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 11:11:05.645 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 11:11:05.817 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 11:11:05.939 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-27 11:11:11.559 SELECT 'domainapp.dom.mister.Rubro.Rubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."rubro_id","A0"."version" FROM "mister"."Rubro" "A0"
-2016-12-27 11:11:11.619 SELECT 'domainapp.dom.mister.SubRubro.SubRubro' AS "NUCLEUS_TYPE","A0"."nombre","A0"."subrubro_id","A0"."version" FROM "mister"."SubRubro" "A0"
-2016-12-27 11:11:11.662 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-27 11:11:11.700 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
+2016-12-30 11:31:33.432 Tiempo de cumplir = 22 ms
+2016-12-30 11:31:33.452 No era posible determinar el nombre del catalogo por este DataStore
+2016-12-30 11:31:33.452 Borrar la tabla "DELETEME1483108293405"
+2016-12-30 11:31:33.452 DROP TABLE "DELETEME1483108293405" CASCADE
+2016-12-30 11:31:33.462 Tiempo de cumplir = 10 ms
+2016-12-30 11:31:36.666 La columna ""mister"."Personal"."personal_id"" añadió a la representación de la table.
+2016-12-30 11:31:36.671 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.671 Campo [DATASTORE_ID] -> Columnas ["mister"."Personal"."personal_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.691 La columna ""mister"."SubRubro"."subrubro_id"" añadió a la representación de la table.
+2016-12-30 11:31:36.691 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.691 Campo [DATASTORE_ID] -> Columnas ["mister"."SubRubro"."subrubro_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.691 La columna ""mister"."Rubro"."rubro_id"" añadió a la representación de la table.
+2016-12-30 11:31:36.691 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.691 Campo [DATASTORE_ID] -> Columnas ["mister"."Rubro"."rubro_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.696 La columna ""mister"."Proveedor"."proveedor_id"" añadió a la representación de la table.
+2016-12-30 11:31:36.696 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.696 Campo [DATASTORE_ID] -> Columnas ["mister"."Proveedor"."proveedor_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.696 La columna ""mister"."Articulo"."articulo_id"" añadió a la representación de la table.
+2016-12-30 11:31:36.696 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.696 Campo [DATASTORE_ID] -> Columnas ["mister"."Articulo"."articulo_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.696 La columna ""mister"."Combo"."combo_id"" añadió a la representación de la table.
+2016-12-30 11:31:36.701 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.701 Campo [DATASTORE_ID] -> Columnas ["mister"."Combo"."combo_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.701 La columna ""mister"."ComboArticulo"."comboArt_id"" añadió a la representación de la table.
+2016-12-30 11:31:36.701 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.701 Campo [DATASTORE_ID] -> Columnas ["mister"."ComboArticulo"."comboArt_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.701 La columna ""mister"."Cliente"."cliente_id"" añadió a la representación de la table.
+2016-12-30 11:31:36.706 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.706 Campo [DATASTORE_ID] -> Columnas ["mister"."Cliente"."cliente_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.706 La tabla "mister"."Rubro" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Rubro.Rubro (estrategia de heredar="new-table")
+2016-12-30 11:31:36.711 La columna ""mister"."Rubro"."nombre"" añadió a la representación de la table.
+2016-12-30 11:31:36.736 Campo [domainapp.dom.mister.Rubro.Rubro.nombre] -> Columnas ["mister"."Rubro"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.761 Campo [domainapp.dom.mister.Rubro.Rubro.subrubro] -> Columnas [[none]] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+2016-12-30 11:31:36.766 La columna ""mister"."Rubro"."version"" añadió a la representación de la table.
+2016-12-30 11:31:36.766 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.766 Campo [VERSION] -> Columnas ["mister"."Rubro"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.771 Table/View "mister"."Rubro" ha sido inicializado
+2016-12-30 11:31:36.771 La tabla "mister"."Combo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.Combo (estrategia de heredar="new-table")
+2016-12-30 11:31:36.771 La columna ""mister"."Combo"."activo"" añadió a la representación de la table.
+2016-12-30 11:31:36.776 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.776 Campo [domainapp.dom.mister.Articulo.Combo.activo] -> Columnas ["mister"."Combo"."activo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+2016-12-30 11:31:36.786 La columna ""mister"."Combo"."fechaAlta"" añadió a la representación de la table.
+2016-12-30 11:31:36.791 Campo [domainapp.dom.mister.Articulo.Combo.fechaAlta] -> Columnas ["mister"."Combo"."fechaAlta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.TypeConverterMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+2016-12-30 11:31:36.806 La columna ""mister"."Combo"."nombre"" añadió a la representación de la table.
+2016-12-30 11:31:36.806 Campo [domainapp.dom.mister.Articulo.Combo.nombre] -> Columnas ["mister"."Combo"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.811 La columna ""mister"."Combo"."observaciones"" añadió a la representación de la table.
+2016-12-30 11:31:36.811 Campo [domainapp.dom.mister.Articulo.Combo.observaciones] -> Columnas ["mister"."Combo"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.816 La columna ""mister"."Combo"."personal_personal_id_OID"" añadió a la representación de la table.
+2016-12-30 11:31:36.821 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.821 Campo [domainapp.dom.mister.Articulo.Combo.personal] -> Columnas ["mister"."Combo"."personal_personal_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.821 La columna ""mister"."Combo"."precioVenta"" añadió a la representación de la table.
+2016-12-30 11:31:36.826 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.826 Campo [domainapp.dom.mister.Articulo.Combo.precioVenta] -> Columnas ["mister"."Combo"."precioVenta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2016-12-30 11:31:36.826 La columna ""mister"."Combo"."version"" añadió a la representación de la table.
+2016-12-30 11:31:36.826 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.826 Campo [VERSION] -> Columnas ["mister"."Combo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2016-12-30 11:31:36.831 Table/View "mister"."Combo" ha sido inicializado
+2016-12-30 11:31:36.831 La tabla "mister"."ComboArticulo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.ComboArticulo (estrategia de heredar="new-table")
+2016-12-30 11:31:36.831 La columna ""mister"."ComboArticulo"."articulo_articulo_id_OID"" añadió a la representación de la table.
+2016-12-30 11:31:36.831 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.831 Campo [domainapp.dom.mister.Articulo.ComboArticulo.articulo] -> Columnas ["mister"."ComboArticulo"."articulo_articulo_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.831 La columna ""mister"."ComboArticulo"."cantidad"" añadió a la representación de la table.
+2016-12-30 11:31:36.831 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.836 Campo [domainapp.dom.mister.Articulo.ComboArticulo.cantidad] -> Columnas ["mister"."ComboArticulo"."cantidad"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-12-30 11:31:36.836 La columna ""mister"."ComboArticulo"."combo_combo_id_OID"" añadió a la representación de la table.
+2016-12-30 11:31:36.836 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.836 Campo [domainapp.dom.mister.Articulo.ComboArticulo.combo] -> Columnas ["mister"."ComboArticulo"."combo_combo_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.836 La columna ""mister"."ComboArticulo"."version"" añadió a la representación de la table.
+2016-12-30 11:31:36.836 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.836 Campo [VERSION] -> Columnas ["mister"."ComboArticulo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2016-12-30 11:31:36.841 Table/View "mister"."ComboArticulo" ha sido inicializado
+2016-12-30 11:31:36.841 La tabla "mister"."SubRubro" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.SubRubro.SubRubro (estrategia de heredar="new-table")
+2016-12-30 11:31:36.841 La columna ""mister"."SubRubro"."nombre"" añadió a la representación de la table.
+2016-12-30 11:31:36.841 Campo [domainapp.dom.mister.SubRubro.SubRubro.nombre] -> Columnas ["mister"."SubRubro"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.841 La columna ""mister"."SubRubro"."rubro_rubro_id_OID"" añadió a la representación de la table.
+2016-12-30 11:31:36.846 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.846 Campo [domainapp.dom.mister.SubRubro.SubRubro.rubro] -> Columnas ["mister"."SubRubro"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.846 La columna ""mister"."SubRubro"."version"" añadió a la representación de la table.
+2016-12-30 11:31:36.846 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.846 Campo [VERSION] -> Columnas ["mister"."SubRubro"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.846 Table/View "mister"."SubRubro" ha sido inicializado
+2016-12-30 11:31:36.846 La tabla "mister"."Proveedor" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Provedor.Proveedor (estrategia de heredar="new-table")
+2016-12-30 11:31:36.861 La columna ""mister"."Proveedor"."condicion"" añadió a la representación de la table.
+2016-12-30 11:31:36.861 Campo [domainapp.dom.mister.Provedor.Proveedor.condicion] -> Columnas ["mister"."Proveedor"."condicion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.866 La columna ""mister"."Proveedor"."contacto"" añadió a la representación de la table.
+2016-12-30 11:31:36.866 Campo [domainapp.dom.mister.Provedor.Proveedor.contacto] -> Columnas ["mister"."Proveedor"."contacto"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.866 La columna ""mister"."Proveedor"."correoElectronico"" añadió a la representación de la table.
+2016-12-30 11:31:36.866 Campo [domainapp.dom.mister.Provedor.Proveedor.correoElectronico] -> Columnas ["mister"."Proveedor"."correoElectronico"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.871 La columna ""mister"."Proveedor"."cuit"" añadió a la representación de la table.
+2016-12-30 11:31:36.871 Campo [domainapp.dom.mister.Provedor.Proveedor.cuit] -> Columnas ["mister"."Proveedor"."cuit"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.871 La columna ""mister"."Proveedor"."direccion"" añadió a la representación de la table.
+2016-12-30 11:31:36.871 Campo [domainapp.dom.mister.Provedor.Proveedor.direccion] -> Columnas ["mister"."Proveedor"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.876 La columna ""mister"."Proveedor"."nombreComercial"" añadió a la representación de la table.
+2016-12-30 11:31:36.876 Campo [domainapp.dom.mister.Provedor.Proveedor.nombreComercial] -> Columnas ["mister"."Proveedor"."nombreComercial"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.876 La columna ""mister"."Proveedor"."rubro_rubro_id_OID"" añadió a la representación de la table.
+2016-12-30 11:31:36.876 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.876 Campo [domainapp.dom.mister.Provedor.Proveedor.rubro] -> Columnas ["mister"."Proveedor"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.881 La columna ""mister"."Proveedor"."telefono"" añadió a la representación de la table.
+2016-12-30 11:31:36.881 Campo [domainapp.dom.mister.Provedor.Proveedor.telefono] -> Columnas ["mister"."Proveedor"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.886 La columna ""mister"."Proveedor"."version"" añadió a la representación de la table.
+2016-12-30 11:31:36.886 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.886 Campo [VERSION] -> Columnas ["mister"."Proveedor"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.891 Table/View "mister"."Proveedor" ha sido inicializado
+2016-12-30 11:31:36.891 La tabla "mister"."Personal" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Personal.Personal (estrategia de heredar="new-table")
+2016-12-30 11:31:36.891 La columna ""mister"."Personal"."categoria"" añadió a la representación de la table.
+2016-12-30 11:31:36.891 Campo [domainapp.dom.mister.Personal.Personal.categoria] -> Columnas ["mister"."Personal"."categoria"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.891 La columna ""mister"."Personal"."legajo"" añadió a la representación de la table.
+2016-12-30 11:31:36.891 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.896 Campo [domainapp.dom.mister.Personal.Personal.legajo] -> Columnas ["mister"."Personal"."legajo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-12-30 11:31:36.896 La tabla "mister"."Personal" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Persona (estrategia de heredar="subclass-table")
+2016-12-30 11:31:36.896 La columna ""mister"."Personal"."apellido"" añadió a la representación de la table.
+2016-12-30 11:31:36.896 Campo [domainapp.dom.mister.Persona.apellido] -> Columnas ["mister"."Personal"."apellido"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.901 La columna ""mister"."Personal"."direccion"" añadió a la representación de la table.
+2016-12-30 11:31:36.901 Campo [domainapp.dom.mister.Persona.direccion] -> Columnas ["mister"."Personal"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.906 La columna ""mister"."Personal"."dni"" añadió a la representación de la table.
+2016-12-30 11:31:36.906 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.906 Campo [domainapp.dom.mister.Persona.dni] -> Columnas ["mister"."Personal"."dni"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-12-30 11:31:36.911 La columna ""mister"."Personal"."email"" añadió a la representación de la table.
+2016-12-30 11:31:36.911 Campo [domainapp.dom.mister.Persona.email] -> Columnas ["mister"."Personal"."email"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.911 La columna ""mister"."Personal"."nombre"" añadió a la representación de la table.
+2016-12-30 11:31:36.911 Campo [domainapp.dom.mister.Persona.nombre] -> Columnas ["mister"."Personal"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.916 La columna ""mister"."Personal"."telefono"" añadió a la representación de la table.
+2016-12-30 11:31:36.916 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.916 Campo [domainapp.dom.mister.Persona.telefono] -> Columnas ["mister"."Personal"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-12-30 11:31:36.916 La columna ""mister"."Personal"."version"" añadió a la representación de la table.
+2016-12-30 11:31:36.916 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.916 Campo [VERSION] -> Columnas ["mister"."Personal"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2016-12-30 11:31:36.916 Table/View "mister"."Personal" ha sido inicializado
+2016-12-30 11:31:36.916 La tabla "mister"."Cliente" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Cliente.Cliente (estrategia de heredar="new-table")
+2016-12-30 11:31:36.921 La columna ""mister"."Cliente"."observaciones"" añadió a la representación de la table.
+2016-12-30 11:31:36.921 Campo [domainapp.dom.mister.Cliente.Cliente.observaciones] -> Columnas ["mister"."Cliente"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.921 La tabla "mister"."Cliente" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Persona (estrategia de heredar="subclass-table")
+2016-12-30 11:31:36.926 La columna ""mister"."Cliente"."apellido"" añadió a la representación de la table.
+2016-12-30 11:31:36.926 Campo [domainapp.dom.mister.Persona.apellido] -> Columnas ["mister"."Cliente"."apellido"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.926 La columna ""mister"."Cliente"."direccion"" añadió a la representación de la table.
+2016-12-30 11:31:36.926 Campo [domainapp.dom.mister.Persona.direccion] -> Columnas ["mister"."Cliente"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.926 La columna ""mister"."Cliente"."dni"" añadió a la representación de la table.
+2016-12-30 11:31:36.926 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.931 Campo [domainapp.dom.mister.Persona.dni] -> Columnas ["mister"."Cliente"."dni"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-12-30 11:31:36.931 La columna ""mister"."Cliente"."email"" añadió a la representación de la table.
+2016-12-30 11:31:36.931 Campo [domainapp.dom.mister.Persona.email] -> Columnas ["mister"."Cliente"."email"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.931 La columna ""mister"."Cliente"."nombre"" añadió a la representación de la table.
+2016-12-30 11:31:36.931 Campo [domainapp.dom.mister.Persona.nombre] -> Columnas ["mister"."Cliente"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.931 La columna ""mister"."Cliente"."telefono"" añadió a la representación de la table.
+2016-12-30 11:31:36.936 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.936 Campo [domainapp.dom.mister.Persona.telefono] -> Columnas ["mister"."Cliente"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-12-30 11:31:36.936 La columna ""mister"."Cliente"."version"" añadió a la representación de la table.
+2016-12-30 11:31:36.936 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.936 Campo [VERSION] -> Columnas ["mister"."Cliente"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2016-12-30 11:31:36.936 Table/View "mister"."Cliente" ha sido inicializado
+2016-12-30 11:31:36.941 La tabla "mister"."Articulo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.Articulo (estrategia de heredar="new-table")
+2016-12-30 11:31:36.941 La columna ""mister"."Articulo"."activo"" añadió a la representación de la table.
+2016-12-30 11:31:36.941 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.941 Campo [domainapp.dom.mister.Articulo.Articulo.activo] -> Columnas ["mister"."Articulo"."activo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+2016-12-30 11:31:36.946 La columna ""mister"."Articulo"."codBarra"" añadió a la representación de la table.
+2016-12-30 11:31:36.946 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.946 Campo [domainapp.dom.mister.Articulo.Articulo.codBarra] -> Columnas ["mister"."Articulo"."codBarra"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.LongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.946 La columna ""mister"."Articulo"."codigo"" añadió a la representación de la table.
+2016-12-30 11:31:36.946 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.946 Campo [domainapp.dom.mister.Articulo.Articulo.codigo] -> Columnas ["mister"."Articulo"."codigo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2016-12-30 11:31:36.951 La columna ""mister"."Articulo"."fechaAlta"" añadió a la representación de la table.
+2016-12-30 11:31:36.951 Campo [domainapp.dom.mister.Articulo.Articulo.fechaAlta] -> Columnas ["mister"."Articulo"."fechaAlta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.TypeConverterMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+2016-12-30 11:31:36.951 La columna ""mister"."Articulo"."iva"" añadió a la representación de la table.
+2016-12-30 11:31:36.951 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.951 Campo [domainapp.dom.mister.Articulo.Articulo.iva] -> Columnas ["mister"."Articulo"."iva"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2016-12-30 11:31:36.956 La columna ""mister"."Articulo"."nombre"" añadió a la representación de la table.
+2016-12-30 11:31:36.956 Campo [domainapp.dom.mister.Articulo.Articulo.nombre] -> Columnas ["mister"."Articulo"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.956 La columna ""mister"."Articulo"."observaciones"" añadió a la representación de la table.
+2016-12-30 11:31:36.956 Campo [domainapp.dom.mister.Articulo.Articulo.observaciones] -> Columnas ["mister"."Articulo"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2016-12-30 11:31:36.961 La columna ""mister"."Articulo"."personal_personal_id_OID"" añadió a la representación de la table.
+2016-12-30 11:31:36.961 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.961 Campo [domainapp.dom.mister.Articulo.Articulo.personal] -> Columnas ["mister"."Articulo"."personal_personal_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.961 La columna ""mister"."Articulo"."precioCosto"" añadió a la representación de la table.
+2016-12-30 11:31:36.961 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.961 Campo [domainapp.dom.mister.Articulo.Articulo.precioCosto] -> Columnas ["mister"."Articulo"."precioCosto"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2016-12-30 11:31:36.966 La columna ""mister"."Articulo"."precioVenta"" añadió a la representación de la table.
+2016-12-30 11:31:36.966 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.966 Campo [domainapp.dom.mister.Articulo.Articulo.precioVenta] -> Columnas ["mister"."Articulo"."precioVenta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2016-12-30 11:31:36.966 La columna ""mister"."Articulo"."promocion"" añadió a la representación de la table.
+2016-12-30 11:31:36.971 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.971 Campo [domainapp.dom.mister.Articulo.Articulo.promocion] -> Columnas ["mister"."Articulo"."promocion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+2016-12-30 11:31:36.971 La columna ""mister"."Articulo"."proveedor_proveedor_id_OID"" añadió a la representación de la table.
+2016-12-30 11:31:36.971 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.971 Campo [domainapp.dom.mister.Articulo.Articulo.proveedor] -> Columnas ["mister"."Articulo"."proveedor_proveedor_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.976 La columna ""mister"."Articulo"."rubro_rubro_id_OID"" añadió a la representación de la table.
+2016-12-30 11:31:36.976 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.976 Campo [domainapp.dom.mister.Articulo.Articulo.rubro] -> Columnas ["mister"."Articulo"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.976 La columna ""mister"."Articulo"."sub_Rubro_subrubro_id_OID"" añadió a la representación de la table.
+2016-12-30 11:31:36.976 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.976 Campo [domainapp.dom.mister.Articulo.Articulo.sub_Rubro] -> Columnas ["mister"."Articulo"."sub_Rubro_subrubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2016-12-30 11:31:36.976 La columna ""mister"."Articulo"."version"" añadió a la representación de la table.
+2016-12-30 11:31:36.981 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2016-12-30 11:31:36.981 Campo [VERSION] -> Columnas ["mister"."Articulo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2016-12-30 11:31:36.981 Table/View "mister"."Articulo" ha sido inicializado
+2016-12-30 11:31:36.993 Empezando transaccion del esquema con conneccion "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@15297e3" y isolacion "serializable"
+2016-12-30 11:31:37.003 Check of existence of "mister"."Rubro" returned table type of TABLE
+2016-12-30 11:31:37.013 Cargando información de columna para las tablas "Rubro" por el Catalogo "", el Esquema "mister"
+2016-12-30 11:31:37.068 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 55 ms
+2016-12-30 11:31:37.068 Información de columna cargado por la tabla "Rubro" : hemos encontrado 3 columnas
+2016-12-30 11:31:37.083 Check of existence of "mister"."Combo" returned table type of TABLE
+2016-12-30 11:31:37.088 Cargando información de columna para las tablas "Combo" por el Catalogo "", el Esquema "mister"
+2016-12-30 11:31:37.113 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
+2016-12-30 11:31:37.113 Información de columna cargado por la tabla "Combo" : hemos encontrado 8 columnas
+2016-12-30 11:31:37.138 Check of existence of "mister"."ComboArticulo" returned table type of TABLE
+2016-12-30 11:31:37.138 Cargando información de columna para las tablas "ComboArticulo" por el Catalogo "", el Esquema "mister"
+2016-12-30 11:31:37.163 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
+2016-12-30 11:31:37.163 Información de columna cargado por la tabla "ComboArticulo" : hemos encontrado 5 columnas
+2016-12-30 11:31:37.178 Check of existence of "mister"."SubRubro" returned table type of TABLE
+2016-12-30 11:31:37.183 Cargando información de columna para las tablas "SubRubro" por el Catalogo "", el Esquema "mister"
+2016-12-30 11:31:37.208 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
+2016-12-30 11:31:37.208 Información de columna cargado por la tabla "SubRubro" : hemos encontrado 4 columnas
+2016-12-30 11:31:37.218 Check of existence of "mister"."Proveedor" returned table type of TABLE
+2016-12-30 11:31:37.218 Cargando información de columna para las tablas "Proveedor" por el Catalogo "", el Esquema "mister"
+2016-12-30 11:31:37.243 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
+2016-12-30 11:31:37.248 Información de columna cargado por la tabla "Proveedor" : hemos encontrado 10 columnas
+2016-12-30 11:31:37.258 Check of existence of "mister"."Personal" returned table type of TABLE
+2016-12-30 11:31:37.263 Cargando información de columna para las tablas "Personal" por el Catalogo "", el Esquema "mister"
+2016-12-30 11:31:37.288 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 30 ms
+2016-12-30 11:31:37.288 Información de columna cargado por la tabla "Personal" : hemos encontrado 10 columnas
+2016-12-30 11:31:37.298 Check of existence of "mister"."Cliente" returned table type of TABLE
+2016-12-30 11:31:37.303 Cargando información de columna para las tablas "Cliente" por el Catalogo "", el Esquema "mister"
+2016-12-30 11:31:37.323 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 20 ms
+2016-12-30 11:31:37.323 Información de columna cargado por la tabla "Cliente" : hemos encontrado 9 columnas
+2016-12-30 11:31:37.338 Check of existence of "mister"."Articulo" returned table type of TABLE
+2016-12-30 11:31:37.338 Cargando información de columna para las tablas "Articulo" por el Catalogo "", el Esquema "mister"
+2016-12-30 11:31:37.373 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 30 ms
+2016-12-30 11:31:37.373 Información de columna cargado por la tabla "Articulo" : hemos encontrado 16 columnas
+2016-12-30 11:31:37.438 Validando 2 llaves unicas de la tabla "mister"."Rubro"
+2016-12-30 11:31:37.618 Validando 0 foreign key(s) de la tabla "mister"."Rubro"
+2016-12-30 11:31:37.663 Validando 2 indic(es) de la tabla "mister"."Rubro"
+2016-12-30 11:31:37.698 Validando 2 llaves unicas de la tabla "mister"."Combo"
+2016-12-30 11:31:37.898 Validando 30 foreign key(s) de la tabla "mister"."Combo"
+2016-12-30 11:31:37.913 Crear el constreñimiento del foreign key "Combo_FK60" en catalogo "" equema ""mister""
+2016-12-30 11:31:37.913 ALTER TABLE "mister"."Combo" ADD CONSTRAINT "Combo_FK60" FOREIGN KEY ("personal_personal_id_OID") REFERENCES "mister"."Personal" ("personal_id") INITIALLY DEFERRED 
+2016-12-30 11:31:37.933 Tiempo de cumplir = 20 ms
+2016-12-30 11:31:37.968 Validando 3 indic(es) de la tabla "mister"."Combo"
+2016-12-30 11:31:38.008 Validando 1 llaves unicas de la tabla "mister"."ComboArticulo"
+2016-12-30 11:31:38.230 Validando 60 foreign key(s) de la tabla "mister"."ComboArticulo"
+2016-12-30 11:31:38.235 Crear el constreñimiento del foreign key "ComboArticulo_FK7e" en catalogo "" equema ""mister""
+2016-12-30 11:31:38.235 ALTER TABLE "mister"."ComboArticulo" ADD CONSTRAINT "ComboArticulo_FK7e" FOREIGN KEY ("articulo_articulo_id_OID") REFERENCES "mister"."Articulo" ("articulo_id") INITIALLY DEFERRED 
+2016-12-30 11:31:38.265 Tiempo de cumplir = 25 ms
+2016-12-30 11:31:38.265 Crear el constreñimiento del foreign key "ComboArticulo_FK7f" en catalogo "" equema ""mister""
+2016-12-30 11:31:38.265 ALTER TABLE "mister"."ComboArticulo" ADD CONSTRAINT "ComboArticulo_FK7f" FOREIGN KEY ("combo_combo_id_OID") REFERENCES "mister"."Combo" ("combo_id") INITIALLY DEFERRED 
+2016-12-30 11:31:38.275 Tiempo de cumplir = 10 ms
+2016-12-30 11:31:38.310 Validando 3 indic(es) de la tabla "mister"."ComboArticulo"
+2016-12-30 11:31:38.350 Validando 2 llaves unicas de la tabla "mister"."SubRubro"
+2016-12-30 11:31:38.525 Validando 30 foreign key(s) de la tabla "mister"."SubRubro"
+2016-12-30 11:31:38.530 Crear el constreñimiento del foreign key "SubRubro_FK60" en catalogo "" equema ""mister""
+2016-12-30 11:31:38.530 ALTER TABLE "mister"."SubRubro" ADD CONSTRAINT "SubRubro_FK60" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
+2016-12-30 11:31:38.545 Tiempo de cumplir = 15 ms
+2016-12-30 11:31:38.580 Validando 3 indic(es) de la tabla "mister"."SubRubro"
+2016-12-30 11:31:38.615 Validando 2 llaves unicas de la tabla "mister"."Proveedor"
+2016-12-30 11:31:38.790 Validando 30 foreign key(s) de la tabla "mister"."Proveedor"
+2016-12-30 11:31:38.790 Crear el constreñimiento del foreign key "Proveedor_FK60" en catalogo "" equema ""mister""
+2016-12-30 11:31:38.790 ALTER TABLE "mister"."Proveedor" ADD CONSTRAINT "Proveedor_FK60" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
+2016-12-30 11:31:38.810 Tiempo de cumplir = 20 ms
+2016-12-30 11:31:38.845 Validando 3 indic(es) de la tabla "mister"."Proveedor"
+2016-12-30 11:31:38.875 Validando 2 llaves unicas de la tabla "mister"."Personal"
+2016-12-30 11:31:39.030 Validando 0 foreign key(s) de la tabla "mister"."Personal"
+2016-12-30 11:31:39.067 Validando 2 indic(es) de la tabla "mister"."Personal"
+2016-12-30 11:31:39.102 Validando 2 llaves unicas de la tabla "mister"."Cliente"
+2016-12-30 11:31:39.252 Validando 0 foreign key(s) de la tabla "mister"."Cliente"
+2016-12-30 11:31:39.282 Validando 2 indic(es) de la tabla "mister"."Cliente"
+2016-12-30 11:31:39.322 Validando 2 llaves unicas de la tabla "mister"."Articulo"
+2016-12-30 11:31:39.592 Validando 120 foreign key(s) de la tabla "mister"."Articulo"
+2016-12-30 11:31:39.597 Crear el constreñimiento del foreign key "Articulo_FKbd" en catalogo "" equema ""mister""
+2016-12-30 11:31:39.597 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKbd" FOREIGN KEY ("sub_Rubro_subrubro_id_OID") REFERENCES "mister"."SubRubro" ("subrubro_id") INITIALLY DEFERRED 
+2016-12-30 11:31:39.617 Tiempo de cumplir = 20 ms
+2016-12-30 11:31:39.617 Crear el constreñimiento del foreign key "Articulo_FKbc" en catalogo "" equema ""mister""
+2016-12-30 11:31:39.617 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKbc" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
+2016-12-30 11:31:39.632 Tiempo de cumplir = 15 ms
+2016-12-30 11:31:39.632 Crear el constreñimiento del foreign key "Articulo_FKbb" en catalogo "" equema ""mister""
+2016-12-30 11:31:39.632 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKbb" FOREIGN KEY ("proveedor_proveedor_id_OID") REFERENCES "mister"."Proveedor" ("proveedor_id") INITIALLY DEFERRED 
+2016-12-30 11:31:39.647 Tiempo de cumplir = 15 ms
+2016-12-30 11:31:39.647 Crear el constreñimiento del foreign key "Articulo_FKba" en catalogo "" equema ""mister""
+2016-12-30 11:31:39.647 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKba" FOREIGN KEY ("personal_personal_id_OID") REFERENCES "mister"."Personal" ("personal_id") INITIALLY DEFERRED 
+2016-12-30 11:31:39.667 Tiempo de cumplir = 20 ms
+2016-12-30 11:31:39.707 Validando 6 indic(es) de la tabla "mister"."Articulo"
+2016-12-30 11:31:39.712 Committing transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@15297e3"
+2016-12-30 11:31:39.722 Cerrando la conneccion de la transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@15297e3"
+2016-12-30 11:32:18.868 SELECT 'domainapp.dom.mister.Cliente.Cliente' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."observaciones","A0"."cliente_id","A0"."version" FROM "mister"."Cliente" "A0"
+2016-12-30 11:32:20.033 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
+2016-12-30 11:32:20.466 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
+2016-12-30 11:32:20.601 SELECT "B0"."nombre","B0"."rubro_id","B0"."version","A0"."version" FROM "mister"."Proveedor" "A0" INNER JOIN "mister"."Rubro" "B0" ON "A0"."rubro_rubro_id_OID" = "B0"."rubro_id" WHERE "A0"."proveedor_id" = <1>
+2016-12-30 11:32:20.879 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
+2016-12-30 11:32:21.089 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
+2016-12-30 11:32:21.225 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"

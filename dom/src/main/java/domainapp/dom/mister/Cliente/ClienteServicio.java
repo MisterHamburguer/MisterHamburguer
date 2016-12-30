@@ -26,8 +26,7 @@ import org.apache.isis.applib.services.repository.RepositoryService;
         named=" Clientes "
 )
 public class ClienteServicio {
-	 //region > title
-    public TranslatableString title() {
+        public TranslatableString title() {
         return TranslatableString.tr("Cliente");
     }
     //endregion
@@ -40,7 +39,7 @@ public class ClienteServicio {
             bookmarking = BookmarkPolicy.AS_ROOT
     )
     @MemberOrder(sequence = "1")
-    public List<Cliente> VerTodos() {
+    public  List<Cliente> VerTodos() {
         return repositoryService.allInstances(Cliente.class);
     }
     //endregion
@@ -109,5 +108,7 @@ public class ClienteServicio {
     @javax.inject.Inject
 	public
     RepositoryService repositoryService;
+    
+    
 
 }
