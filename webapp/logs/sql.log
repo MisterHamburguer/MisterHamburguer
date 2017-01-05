@@ -1,306 +1,652 @@
-2016-12-30 11:31:31.297 La columna ""DELETEME1483108291252"."UNUSED"" añadió a la representación de la table.
-2016-12-30 11:31:31.324 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:31.328 Crear la tabla "DELETEME1483108291252"
-2016-12-30 11:31:31.358 CREATE TABLE "DELETEME1483108291252"
+2017-01-04 21:27:38.791 La columna ""DELETEME1483576058758"."UNUSED"" añadió a la representación de la table.
+2017-01-04 21:27:38.813 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:38.813 Crear la tabla "DELETEME1483576058758"
+2017-01-04 21:27:38.838 CREATE TABLE "DELETEME1483576058758"
 (
     "UNUSED" int4 NOT NULL
 )
-2016-12-30 11:31:31.383 Tiempo de cumplir = 25 ms
-2016-12-30 11:31:31.413 No era posible determinar el nombre del catalogo por este DataStore
-2016-12-30 11:31:31.413 Borrar la tabla "DELETEME1483108291252"
-2016-12-30 11:31:31.413 DROP TABLE "DELETEME1483108291252" CASCADE
-2016-12-30 11:31:31.428 Tiempo de cumplir = 15 ms
-2016-12-30 11:31:33.405 La columna ""DELETEME1483108293405"."UNUSED"" añadió a la representación de la table.
-2016-12-30 11:31:33.410 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:33.410 Crear la tabla "DELETEME1483108293405"
-2016-12-30 11:31:33.410 CREATE TABLE "DELETEME1483108293405"
+2017-01-04 21:27:38.905 Tiempo de cumplir = 65 ms
+2017-01-04 21:27:38.938 No era posible determinar el nombre del catalogo por este DataStore
+2017-01-04 21:27:38.938 Borrar la tabla "DELETEME1483576058758"
+2017-01-04 21:27:38.940 DROP TABLE "DELETEME1483576058758" CASCADE
+2017-01-04 21:27:38.958 Tiempo de cumplir = 18 ms
+2017-01-04 21:27:41.105 La columna ""DELETEME1483576061105"."UNUSED"" añadió a la representación de la table.
+2017-01-04 21:27:41.105 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:41.105 Crear la tabla "DELETEME1483576061105"
+2017-01-04 21:27:41.107 CREATE TABLE "DELETEME1483576061105"
 (
     "UNUSED" int4 NOT NULL
 )
-2016-12-30 11:31:33.432 Tiempo de cumplir = 22 ms
-2016-12-30 11:31:33.452 No era posible determinar el nombre del catalogo por este DataStore
-2016-12-30 11:31:33.452 Borrar la tabla "DELETEME1483108293405"
-2016-12-30 11:31:33.452 DROP TABLE "DELETEME1483108293405" CASCADE
-2016-12-30 11:31:33.462 Tiempo de cumplir = 10 ms
-2016-12-30 11:31:36.666 La columna ""mister"."Personal"."personal_id"" añadió a la representación de la table.
-2016-12-30 11:31:36.671 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.671 Campo [DATASTORE_ID] -> Columnas ["mister"."Personal"."personal_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.691 La columna ""mister"."SubRubro"."subrubro_id"" añadió a la representación de la table.
-2016-12-30 11:31:36.691 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.691 Campo [DATASTORE_ID] -> Columnas ["mister"."SubRubro"."subrubro_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.691 La columna ""mister"."Rubro"."rubro_id"" añadió a la representación de la table.
-2016-12-30 11:31:36.691 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.691 Campo [DATASTORE_ID] -> Columnas ["mister"."Rubro"."rubro_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.696 La columna ""mister"."Proveedor"."proveedor_id"" añadió a la representación de la table.
-2016-12-30 11:31:36.696 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.696 Campo [DATASTORE_ID] -> Columnas ["mister"."Proveedor"."proveedor_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.696 La columna ""mister"."Articulo"."articulo_id"" añadió a la representación de la table.
-2016-12-30 11:31:36.696 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.696 Campo [DATASTORE_ID] -> Columnas ["mister"."Articulo"."articulo_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.696 La columna ""mister"."Combo"."combo_id"" añadió a la representación de la table.
-2016-12-30 11:31:36.701 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.701 Campo [DATASTORE_ID] -> Columnas ["mister"."Combo"."combo_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.701 La columna ""mister"."ComboArticulo"."comboArt_id"" añadió a la representación de la table.
-2016-12-30 11:31:36.701 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.701 Campo [DATASTORE_ID] -> Columnas ["mister"."ComboArticulo"."comboArt_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.701 La columna ""mister"."Cliente"."cliente_id"" añadió a la representación de la table.
-2016-12-30 11:31:36.706 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.706 Campo [DATASTORE_ID] -> Columnas ["mister"."Cliente"."cliente_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.706 La tabla "mister"."Rubro" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Rubro.Rubro (estrategia de heredar="new-table")
-2016-12-30 11:31:36.711 La columna ""mister"."Rubro"."nombre"" añadió a la representación de la table.
-2016-12-30 11:31:36.736 Campo [domainapp.dom.mister.Rubro.Rubro.nombre] -> Columnas ["mister"."Rubro"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.761 Campo [domainapp.dom.mister.Rubro.Rubro.subrubro] -> Columnas [[none]] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
-2016-12-30 11:31:36.766 La columna ""mister"."Rubro"."version"" añadió a la representación de la table.
-2016-12-30 11:31:36.766 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.766 Campo [VERSION] -> Columnas ["mister"."Rubro"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.771 Table/View "mister"."Rubro" ha sido inicializado
-2016-12-30 11:31:36.771 La tabla "mister"."Combo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.Combo (estrategia de heredar="new-table")
-2016-12-30 11:31:36.771 La columna ""mister"."Combo"."activo"" añadió a la representación de la table.
-2016-12-30 11:31:36.776 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.776 Campo [domainapp.dom.mister.Articulo.Combo.activo] -> Columnas ["mister"."Combo"."activo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
-2016-12-30 11:31:36.786 La columna ""mister"."Combo"."fechaAlta"" añadió a la representación de la table.
-2016-12-30 11:31:36.791 Campo [domainapp.dom.mister.Articulo.Combo.fechaAlta] -> Columnas ["mister"."Combo"."fechaAlta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.TypeConverterMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
-2016-12-30 11:31:36.806 La columna ""mister"."Combo"."nombre"" añadió a la representación de la table.
-2016-12-30 11:31:36.806 Campo [domainapp.dom.mister.Articulo.Combo.nombre] -> Columnas ["mister"."Combo"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.811 La columna ""mister"."Combo"."observaciones"" añadió a la representación de la table.
-2016-12-30 11:31:36.811 Campo [domainapp.dom.mister.Articulo.Combo.observaciones] -> Columnas ["mister"."Combo"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.816 La columna ""mister"."Combo"."personal_personal_id_OID"" añadió a la representación de la table.
-2016-12-30 11:31:36.821 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.821 Campo [domainapp.dom.mister.Articulo.Combo.personal] -> Columnas ["mister"."Combo"."personal_personal_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.821 La columna ""mister"."Combo"."precioVenta"" añadió a la representación de la table.
-2016-12-30 11:31:36.826 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.826 Campo [domainapp.dom.mister.Articulo.Combo.precioVenta] -> Columnas ["mister"."Combo"."precioVenta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
-2016-12-30 11:31:36.826 La columna ""mister"."Combo"."version"" añadió a la representación de la table.
-2016-12-30 11:31:36.826 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.826 Campo [VERSION] -> Columnas ["mister"."Combo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2016-12-30 11:31:36.831 Table/View "mister"."Combo" ha sido inicializado
-2016-12-30 11:31:36.831 La tabla "mister"."ComboArticulo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.ComboArticulo (estrategia de heredar="new-table")
-2016-12-30 11:31:36.831 La columna ""mister"."ComboArticulo"."articulo_articulo_id_OID"" añadió a la representación de la table.
-2016-12-30 11:31:36.831 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.831 Campo [domainapp.dom.mister.Articulo.ComboArticulo.articulo] -> Columnas ["mister"."ComboArticulo"."articulo_articulo_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.831 La columna ""mister"."ComboArticulo"."cantidad"" añadió a la representación de la table.
-2016-12-30 11:31:36.831 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.836 Campo [domainapp.dom.mister.Articulo.ComboArticulo.cantidad] -> Columnas ["mister"."ComboArticulo"."cantidad"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-30 11:31:36.836 La columna ""mister"."ComboArticulo"."combo_combo_id_OID"" añadió a la representación de la table.
-2016-12-30 11:31:36.836 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.836 Campo [domainapp.dom.mister.Articulo.ComboArticulo.combo] -> Columnas ["mister"."ComboArticulo"."combo_combo_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.836 La columna ""mister"."ComboArticulo"."version"" añadió a la representación de la table.
-2016-12-30 11:31:36.836 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.836 Campo [VERSION] -> Columnas ["mister"."ComboArticulo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2016-12-30 11:31:36.841 Table/View "mister"."ComboArticulo" ha sido inicializado
-2016-12-30 11:31:36.841 La tabla "mister"."SubRubro" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.SubRubro.SubRubro (estrategia de heredar="new-table")
-2016-12-30 11:31:36.841 La columna ""mister"."SubRubro"."nombre"" añadió a la representación de la table.
-2016-12-30 11:31:36.841 Campo [domainapp.dom.mister.SubRubro.SubRubro.nombre] -> Columnas ["mister"."SubRubro"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.841 La columna ""mister"."SubRubro"."rubro_rubro_id_OID"" añadió a la representación de la table.
-2016-12-30 11:31:36.846 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.846 Campo [domainapp.dom.mister.SubRubro.SubRubro.rubro] -> Columnas ["mister"."SubRubro"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.846 La columna ""mister"."SubRubro"."version"" añadió a la representación de la table.
-2016-12-30 11:31:36.846 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.846 Campo [VERSION] -> Columnas ["mister"."SubRubro"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.846 Table/View "mister"."SubRubro" ha sido inicializado
-2016-12-30 11:31:36.846 La tabla "mister"."Proveedor" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Provedor.Proveedor (estrategia de heredar="new-table")
-2016-12-30 11:31:36.861 La columna ""mister"."Proveedor"."condicion"" añadió a la representación de la table.
-2016-12-30 11:31:36.861 Campo [domainapp.dom.mister.Provedor.Proveedor.condicion] -> Columnas ["mister"."Proveedor"."condicion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.866 La columna ""mister"."Proveedor"."contacto"" añadió a la representación de la table.
-2016-12-30 11:31:36.866 Campo [domainapp.dom.mister.Provedor.Proveedor.contacto] -> Columnas ["mister"."Proveedor"."contacto"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.866 La columna ""mister"."Proveedor"."correoElectronico"" añadió a la representación de la table.
-2016-12-30 11:31:36.866 Campo [domainapp.dom.mister.Provedor.Proveedor.correoElectronico] -> Columnas ["mister"."Proveedor"."correoElectronico"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.871 La columna ""mister"."Proveedor"."cuit"" añadió a la representación de la table.
-2016-12-30 11:31:36.871 Campo [domainapp.dom.mister.Provedor.Proveedor.cuit] -> Columnas ["mister"."Proveedor"."cuit"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.871 La columna ""mister"."Proveedor"."direccion"" añadió a la representación de la table.
-2016-12-30 11:31:36.871 Campo [domainapp.dom.mister.Provedor.Proveedor.direccion] -> Columnas ["mister"."Proveedor"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.876 La columna ""mister"."Proveedor"."nombreComercial"" añadió a la representación de la table.
-2016-12-30 11:31:36.876 Campo [domainapp.dom.mister.Provedor.Proveedor.nombreComercial] -> Columnas ["mister"."Proveedor"."nombreComercial"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.876 La columna ""mister"."Proveedor"."rubro_rubro_id_OID"" añadió a la representación de la table.
-2016-12-30 11:31:36.876 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.876 Campo [domainapp.dom.mister.Provedor.Proveedor.rubro] -> Columnas ["mister"."Proveedor"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.881 La columna ""mister"."Proveedor"."telefono"" añadió a la representación de la table.
-2016-12-30 11:31:36.881 Campo [domainapp.dom.mister.Provedor.Proveedor.telefono] -> Columnas ["mister"."Proveedor"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.886 La columna ""mister"."Proveedor"."version"" añadió a la representación de la table.
-2016-12-30 11:31:36.886 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.886 Campo [VERSION] -> Columnas ["mister"."Proveedor"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.891 Table/View "mister"."Proveedor" ha sido inicializado
-2016-12-30 11:31:36.891 La tabla "mister"."Personal" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Personal.Personal (estrategia de heredar="new-table")
-2016-12-30 11:31:36.891 La columna ""mister"."Personal"."categoria"" añadió a la representación de la table.
-2016-12-30 11:31:36.891 Campo [domainapp.dom.mister.Personal.Personal.categoria] -> Columnas ["mister"."Personal"."categoria"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.891 La columna ""mister"."Personal"."legajo"" añadió a la representación de la table.
-2016-12-30 11:31:36.891 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.896 Campo [domainapp.dom.mister.Personal.Personal.legajo] -> Columnas ["mister"."Personal"."legajo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-30 11:31:36.896 La tabla "mister"."Personal" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Persona (estrategia de heredar="subclass-table")
-2016-12-30 11:31:36.896 La columna ""mister"."Personal"."apellido"" añadió a la representación de la table.
-2016-12-30 11:31:36.896 Campo [domainapp.dom.mister.Persona.apellido] -> Columnas ["mister"."Personal"."apellido"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.901 La columna ""mister"."Personal"."direccion"" añadió a la representación de la table.
-2016-12-30 11:31:36.901 Campo [domainapp.dom.mister.Persona.direccion] -> Columnas ["mister"."Personal"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.906 La columna ""mister"."Personal"."dni"" añadió a la representación de la table.
-2016-12-30 11:31:36.906 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.906 Campo [domainapp.dom.mister.Persona.dni] -> Columnas ["mister"."Personal"."dni"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-30 11:31:36.911 La columna ""mister"."Personal"."email"" añadió a la representación de la table.
-2016-12-30 11:31:36.911 Campo [domainapp.dom.mister.Persona.email] -> Columnas ["mister"."Personal"."email"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.911 La columna ""mister"."Personal"."nombre"" añadió a la representación de la table.
-2016-12-30 11:31:36.911 Campo [domainapp.dom.mister.Persona.nombre] -> Columnas ["mister"."Personal"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.916 La columna ""mister"."Personal"."telefono"" añadió a la representación de la table.
-2016-12-30 11:31:36.916 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.916 Campo [domainapp.dom.mister.Persona.telefono] -> Columnas ["mister"."Personal"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-30 11:31:36.916 La columna ""mister"."Personal"."version"" añadió a la representación de la table.
-2016-12-30 11:31:36.916 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.916 Campo [VERSION] -> Columnas ["mister"."Personal"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2016-12-30 11:31:36.916 Table/View "mister"."Personal" ha sido inicializado
-2016-12-30 11:31:36.916 La tabla "mister"."Cliente" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Cliente.Cliente (estrategia de heredar="new-table")
-2016-12-30 11:31:36.921 La columna ""mister"."Cliente"."observaciones"" añadió a la representación de la table.
-2016-12-30 11:31:36.921 Campo [domainapp.dom.mister.Cliente.Cliente.observaciones] -> Columnas ["mister"."Cliente"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.921 La tabla "mister"."Cliente" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Persona (estrategia de heredar="subclass-table")
-2016-12-30 11:31:36.926 La columna ""mister"."Cliente"."apellido"" añadió a la representación de la table.
-2016-12-30 11:31:36.926 Campo [domainapp.dom.mister.Persona.apellido] -> Columnas ["mister"."Cliente"."apellido"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.926 La columna ""mister"."Cliente"."direccion"" añadió a la representación de la table.
-2016-12-30 11:31:36.926 Campo [domainapp.dom.mister.Persona.direccion] -> Columnas ["mister"."Cliente"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.926 La columna ""mister"."Cliente"."dni"" añadió a la representación de la table.
-2016-12-30 11:31:36.926 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.931 Campo [domainapp.dom.mister.Persona.dni] -> Columnas ["mister"."Cliente"."dni"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-30 11:31:36.931 La columna ""mister"."Cliente"."email"" añadió a la representación de la table.
-2016-12-30 11:31:36.931 Campo [domainapp.dom.mister.Persona.email] -> Columnas ["mister"."Cliente"."email"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.931 La columna ""mister"."Cliente"."nombre"" añadió a la representación de la table.
-2016-12-30 11:31:36.931 Campo [domainapp.dom.mister.Persona.nombre] -> Columnas ["mister"."Cliente"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.931 La columna ""mister"."Cliente"."telefono"" añadió a la representación de la table.
-2016-12-30 11:31:36.936 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.936 Campo [domainapp.dom.mister.Persona.telefono] -> Columnas ["mister"."Cliente"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-30 11:31:36.936 La columna ""mister"."Cliente"."version"" añadió a la representación de la table.
-2016-12-30 11:31:36.936 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.936 Campo [VERSION] -> Columnas ["mister"."Cliente"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2016-12-30 11:31:36.936 Table/View "mister"."Cliente" ha sido inicializado
-2016-12-30 11:31:36.941 La tabla "mister"."Articulo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.Articulo (estrategia de heredar="new-table")
-2016-12-30 11:31:36.941 La columna ""mister"."Articulo"."activo"" añadió a la representación de la table.
-2016-12-30 11:31:36.941 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.941 Campo [domainapp.dom.mister.Articulo.Articulo.activo] -> Columnas ["mister"."Articulo"."activo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
-2016-12-30 11:31:36.946 La columna ""mister"."Articulo"."codBarra"" añadió a la representación de la table.
-2016-12-30 11:31:36.946 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.946 Campo [domainapp.dom.mister.Articulo.Articulo.codBarra] -> Columnas ["mister"."Articulo"."codBarra"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.LongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.946 La columna ""mister"."Articulo"."codigo"" añadió a la representación de la table.
-2016-12-30 11:31:36.946 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.946 Campo [domainapp.dom.mister.Articulo.Articulo.codigo] -> Columnas ["mister"."Articulo"."codigo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
-2016-12-30 11:31:36.951 La columna ""mister"."Articulo"."fechaAlta"" añadió a la representación de la table.
-2016-12-30 11:31:36.951 Campo [domainapp.dom.mister.Articulo.Articulo.fechaAlta] -> Columnas ["mister"."Articulo"."fechaAlta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.TypeConverterMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
-2016-12-30 11:31:36.951 La columna ""mister"."Articulo"."iva"" añadió a la representación de la table.
-2016-12-30 11:31:36.951 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.951 Campo [domainapp.dom.mister.Articulo.Articulo.iva] -> Columnas ["mister"."Articulo"."iva"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
-2016-12-30 11:31:36.956 La columna ""mister"."Articulo"."nombre"" añadió a la representación de la table.
-2016-12-30 11:31:36.956 Campo [domainapp.dom.mister.Articulo.Articulo.nombre] -> Columnas ["mister"."Articulo"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.956 La columna ""mister"."Articulo"."observaciones"" añadió a la representación de la table.
-2016-12-30 11:31:36.956 Campo [domainapp.dom.mister.Articulo.Articulo.observaciones] -> Columnas ["mister"."Articulo"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
-2016-12-30 11:31:36.961 La columna ""mister"."Articulo"."personal_personal_id_OID"" añadió a la representación de la table.
-2016-12-30 11:31:36.961 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.961 Campo [domainapp.dom.mister.Articulo.Articulo.personal] -> Columnas ["mister"."Articulo"."personal_personal_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.961 La columna ""mister"."Articulo"."precioCosto"" añadió a la representación de la table.
-2016-12-30 11:31:36.961 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.961 Campo [domainapp.dom.mister.Articulo.Articulo.precioCosto] -> Columnas ["mister"."Articulo"."precioCosto"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
-2016-12-30 11:31:36.966 La columna ""mister"."Articulo"."precioVenta"" añadió a la representación de la table.
-2016-12-30 11:31:36.966 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.966 Campo [domainapp.dom.mister.Articulo.Articulo.precioVenta] -> Columnas ["mister"."Articulo"."precioVenta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
-2016-12-30 11:31:36.966 La columna ""mister"."Articulo"."promocion"" añadió a la representación de la table.
-2016-12-30 11:31:36.971 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.971 Campo [domainapp.dom.mister.Articulo.Articulo.promocion] -> Columnas ["mister"."Articulo"."promocion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
-2016-12-30 11:31:36.971 La columna ""mister"."Articulo"."proveedor_proveedor_id_OID"" añadió a la representación de la table.
-2016-12-30 11:31:36.971 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.971 Campo [domainapp.dom.mister.Articulo.Articulo.proveedor] -> Columnas ["mister"."Articulo"."proveedor_proveedor_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.976 La columna ""mister"."Articulo"."rubro_rubro_id_OID"" añadió a la representación de la table.
-2016-12-30 11:31:36.976 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.976 Campo [domainapp.dom.mister.Articulo.Articulo.rubro] -> Columnas ["mister"."Articulo"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.976 La columna ""mister"."Articulo"."sub_Rubro_subrubro_id_OID"" añadió a la representación de la table.
-2016-12-30 11:31:36.976 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.976 Campo [domainapp.dom.mister.Articulo.Articulo.sub_Rubro] -> Columnas ["mister"."Articulo"."sub_Rubro_subrubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
-2016-12-30 11:31:36.976 La columna ""mister"."Articulo"."version"" añadió a la representación de la table.
-2016-12-30 11:31:36.981 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
-2016-12-30 11:31:36.981 Campo [VERSION] -> Columnas ["mister"."Articulo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
-2016-12-30 11:31:36.981 Table/View "mister"."Articulo" ha sido inicializado
-2016-12-30 11:31:36.993 Empezando transaccion del esquema con conneccion "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@15297e3" y isolacion "serializable"
-2016-12-30 11:31:37.003 Check of existence of "mister"."Rubro" returned table type of TABLE
-2016-12-30 11:31:37.013 Cargando información de columna para las tablas "Rubro" por el Catalogo "", el Esquema "mister"
-2016-12-30 11:31:37.068 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 55 ms
-2016-12-30 11:31:37.068 Información de columna cargado por la tabla "Rubro" : hemos encontrado 3 columnas
-2016-12-30 11:31:37.083 Check of existence of "mister"."Combo" returned table type of TABLE
-2016-12-30 11:31:37.088 Cargando información de columna para las tablas "Combo" por el Catalogo "", el Esquema "mister"
-2016-12-30 11:31:37.113 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
-2016-12-30 11:31:37.113 Información de columna cargado por la tabla "Combo" : hemos encontrado 8 columnas
-2016-12-30 11:31:37.138 Check of existence of "mister"."ComboArticulo" returned table type of TABLE
-2016-12-30 11:31:37.138 Cargando información de columna para las tablas "ComboArticulo" por el Catalogo "", el Esquema "mister"
-2016-12-30 11:31:37.163 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
-2016-12-30 11:31:37.163 Información de columna cargado por la tabla "ComboArticulo" : hemos encontrado 5 columnas
-2016-12-30 11:31:37.178 Check of existence of "mister"."SubRubro" returned table type of TABLE
-2016-12-30 11:31:37.183 Cargando información de columna para las tablas "SubRubro" por el Catalogo "", el Esquema "mister"
-2016-12-30 11:31:37.208 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
-2016-12-30 11:31:37.208 Información de columna cargado por la tabla "SubRubro" : hemos encontrado 4 columnas
-2016-12-30 11:31:37.218 Check of existence of "mister"."Proveedor" returned table type of TABLE
-2016-12-30 11:31:37.218 Cargando información de columna para las tablas "Proveedor" por el Catalogo "", el Esquema "mister"
-2016-12-30 11:31:37.243 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 25 ms
-2016-12-30 11:31:37.248 Información de columna cargado por la tabla "Proveedor" : hemos encontrado 10 columnas
-2016-12-30 11:31:37.258 Check of existence of "mister"."Personal" returned table type of TABLE
-2016-12-30 11:31:37.263 Cargando información de columna para las tablas "Personal" por el Catalogo "", el Esquema "mister"
-2016-12-30 11:31:37.288 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 30 ms
-2016-12-30 11:31:37.288 Información de columna cargado por la tabla "Personal" : hemos encontrado 10 columnas
-2016-12-30 11:31:37.298 Check of existence of "mister"."Cliente" returned table type of TABLE
-2016-12-30 11:31:37.303 Cargando información de columna para las tablas "Cliente" por el Catalogo "", el Esquema "mister"
-2016-12-30 11:31:37.323 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 20 ms
-2016-12-30 11:31:37.323 Información de columna cargado por la tabla "Cliente" : hemos encontrado 9 columnas
-2016-12-30 11:31:37.338 Check of existence of "mister"."Articulo" returned table type of TABLE
-2016-12-30 11:31:37.338 Cargando información de columna para las tablas "Articulo" por el Catalogo "", el Esquema "mister"
-2016-12-30 11:31:37.373 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 30 ms
-2016-12-30 11:31:37.373 Información de columna cargado por la tabla "Articulo" : hemos encontrado 16 columnas
-2016-12-30 11:31:37.438 Validando 2 llaves unicas de la tabla "mister"."Rubro"
-2016-12-30 11:31:37.618 Validando 0 foreign key(s) de la tabla "mister"."Rubro"
-2016-12-30 11:31:37.663 Validando 2 indic(es) de la tabla "mister"."Rubro"
-2016-12-30 11:31:37.698 Validando 2 llaves unicas de la tabla "mister"."Combo"
-2016-12-30 11:31:37.898 Validando 30 foreign key(s) de la tabla "mister"."Combo"
-2016-12-30 11:31:37.913 Crear el constreñimiento del foreign key "Combo_FK60" en catalogo "" equema ""mister""
-2016-12-30 11:31:37.913 ALTER TABLE "mister"."Combo" ADD CONSTRAINT "Combo_FK60" FOREIGN KEY ("personal_personal_id_OID") REFERENCES "mister"."Personal" ("personal_id") INITIALLY DEFERRED 
-2016-12-30 11:31:37.933 Tiempo de cumplir = 20 ms
-2016-12-30 11:31:37.968 Validando 3 indic(es) de la tabla "mister"."Combo"
-2016-12-30 11:31:38.008 Validando 1 llaves unicas de la tabla "mister"."ComboArticulo"
-2016-12-30 11:31:38.230 Validando 60 foreign key(s) de la tabla "mister"."ComboArticulo"
-2016-12-30 11:31:38.235 Crear el constreñimiento del foreign key "ComboArticulo_FK7e" en catalogo "" equema ""mister""
-2016-12-30 11:31:38.235 ALTER TABLE "mister"."ComboArticulo" ADD CONSTRAINT "ComboArticulo_FK7e" FOREIGN KEY ("articulo_articulo_id_OID") REFERENCES "mister"."Articulo" ("articulo_id") INITIALLY DEFERRED 
-2016-12-30 11:31:38.265 Tiempo de cumplir = 25 ms
-2016-12-30 11:31:38.265 Crear el constreñimiento del foreign key "ComboArticulo_FK7f" en catalogo "" equema ""mister""
-2016-12-30 11:31:38.265 ALTER TABLE "mister"."ComboArticulo" ADD CONSTRAINT "ComboArticulo_FK7f" FOREIGN KEY ("combo_combo_id_OID") REFERENCES "mister"."Combo" ("combo_id") INITIALLY DEFERRED 
-2016-12-30 11:31:38.275 Tiempo de cumplir = 10 ms
-2016-12-30 11:31:38.310 Validando 3 indic(es) de la tabla "mister"."ComboArticulo"
-2016-12-30 11:31:38.350 Validando 2 llaves unicas de la tabla "mister"."SubRubro"
-2016-12-30 11:31:38.525 Validando 30 foreign key(s) de la tabla "mister"."SubRubro"
-2016-12-30 11:31:38.530 Crear el constreñimiento del foreign key "SubRubro_FK60" en catalogo "" equema ""mister""
-2016-12-30 11:31:38.530 ALTER TABLE "mister"."SubRubro" ADD CONSTRAINT "SubRubro_FK60" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
-2016-12-30 11:31:38.545 Tiempo de cumplir = 15 ms
-2016-12-30 11:31:38.580 Validando 3 indic(es) de la tabla "mister"."SubRubro"
-2016-12-30 11:31:38.615 Validando 2 llaves unicas de la tabla "mister"."Proveedor"
-2016-12-30 11:31:38.790 Validando 30 foreign key(s) de la tabla "mister"."Proveedor"
-2016-12-30 11:31:38.790 Crear el constreñimiento del foreign key "Proveedor_FK60" en catalogo "" equema ""mister""
-2016-12-30 11:31:38.790 ALTER TABLE "mister"."Proveedor" ADD CONSTRAINT "Proveedor_FK60" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
-2016-12-30 11:31:38.810 Tiempo de cumplir = 20 ms
-2016-12-30 11:31:38.845 Validando 3 indic(es) de la tabla "mister"."Proveedor"
-2016-12-30 11:31:38.875 Validando 2 llaves unicas de la tabla "mister"."Personal"
-2016-12-30 11:31:39.030 Validando 0 foreign key(s) de la tabla "mister"."Personal"
-2016-12-30 11:31:39.067 Validando 2 indic(es) de la tabla "mister"."Personal"
-2016-12-30 11:31:39.102 Validando 2 llaves unicas de la tabla "mister"."Cliente"
-2016-12-30 11:31:39.252 Validando 0 foreign key(s) de la tabla "mister"."Cliente"
-2016-12-30 11:31:39.282 Validando 2 indic(es) de la tabla "mister"."Cliente"
-2016-12-30 11:31:39.322 Validando 2 llaves unicas de la tabla "mister"."Articulo"
-2016-12-30 11:31:39.592 Validando 120 foreign key(s) de la tabla "mister"."Articulo"
-2016-12-30 11:31:39.597 Crear el constreñimiento del foreign key "Articulo_FKbd" en catalogo "" equema ""mister""
-2016-12-30 11:31:39.597 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKbd" FOREIGN KEY ("sub_Rubro_subrubro_id_OID") REFERENCES "mister"."SubRubro" ("subrubro_id") INITIALLY DEFERRED 
-2016-12-30 11:31:39.617 Tiempo de cumplir = 20 ms
-2016-12-30 11:31:39.617 Crear el constreñimiento del foreign key "Articulo_FKbc" en catalogo "" equema ""mister""
-2016-12-30 11:31:39.617 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKbc" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
-2016-12-30 11:31:39.632 Tiempo de cumplir = 15 ms
-2016-12-30 11:31:39.632 Crear el constreñimiento del foreign key "Articulo_FKbb" en catalogo "" equema ""mister""
-2016-12-30 11:31:39.632 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKbb" FOREIGN KEY ("proveedor_proveedor_id_OID") REFERENCES "mister"."Proveedor" ("proveedor_id") INITIALLY DEFERRED 
-2016-12-30 11:31:39.647 Tiempo de cumplir = 15 ms
-2016-12-30 11:31:39.647 Crear el constreñimiento del foreign key "Articulo_FKba" en catalogo "" equema ""mister""
-2016-12-30 11:31:39.647 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKba" FOREIGN KEY ("personal_personal_id_OID") REFERENCES "mister"."Personal" ("personal_id") INITIALLY DEFERRED 
-2016-12-30 11:31:39.667 Tiempo de cumplir = 20 ms
-2016-12-30 11:31:39.707 Validando 6 indic(es) de la tabla "mister"."Articulo"
-2016-12-30 11:31:39.712 Committing transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@15297e3"
-2016-12-30 11:31:39.722 Cerrando la conneccion de la transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@15297e3"
-2016-12-30 11:32:18.868 SELECT 'domainapp.dom.mister.Cliente.Cliente' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."observaciones","A0"."cliente_id","A0"."version" FROM "mister"."Cliente" "A0"
-2016-12-30 11:32:20.033 SELECT 'domainapp.dom.mister.Personal.Personal' AS "NUCLEUS_TYPE","A0"."apellido","A0"."direccion","A0"."dni","A0"."email","A0"."nombre","A0"."telefono","A0"."categoria","A0"."legajo","A0"."personal_id","A0"."version" FROM "mister"."Personal" "A0"
-2016-12-30 11:32:20.466 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-30 11:32:20.601 SELECT "B0"."nombre","B0"."rubro_id","B0"."version","A0"."version" FROM "mister"."Proveedor" "A0" INNER JOIN "mister"."Rubro" "B0" ON "A0"."rubro_rubro_id_OID" = "B0"."rubro_id" WHERE "A0"."proveedor_id" = <1>
-2016-12-30 11:32:20.879 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-30 11:32:21.089 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
-2016-12-30 11:32:21.225 SELECT 'domainapp.dom.mister.Provedor.Proveedor' AS "NUCLEUS_TYPE","A0"."condicion","A0"."contacto","A0"."correoElectronico","A0"."cuit","A0"."direccion","A0"."nombreComercial","A0"."telefono","A0"."proveedor_id","A0"."version" FROM "mister"."Proveedor" "A0"
+2017-01-04 21:27:41.119 Tiempo de cumplir = 12 ms
+2017-01-04 21:27:41.134 No era posible determinar el nombre del catalogo por este DataStore
+2017-01-04 21:27:41.134 Borrar la tabla "DELETEME1483576061105"
+2017-01-04 21:27:41.137 DROP TABLE "DELETEME1483576061105" CASCADE
+2017-01-04 21:27:41.144 Tiempo de cumplir = 7 ms
+2017-01-04 21:27:46.812 La columna ""mister"."Personal"."personal_id"" añadió a la representación de la table.
+2017-01-04 21:27:46.815 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:46.816 Campo [DATASTORE_ID] -> Columnas ["mister"."Personal"."personal_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:46.934 La columna ""mister"."SubRubro"."subrubro_id"" añadió a la representación de la table.
+2017-01-04 21:27:46.935 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:46.935 Campo [DATASTORE_ID] -> Columnas ["mister"."SubRubro"."subrubro_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:46.939 La columna ""mister"."Rubro"."rubro_id"" añadió a la representación de la table.
+2017-01-04 21:27:46.949 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:46.961 Campo [DATASTORE_ID] -> Columnas ["mister"."Rubro"."rubro_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:46.962 La columna ""mister"."Proveedor"."proveedor_id"" añadió a la representación de la table.
+2017-01-04 21:27:46.963 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:46.963 Campo [DATASTORE_ID] -> Columnas ["mister"."Proveedor"."proveedor_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:46.964 La columna ""mister"."Articulo"."articulo_id"" añadió a la representación de la table.
+2017-01-04 21:27:46.966 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:46.967 Campo [DATASTORE_ID] -> Columnas ["mister"."Articulo"."articulo_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:46.974 La columna ""mister"."Combo"."combo_id"" añadió a la representación de la table.
+2017-01-04 21:27:46.992 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:46.993 Campo [DATASTORE_ID] -> Columnas ["mister"."Combo"."combo_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:46.993 La columna ""mister"."ComboArticulo"."comboArt_id"" añadió a la representación de la table.
+2017-01-04 21:27:46.994 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:46.994 Campo [DATASTORE_ID] -> Columnas ["mister"."ComboArticulo"."comboArt_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:46.995 La columna ""mister"."Cliente"."cliente_id"" añadió a la representación de la table.
+2017-01-04 21:27:46.995 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:46.996 Campo [DATASTORE_ID] -> Columnas ["mister"."Cliente"."cliente_id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.019 La columna ""isissecurity"."ApplicationTenancy"."path"" añadió a la representación de la table.
+2017-01-04 21:27:47.030 Campo [org.isisaddons.module.security.dom.tenancy.ApplicationTenancy.path] -> Columnas ["isissecurity"."ApplicationTenancy"."path"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.032 La columna ""isissecurity"."ApplicationUser"."id"" añadió a la representación de la table.
+2017-01-04 21:27:47.033 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.036 Campo [DATASTORE_ID] -> Columnas ["isissecurity"."ApplicationUser"."id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.046 La columna ""isissecurity"."ApplicationRole"."id"" añadió a la representación de la table.
+2017-01-04 21:27:47.047 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.047 Campo [DATASTORE_ID] -> Columnas ["isissecurity"."ApplicationRole"."id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.051 La columna ""isissecurity"."ApplicationPermission"."id"" añadió a la representación de la table.
+2017-01-04 21:27:47.052 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.053 Campo [DATASTORE_ID] -> Columnas ["isissecurity"."ApplicationPermission"."id"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.DatastoreIdMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.054 La tabla "mister"."Rubro" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Rubro.Rubro (estrategia de heredar="new-table")
+2017-01-04 21:27:47.055 La columna ""mister"."Rubro"."nombre"" añadió a la representación de la table.
+2017-01-04 21:27:47.056 Campo [domainapp.dom.mister.Rubro.Rubro.nombre] -> Columnas ["mister"."Rubro"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.084 Campo [domainapp.dom.mister.Rubro.Rubro.subrubro] -> Columnas [[none]] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+2017-01-04 21:27:47.087 La columna ""mister"."Rubro"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.088 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.088 Campo [VERSION] -> Columnas ["mister"."Rubro"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.089 Table/View "mister"."Rubro" ha sido inicializado
+2017-01-04 21:27:47.089 La tabla "mister"."ComboArticulo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.ComboArticulo (estrategia de heredar="new-table")
+2017-01-04 21:27:47.096 La columna ""mister"."ComboArticulo"."articulo_articulo_id_OID"" añadió a la representación de la table.
+2017-01-04 21:27:47.097 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.098 Campo [domainapp.dom.mister.Articulo.ComboArticulo.articulo] -> Columnas ["mister"."ComboArticulo"."articulo_articulo_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.101 La columna ""mister"."ComboArticulo"."cantidad"" añadió a la representación de la table.
+2017-01-04 21:27:47.102 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.103 Campo [domainapp.dom.mister.Articulo.ComboArticulo.cantidad] -> Columnas ["mister"."ComboArticulo"."cantidad"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2017-01-04 21:27:47.104 La columna ""mister"."ComboArticulo"."combo_combo_id_OID"" añadió a la representación de la table.
+2017-01-04 21:27:47.104 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.105 Campo [domainapp.dom.mister.Articulo.ComboArticulo.combo] -> Columnas ["mister"."ComboArticulo"."combo_combo_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.106 La columna ""mister"."ComboArticulo"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.108 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.109 Campo [VERSION] -> Columnas ["mister"."ComboArticulo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2017-01-04 21:27:47.109 Table/View "mister"."ComboArticulo" ha sido inicializado
+2017-01-04 21:27:47.109 La tabla "mister"."SubRubro" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.SubRubro.SubRubro (estrategia de heredar="new-table")
+2017-01-04 21:27:47.115 La columna ""mister"."SubRubro"."nombre"" añadió a la representación de la table.
+2017-01-04 21:27:47.126 Campo [domainapp.dom.mister.SubRubro.SubRubro.nombre] -> Columnas ["mister"."SubRubro"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.127 La columna ""mister"."SubRubro"."rubro_rubro_id_OID"" añadió a la representación de la table.
+2017-01-04 21:27:47.128 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.128 Campo [domainapp.dom.mister.SubRubro.SubRubro.rubro] -> Columnas ["mister"."SubRubro"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.129 La columna ""mister"."SubRubro"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.131 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.131 Campo [VERSION] -> Columnas ["mister"."SubRubro"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.134 Table/View "mister"."SubRubro" ha sido inicializado
+2017-01-04 21:27:47.145 La tabla "isissecurity"."ApplicationUser" va a manejar la persistencia de los campos de la clase org.isisaddons.module.security.dom.user.ApplicationUser (estrategia de heredar="new-table")
+2017-01-04 21:27:47.148 La columna ""isissecurity"."ApplicationUser"."accountType"" añadió a la representación de la table.
+2017-01-04 21:27:47.150 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.accountType] -> Columnas ["isissecurity"."ApplicationUser"."accountType"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.151 La columna ""isissecurity"."ApplicationUser"."emailAddress"" añadió a la representación de la table.
+2017-01-04 21:27:47.151 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.emailAddress] -> Columnas ["isissecurity"."ApplicationUser"."emailAddress"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.152 La columna ""isissecurity"."ApplicationUser"."encryptedPassword"" añadió a la representación de la table.
+2017-01-04 21:27:47.153 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.encryptedPassword] -> Columnas ["isissecurity"."ApplicationUser"."encryptedPassword"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.154 La columna ""isissecurity"."ApplicationUser"."familyName"" añadió a la representación de la table.
+2017-01-04 21:27:47.155 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.familyName] -> Columnas ["isissecurity"."ApplicationUser"."familyName"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.155 La columna ""isissecurity"."ApplicationUser"."faxNumber"" añadió a la representación de la table.
+2017-01-04 21:27:47.156 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.faxNumber] -> Columnas ["isissecurity"."ApplicationUser"."faxNumber"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.168 La columna ""isissecurity"."ApplicationUser"."givenName"" añadió a la representación de la table.
+2017-01-04 21:27:47.169 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.givenName] -> Columnas ["isissecurity"."ApplicationUser"."givenName"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.169 La columna ""isissecurity"."ApplicationUser"."knownAs"" añadió a la representación de la table.
+2017-01-04 21:27:47.170 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.knownAs] -> Columnas ["isissecurity"."ApplicationUser"."knownAs"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.171 La columna ""isissecurity"."ApplicationUser"."phoneNumber"" añadió a la representación de la table.
+2017-01-04 21:27:47.172 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.phoneNumber] -> Columnas ["isissecurity"."ApplicationUser"."phoneNumber"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.189 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.roles] -> Columnas [[none]] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+2017-01-04 21:27:47.191 La columna ""isissecurity"."ApplicationUser"."status"" añadió a la representación de la table.
+2017-01-04 21:27:47.191 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.status] -> Columnas ["isissecurity"."ApplicationUser"."status"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.192 La columna ""isissecurity"."ApplicationUser"."atPath"" añadió a la representación de la table.
+2017-01-04 21:27:47.193 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.tenancy] -> Columnas ["isissecurity"."ApplicationUser"."atPath"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.193 La columna ""isissecurity"."ApplicationUser"."username"" añadió a la representación de la table.
+2017-01-04 21:27:47.196 Campo [org.isisaddons.module.security.dom.user.ApplicationUser.username] -> Columnas ["isissecurity"."ApplicationUser"."username"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.197 La columna ""isissecurity"."ApplicationUser"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.198 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.199 Campo [VERSION] -> Columnas ["isissecurity"."ApplicationUser"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.199 Table/View "isissecurity"."ApplicationUser" ha sido inicializado
+2017-01-04 21:27:47.199 La tabla "isissecurity"."ApplicationTenancy" va a manejar la persistencia de los campos de la clase org.isisaddons.module.security.dom.tenancy.ApplicationTenancy (estrategia de heredar="new-table")
+2017-01-04 21:27:47.200 Campo [org.isisaddons.module.security.dom.tenancy.ApplicationTenancy.children] -> Columnas [[none]] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+2017-01-04 21:27:47.201 La columna ""isissecurity"."ApplicationTenancy"."name"" añadió a la representación de la table.
+2017-01-04 21:27:47.201 Campo [org.isisaddons.module.security.dom.tenancy.ApplicationTenancy.name] -> Columnas ["isissecurity"."ApplicationTenancy"."name"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.202 La columna ""isissecurity"."ApplicationTenancy"."parentPath"" añadió a la representación de la table.
+2017-01-04 21:27:47.204 Campo [org.isisaddons.module.security.dom.tenancy.ApplicationTenancy.parent] -> Columnas ["isissecurity"."ApplicationTenancy"."parentPath"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.206 Campo [org.isisaddons.module.security.dom.tenancy.ApplicationTenancy.users] -> Columnas [[none]] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+2017-01-04 21:27:47.207 La columna ""isissecurity"."ApplicationTenancy"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.208 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.209 Campo [VERSION] -> Columnas ["isissecurity"."ApplicationTenancy"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.209 Table/View "isissecurity"."ApplicationTenancy" ha sido inicializado
+2017-01-04 21:27:47.209 La tabla "mister"."Combo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.Combo (estrategia de heredar="new-table")
+2017-01-04 21:27:47.218 La columna ""mister"."Combo"."activo"" añadió a la representación de la table.
+2017-01-04 21:27:47.220 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.221 Campo [domainapp.dom.mister.Articulo.Combo.activo] -> Columnas ["mister"."Combo"."activo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+2017-01-04 21:27:47.236 La columna ""mister"."Combo"."fechaAlta"" añadió a la representación de la table.
+2017-01-04 21:27:47.238 Campo [domainapp.dom.mister.Articulo.Combo.fechaAlta] -> Columnas ["mister"."Combo"."fechaAlta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.TypeConverterMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+2017-01-04 21:27:47.239 La columna ""mister"."Combo"."nombre"" añadió a la representación de la table.
+2017-01-04 21:27:47.239 Campo [domainapp.dom.mister.Articulo.Combo.nombre] -> Columnas ["mister"."Combo"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.241 La columna ""mister"."Combo"."observaciones"" añadió a la representación de la table.
+2017-01-04 21:27:47.242 Campo [domainapp.dom.mister.Articulo.Combo.observaciones] -> Columnas ["mister"."Combo"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.244 La columna ""mister"."Combo"."personal_personal_id_OID"" añadió a la representación de la table.
+2017-01-04 21:27:47.244 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.245 Campo [domainapp.dom.mister.Articulo.Combo.personal] -> Columnas ["mister"."Combo"."personal_personal_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.246 La columna ""mister"."Combo"."precioVenta"" añadió a la representación de la table.
+2017-01-04 21:27:47.248 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.249 Campo [domainapp.dom.mister.Articulo.Combo.precioVenta] -> Columnas ["mister"."Combo"."precioVenta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2017-01-04 21:27:47.250 La columna ""mister"."Combo"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.250 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.251 Campo [VERSION] -> Columnas ["mister"."Combo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2017-01-04 21:27:47.251 Table/View "mister"."Combo" ha sido inicializado
+2017-01-04 21:27:47.251 La tabla "isissecurity"."ApplicationRole" va a manejar la persistencia de los campos de la clase org.isisaddons.module.security.dom.role.ApplicationRole (estrategia de heredar="new-table")
+2017-01-04 21:27:47.252 La columna ""isissecurity"."ApplicationRole"."description"" añadió a la representación de la table.
+2017-01-04 21:27:47.252 Campo [org.isisaddons.module.security.dom.role.ApplicationRole.description] -> Columnas ["isissecurity"."ApplicationRole"."description"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.254 La columna ""isissecurity"."ApplicationRole"."name"" añadió a la representación de la table.
+2017-01-04 21:27:47.255 Campo [org.isisaddons.module.security.dom.role.ApplicationRole.name] -> Columnas ["isissecurity"."ApplicationRole"."name"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.255 Campo [org.isisaddons.module.security.dom.role.ApplicationRole.users] -> Columnas [[none]] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.CollectionMapping" ()
+2017-01-04 21:27:47.256 Table/View "isissecurity"."ApplicationRole" ha sido inicializado
+2017-01-04 21:27:47.256 La tabla "mister"."Proveedor" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Provedor.Proveedor (estrategia de heredar="new-table")
+2017-01-04 21:27:47.257 La columna ""mister"."Proveedor"."condicion"" añadió a la representación de la table.
+2017-01-04 21:27:47.258 Campo [domainapp.dom.mister.Provedor.Proveedor.condicion] -> Columnas ["mister"."Proveedor"."condicion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.268 La columna ""mister"."Proveedor"."contacto"" añadió a la representación de la table.
+2017-01-04 21:27:47.269 Campo [domainapp.dom.mister.Provedor.Proveedor.contacto] -> Columnas ["mister"."Proveedor"."contacto"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.269 La columna ""mister"."Proveedor"."correoElectronico"" añadió a la representación de la table.
+2017-01-04 21:27:47.270 Campo [domainapp.dom.mister.Provedor.Proveedor.correoElectronico] -> Columnas ["mister"."Proveedor"."correoElectronico"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.271 La columna ""mister"."Proveedor"."cuit"" añadió a la representación de la table.
+2017-01-04 21:27:47.271 Campo [domainapp.dom.mister.Provedor.Proveedor.cuit] -> Columnas ["mister"."Proveedor"."cuit"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.271 La columna ""mister"."Proveedor"."direccion"" añadió a la representación de la table.
+2017-01-04 21:27:47.272 Campo [domainapp.dom.mister.Provedor.Proveedor.direccion] -> Columnas ["mister"."Proveedor"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.272 La columna ""mister"."Proveedor"."nombreComercial"" añadió a la representación de la table.
+2017-01-04 21:27:47.273 Campo [domainapp.dom.mister.Provedor.Proveedor.nombreComercial] -> Columnas ["mister"."Proveedor"."nombreComercial"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.274 La columna ""mister"."Proveedor"."rubro_rubro_id_OID"" añadió a la representación de la table.
+2017-01-04 21:27:47.274 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.275 Campo [domainapp.dom.mister.Provedor.Proveedor.rubro] -> Columnas ["mister"."Proveedor"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.276 La columna ""mister"."Proveedor"."telefono"" añadió a la representación de la table.
+2017-01-04 21:27:47.277 Campo [domainapp.dom.mister.Provedor.Proveedor.telefono] -> Columnas ["mister"."Proveedor"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.278 La columna ""mister"."Proveedor"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.278 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.278 Campo [VERSION] -> Columnas ["mister"."Proveedor"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.279 Table/View "mister"."Proveedor" ha sido inicializado
+2017-01-04 21:27:47.327 La tabla "mister"."Personal" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Personal.Personal (estrategia de heredar="new-table")
+2017-01-04 21:27:47.328 La columna ""mister"."Personal"."categoria"" añadió a la representación de la table.
+2017-01-04 21:27:47.329 Campo [domainapp.dom.mister.Personal.Personal.categoria] -> Columnas ["mister"."Personal"."categoria"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.330 La columna ""mister"."Personal"."legajo"" añadió a la representación de la table.
+2017-01-04 21:27:47.331 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.331 Campo [domainapp.dom.mister.Personal.Personal.legajo] -> Columnas ["mister"."Personal"."legajo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2017-01-04 21:27:47.331 La tabla "mister"."Personal" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Persona (estrategia de heredar="subclass-table")
+2017-01-04 21:27:47.332 La columna ""mister"."Personal"."apellido"" añadió a la representación de la table.
+2017-01-04 21:27:47.333 Campo [domainapp.dom.mister.Persona.apellido] -> Columnas ["mister"."Personal"."apellido"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.333 La columna ""mister"."Personal"."direccion"" añadió a la representación de la table.
+2017-01-04 21:27:47.333 Campo [domainapp.dom.mister.Persona.direccion] -> Columnas ["mister"."Personal"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.334 La columna ""mister"."Personal"."dni"" añadió a la representación de la table.
+2017-01-04 21:27:47.335 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.335 Campo [domainapp.dom.mister.Persona.dni] -> Columnas ["mister"."Personal"."dni"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2017-01-04 21:27:47.336 La columna ""mister"."Personal"."email"" añadió a la representación de la table.
+2017-01-04 21:27:47.337 Campo [domainapp.dom.mister.Persona.email] -> Columnas ["mister"."Personal"."email"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.337 La columna ""mister"."Personal"."nombre"" añadió a la representación de la table.
+2017-01-04 21:27:47.337 Campo [domainapp.dom.mister.Persona.nombre] -> Columnas ["mister"."Personal"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.338 La columna ""mister"."Personal"."telefono"" añadió a la representación de la table.
+2017-01-04 21:27:47.338 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.339 Campo [domainapp.dom.mister.Persona.telefono] -> Columnas ["mister"."Personal"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2017-01-04 21:27:47.347 La columna ""mister"."Personal"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.347 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.348 Campo [VERSION] -> Columnas ["mister"."Personal"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2017-01-04 21:27:47.349 Table/View "mister"."Personal" ha sido inicializado
+2017-01-04 21:27:47.349 La tabla "mister"."Cliente" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Cliente.Cliente (estrategia de heredar="new-table")
+2017-01-04 21:27:47.350 La columna ""mister"."Cliente"."observaciones"" añadió a la representación de la table.
+2017-01-04 21:27:47.350 Campo [domainapp.dom.mister.Cliente.Cliente.observaciones] -> Columnas ["mister"."Cliente"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.351 La tabla "mister"."Cliente" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Persona (estrategia de heredar="subclass-table")
+2017-01-04 21:27:47.351 La columna ""mister"."Cliente"."apellido"" añadió a la representación de la table.
+2017-01-04 21:27:47.351 Campo [domainapp.dom.mister.Persona.apellido] -> Columnas ["mister"."Cliente"."apellido"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.352 La columna ""mister"."Cliente"."direccion"" añadió a la representación de la table.
+2017-01-04 21:27:47.352 Campo [domainapp.dom.mister.Persona.direccion] -> Columnas ["mister"."Cliente"."direccion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.353 La columna ""mister"."Cliente"."dni"" añadió a la representación de la table.
+2017-01-04 21:27:47.353 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.353 Campo [domainapp.dom.mister.Persona.dni] -> Columnas ["mister"."Cliente"."dni"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2017-01-04 21:27:47.354 La columna ""mister"."Cliente"."email"" añadió a la representación de la table.
+2017-01-04 21:27:47.354 Campo [domainapp.dom.mister.Persona.email] -> Columnas ["mister"."Cliente"."email"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.355 La columna ""mister"."Cliente"."nombre"" añadió a la representación de la table.
+2017-01-04 21:27:47.355 Campo [domainapp.dom.mister.Persona.nombre] -> Columnas ["mister"."Cliente"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.356 La columna ""mister"."Cliente"."telefono"" añadió a la representación de la table.
+2017-01-04 21:27:47.356 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.357 Campo [domainapp.dom.mister.Persona.telefono] -> Columnas ["mister"."Cliente"."telefono"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2017-01-04 21:27:47.357 La columna ""mister"."Cliente"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.357 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.358 Campo [VERSION] -> Columnas ["mister"."Cliente"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2017-01-04 21:27:47.369 Table/View "mister"."Cliente" ha sido inicializado
+2017-01-04 21:27:47.369 La tabla "mister"."Articulo" va a manejar la persistencia de los campos de la clase domainapp.dom.mister.Articulo.Articulo (estrategia de heredar="new-table")
+2017-01-04 21:27:47.370 La columna ""mister"."Articulo"."activo"" añadió a la representación de la table.
+2017-01-04 21:27:47.370 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.371 Campo [domainapp.dom.mister.Articulo.Articulo.activo] -> Columnas ["mister"."Articulo"."activo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+2017-01-04 21:27:47.371 La columna ""mister"."Articulo"."codBarra"" añadió a la representación de la table.
+2017-01-04 21:27:47.371 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.372 Campo [domainapp.dom.mister.Articulo.Articulo.codBarra] -> Columnas ["mister"."Articulo"."codBarra"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.LongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.373 La columna ""mister"."Articulo"."codigo"" añadió a la representación de la table.
+2017-01-04 21:27:47.373 Attempt to find JDBC driver 'typeInfo' for jdbc-type=INTEGER but sql-type=INTEGER is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.374 Campo [domainapp.dom.mister.Articulo.Articulo.codigo] -> Columnas ["mister"."Articulo"."codigo"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.IntegerMapping" (org.datanucleus.store.rdbms.mapping.datastore.IntegerRDBMSMapping)
+2017-01-04 21:27:47.375 La columna ""mister"."Articulo"."fechaAlta"" añadió a la representación de la table.
+2017-01-04 21:27:47.376 Campo [domainapp.dom.mister.Articulo.Articulo.fechaAlta] -> Columnas ["mister"."Articulo"."fechaAlta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.TypeConverterMapping" (org.datanucleus.store.rdbms.mapping.datastore.DateRDBMSMapping)
+2017-01-04 21:27:47.377 La columna ""mister"."Articulo"."iva"" añadió a la representación de la table.
+2017-01-04 21:27:47.378 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.378 Campo [domainapp.dom.mister.Articulo.Articulo.iva] -> Columnas ["mister"."Articulo"."iva"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2017-01-04 21:27:47.378 La columna ""mister"."Articulo"."nombre"" añadió a la representación de la table.
+2017-01-04 21:27:47.379 Campo [domainapp.dom.mister.Articulo.Articulo.nombre] -> Columnas ["mister"."Articulo"."nombre"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.380 La columna ""mister"."Articulo"."observaciones"" añadió a la representación de la table.
+2017-01-04 21:27:47.380 Campo [domainapp.dom.mister.Articulo.Articulo.observaciones] -> Columnas ["mister"."Articulo"."observaciones"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.381 La columna ""mister"."Articulo"."personal_personal_id_OID"" añadió a la representación de la table.
+2017-01-04 21:27:47.397 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.397 Campo [domainapp.dom.mister.Articulo.Articulo.personal] -> Columnas ["mister"."Articulo"."personal_personal_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.398 La columna ""mister"."Articulo"."precioCosto"" añadió a la representación de la table.
+2017-01-04 21:27:47.398 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.399 Campo [domainapp.dom.mister.Articulo.Articulo.precioCosto] -> Columnas ["mister"."Articulo"."precioCosto"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2017-01-04 21:27:47.399 La columna ""mister"."Articulo"."precioVenta"" añadió a la representación de la table.
+2017-01-04 21:27:47.400 Attempt to find JDBC driver 'typeInfo' for jdbc-type=DOUBLE but sql-type=DOUBLE is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.400 Campo [domainapp.dom.mister.Articulo.Articulo.precioVenta] -> Columnas ["mister"."Articulo"."precioVenta"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.FloatMapping" (org.datanucleus.store.rdbms.mapping.datastore.DoubleRDBMSMapping)
+2017-01-04 21:27:47.400 La columna ""mister"."Articulo"."promocion"" añadió a la representación de la table.
+2017-01-04 21:27:47.401 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIT but sql-type=BIT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.401 Campo [domainapp.dom.mister.Articulo.Articulo.promocion] -> Columnas ["mister"."Articulo"."promocion"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.BooleanMapping" (org.datanucleus.store.rdbms.mapping.datastore.BitRDBMSMapping)
+2017-01-04 21:27:47.402 La columna ""mister"."Articulo"."proveedor_proveedor_id_OID"" añadió a la representación de la table.
+2017-01-04 21:27:47.402 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.402 Campo [domainapp.dom.mister.Articulo.Articulo.proveedor] -> Columnas ["mister"."Articulo"."proveedor_proveedor_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.403 La columna ""mister"."Articulo"."rubro_rubro_id_OID"" añadió a la representación de la table.
+2017-01-04 21:27:47.404 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.404 Campo [domainapp.dom.mister.Articulo.Articulo.rubro] -> Columnas ["mister"."Articulo"."rubro_rubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.405 La columna ""mister"."Articulo"."sub_Rubro_subrubro_id_OID"" añadió a la representación de la table.
+2017-01-04 21:27:47.405 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.406 Campo [domainapp.dom.mister.Articulo.Articulo.sub_Rubro] -> Columnas ["mister"."Articulo"."sub_Rubro_subrubro_id_OID"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.406 La columna ""mister"."Articulo"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.407 Attempt to find JDBC driver 'typeInfo' for jdbc-type=TIMESTAMP but sql-type=TIMESTAMP is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.407 Campo [VERSION] -> Columnas ["mister"."Articulo"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionTimestampMapping" (org.datanucleus.store.rdbms.mapping.datastore.TimestampRDBMSMapping)
+2017-01-04 21:27:47.407 Table/View "mister"."Articulo" ha sido inicializado
+2017-01-04 21:27:47.408 La tabla "isissecurity"."ApplicationPermission" va a manejar la persistencia de los campos de la clase org.isisaddons.module.security.dom.permission.ApplicationPermission (estrategia de heredar="new-table")
+2017-01-04 21:27:47.408 La columna ""isissecurity"."ApplicationPermission"."featureFqn"" añadió a la representación de la table.
+2017-01-04 21:27:47.409 Campo [org.isisaddons.module.security.dom.permission.ApplicationPermission.featureFqn] -> Columnas ["isissecurity"."ApplicationPermission"."featureFqn"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.StringMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.410 La columna ""isissecurity"."ApplicationPermission"."featureType"" añadió a la representación de la table.
+2017-01-04 21:27:47.410 Campo [org.isisaddons.module.security.dom.permission.ApplicationPermission.featureType] -> Columnas ["isissecurity"."ApplicationPermission"."featureType"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.411 La columna ""isissecurity"."ApplicationPermission"."mode"" añadió a la representación de la table.
+2017-01-04 21:27:47.411 Campo [org.isisaddons.module.security.dom.permission.ApplicationPermission.mode] -> Columnas ["isissecurity"."ApplicationPermission"."mode"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.412 La columna ""isissecurity"."ApplicationPermission"."roleId"" añadió a la representación de la table.
+2017-01-04 21:27:47.413 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.413 Campo [org.isisaddons.module.security.dom.permission.ApplicationPermission.role] -> Columnas ["isissecurity"."ApplicationPermission"."roleId"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.PersistableMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.414 La columna ""isissecurity"."ApplicationPermission"."rule"" añadió a la representación de la table.
+2017-01-04 21:27:47.414 Campo [org.isisaddons.module.security.dom.permission.ApplicationPermission.rule] -> Columnas ["isissecurity"."ApplicationPermission"."rule"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.EnumMapping" (org.datanucleus.store.rdbms.mapping.datastore.VarCharRDBMSMapping)
+2017-01-04 21:27:47.415 La columna ""isissecurity"."ApplicationPermission"."version"" añadió a la representación de la table.
+2017-01-04 21:27:47.415 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.416 Campo [VERSION] -> Columnas ["isissecurity"."ApplicationPermission"."version"] usando mapping del tipo "org.datanucleus.store.rdbms.mapping.java.VersionLongMapping" (org.datanucleus.store.rdbms.mapping.datastore.BigIntRDBMSMapping)
+2017-01-04 21:27:47.416 Table/View "isissecurity"."ApplicationPermission" ha sido inicializado
+2017-01-04 21:27:47.428 La columna ""isissecurity"."ApplicationUserRoles"."userId"" añadió a la representación de la table.
+2017-01-04 21:27:47.429 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.430 La columna ""isissecurity"."ApplicationUserRoles"."roleId"" añadió a la representación de la table.
+2017-01-04 21:27:47.430 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.431 Table/View "isissecurity"."ApplicationUserRoles" ha sido inicializado
+2017-01-04 21:27:47.432 La columna ""isissecurity"."ApplicationUserRoles"."roleId"" añadió a la representación de la table.
+2017-01-04 21:27:47.432 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.434 La columna ""isissecurity"."ApplicationUserRoles"."userId"" añadió a la representación de la table.
+2017-01-04 21:27:47.435 Attempt to find JDBC driver 'typeInfo' for jdbc-type=BIGINT but sql-type=BIGINT is not found. Using default sql-type for this jdbc-type.
+2017-01-04 21:27:47.435 Table/View "isissecurity"."ApplicationUserRoles" ha sido inicializado
+2017-01-04 21:27:47.448 Empezando transaccion del esquema con conneccion "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@18d6d30" y isolacion "serializable"
+2017-01-04 21:27:47.457 Check of existence of "mister"."Rubro" returned table type of TABLE
+2017-01-04 21:27:47.462 Cargando información de columna para las tablas "Rubro" por el Catalogo "", el Esquema "mister"
+2017-01-04 21:27:47.519 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 58 ms
+2017-01-04 21:27:47.520 Información de columna cargado por la tabla "Rubro" : hemos encontrado 3 columnas
+2017-01-04 21:27:47.529 Check of existence of "mister"."ComboArticulo" returned table type of TABLE
+2017-01-04 21:27:47.530 Cargando información de columna para las tablas "ComboArticulo" por el Catalogo "", el Esquema "mister"
+2017-01-04 21:27:47.548 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 18 ms
+2017-01-04 21:27:47.548 Información de columna cargado por la tabla "ComboArticulo" : hemos encontrado 5 columnas
+2017-01-04 21:27:47.556 Check of existence of "mister"."SubRubro" returned table type of TABLE
+2017-01-04 21:27:47.557 Cargando información de columna para las tablas "SubRubro" por el Catalogo "", el Esquema "mister"
+2017-01-04 21:27:47.574 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 16 ms
+2017-01-04 21:27:47.574 Información de columna cargado por la tabla "SubRubro" : hemos encontrado 4 columnas
+2017-01-04 21:27:47.583 Check of existence of "isissecurity"."ApplicationUser" returned no table
+2017-01-04 21:27:47.583 Crear la tabla "isissecurity"."ApplicationUser"
+2017-01-04 21:27:47.585 CREATE TABLE "isissecurity"."ApplicationUser"
+(
+    "id" SERIAL,
+    "accountType" varchar(255) NOT NULL,
+    "emailAddress" varchar(50) NULL,
+    "encryptedPassword" varchar(255) NULL,
+    "familyName" varchar(50) NULL,
+    "faxNumber" varchar(25) NULL,
+    "givenName" varchar(50) NULL,
+    "knownAs" varchar(20) NULL,
+    "phoneNumber" varchar(25) NULL,
+    "status" varchar(255) NOT NULL,
+    "atPath" varchar(255) NULL,
+    "username" varchar(30) NOT NULL,
+    "version" int8 NOT NULL,
+    CONSTRAINT "ApplicationUser_PK" PRIMARY KEY ("id")
+)
+2017-01-04 21:27:47.692 Tiempo de cumplir = 106 ms
+2017-01-04 21:27:47.706 Check of existence of "isissecurity"."ApplicationTenancy" returned no table
+2017-01-04 21:27:47.707 Crear la tabla "isissecurity"."ApplicationTenancy"
+2017-01-04 21:27:47.708 CREATE TABLE "isissecurity"."ApplicationTenancy"
+(
+    "path" varchar(255) NOT NULL,
+    "name" varchar(40) NOT NULL,
+    "parentPath" varchar(255) NULL,
+    "version" int8 NOT NULL,
+    CONSTRAINT "ApplicationTenancy_PK" PRIMARY KEY ("path")
+)
+2017-01-04 21:27:47.756 Tiempo de cumplir = 48 ms
+2017-01-04 21:27:47.771 Check of existence of "mister"."Combo" returned table type of TABLE
+2017-01-04 21:27:47.772 Cargando información de columna para las tablas "Combo" por el Catalogo "", el Esquema "mister"
+2017-01-04 21:27:47.790 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 18 ms
+2017-01-04 21:27:47.790 Información de columna cargado por la tabla "Combo" : hemos encontrado 8 columnas
+2017-01-04 21:27:47.799 Check of existence of "isissecurity"."ApplicationRole" returned no table
+2017-01-04 21:27:47.799 Crear la tabla "isissecurity"."ApplicationRole"
+2017-01-04 21:27:47.800 CREATE TABLE "isissecurity"."ApplicationRole"
+(
+    "id" SERIAL,
+    "description" varchar(254) NULL,
+    "name" varchar(50) NOT NULL,
+    CONSTRAINT "ApplicationRole_PK" PRIMARY KEY ("id")
+)
+2017-01-04 21:27:47.831 Tiempo de cumplir = 31 ms
+2017-01-04 21:27:47.846 Check of existence of "mister"."Proveedor" returned table type of TABLE
+2017-01-04 21:27:47.847 Cargando información de columna para las tablas "Proveedor" por el Catalogo "", el Esquema "mister"
+2017-01-04 21:27:47.864 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 18 ms
+2017-01-04 21:27:47.865 Información de columna cargado por la tabla "Proveedor" : hemos encontrado 10 columnas
+2017-01-04 21:27:47.876 Check of existence of "mister"."Personal" returned table type of TABLE
+2017-01-04 21:27:47.876 Cargando información de columna para las tablas "Personal" por el Catalogo "", el Esquema "mister"
+2017-01-04 21:27:47.895 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 19 ms
+2017-01-04 21:27:47.895 Información de columna cargado por la tabla "Personal" : hemos encontrado 10 columnas
+2017-01-04 21:27:47.903 Check of existence of "mister"."Cliente" returned table type of TABLE
+2017-01-04 21:27:47.904 Cargando información de columna para las tablas "Cliente" por el Catalogo "", el Esquema "mister"
+2017-01-04 21:27:47.922 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 18 ms
+2017-01-04 21:27:47.923 Información de columna cargado por la tabla "Cliente" : hemos encontrado 9 columnas
+2017-01-04 21:27:47.932 Check of existence of "mister"."Articulo" returned table type of TABLE
+2017-01-04 21:27:47.933 Cargando información de columna para las tablas "Articulo" por el Catalogo "", el Esquema "mister"
+2017-01-04 21:27:47.953 Información de columna cargado por el Catalogo "", el Esquema "mister", 1 tablas, tiempo = 21 ms
+2017-01-04 21:27:47.953 Información de columna cargado por la tabla "Articulo" : hemos encontrado 16 columnas
+2017-01-04 21:27:47.963 Check of existence of "isissecurity"."ApplicationPermission" returned no table
+2017-01-04 21:27:47.964 Crear la tabla "isissecurity"."ApplicationPermission"
+2017-01-04 21:27:47.965 CREATE TABLE "isissecurity"."ApplicationPermission"
+(
+    "id" SERIAL,
+    "featureFqn" varchar(255) NOT NULL,
+    "featureType" varchar(255) NOT NULL,
+    "mode" varchar(255) NOT NULL,
+    "roleId" int8 NOT NULL,
+    "rule" varchar(255) NOT NULL,
+    "version" int8 NOT NULL,
+    CONSTRAINT "ApplicationPermission_PK" PRIMARY KEY ("id")
+)
+2017-01-04 21:27:48.078 Tiempo de cumplir = 113 ms
+2017-01-04 21:27:48.094 Check of existence of "isissecurity"."ApplicationUserRoles" returned no table
+2017-01-04 21:27:48.094 Crear la tabla "isissecurity"."ApplicationUserRoles"
+2017-01-04 21:27:48.095 CREATE TABLE "isissecurity"."ApplicationUserRoles"
+(
+    "userId" int8 NOT NULL,
+    "roleId" int8 NOT NULL,
+    CONSTRAINT "ApplicationUserRoles_PK" PRIMARY KEY ("userId","roleId")
+)
+2017-01-04 21:27:48.117 Tiempo de cumplir = 22 ms
+2017-01-04 21:27:48.169 Validando 2 llaves unicas de la tabla "mister"."Rubro"
+2017-01-04 21:27:48.299 Validando 0 foreign key(s) de la tabla "mister"."Rubro"
+2017-01-04 21:27:48.329 Validando 2 indic(es) de la tabla "mister"."Rubro"
+2017-01-04 21:27:48.353 Validando 1 llaves unicas de la tabla "mister"."ComboArticulo"
+2017-01-04 21:27:48.592 Validando 62 foreign key(s) de la tabla "mister"."ComboArticulo"
+2017-01-04 21:27:48.601 Crear el constreñimiento del foreign key "ComboArticulo_FK80" en catalogo "" equema ""mister""
+2017-01-04 21:27:48.601 ALTER TABLE "mister"."ComboArticulo" ADD CONSTRAINT "ComboArticulo_FK80" FOREIGN KEY ("articulo_articulo_id_OID") REFERENCES "mister"."Articulo" ("articulo_id") INITIALLY DEFERRED 
+2017-01-04 21:27:48.654 Tiempo de cumplir = 53 ms
+2017-01-04 21:27:48.655 Crear el constreñimiento del foreign key "ComboArticulo_FK81" en catalogo "" equema ""mister""
+2017-01-04 21:27:48.655 ALTER TABLE "mister"."ComboArticulo" ADD CONSTRAINT "ComboArticulo_FK81" FOREIGN KEY ("combo_combo_id_OID") REFERENCES "mister"."Combo" ("combo_id") INITIALLY DEFERRED 
+2017-01-04 21:27:48.672 Tiempo de cumplir = 17 ms
+2017-01-04 21:27:48.700 Validando 3 indic(es) de la tabla "mister"."ComboArticulo"
+2017-01-04 21:27:48.727 Validando 2 llaves unicas de la tabla "mister"."SubRubro"
+2017-01-04 21:27:48.914 Validando 31 foreign key(s) de la tabla "mister"."SubRubro"
+2017-01-04 21:27:48.916 Crear el constreñimiento del foreign key "SubRubro_FK61" en catalogo "" equema ""mister""
+2017-01-04 21:27:48.917 ALTER TABLE "mister"."SubRubro" ADD CONSTRAINT "SubRubro_FK61" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
+2017-01-04 21:27:48.940 Tiempo de cumplir = 23 ms
+2017-01-04 21:27:48.964 Validando 3 indic(es) de la tabla "mister"."SubRubro"
+2017-01-04 21:27:48.966 Crear la llave unica "ApplicationUser_username_UNQ" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:48.967 ALTER TABLE "isissecurity"."ApplicationUser" ADD CONSTRAINT "ApplicationUser_username_UNQ" UNIQUE ("username")
+2017-01-04 21:27:48.996 Tiempo de cumplir = 29 ms
+2017-01-04 21:27:48.997 Crear el constreñimiento del foreign key "ApplicationUser_FK1" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:48.997 ALTER TABLE "isissecurity"."ApplicationUser" ADD CONSTRAINT "ApplicationUser_FK1" FOREIGN KEY ("atPath") REFERENCES "isissecurity"."ApplicationTenancy" ("path") INITIALLY DEFERRED 
+2017-01-04 21:27:49.008 Tiempo de cumplir = 11 ms
+2017-01-04 21:27:49.011 Crear el indice "ApplicationUser_N49" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:49.012 CREATE INDEX "ApplicationUser_N49" ON "isissecurity"."ApplicationUser" ("atPath")
+2017-01-04 21:27:49.029 Tiempo de cumplir = 17 ms
+2017-01-04 21:27:49.030 Crear la llave unica "ApplicationTenancy_name_UNQ" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:49.031 ALTER TABLE "isissecurity"."ApplicationTenancy" ADD CONSTRAINT "ApplicationTenancy_name_UNQ" UNIQUE ("name")
+2017-01-04 21:27:49.048 Tiempo de cumplir = 17 ms
+2017-01-04 21:27:49.049 Crear el constreñimiento del foreign key "ApplicationTenancy_FK1" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:49.049 ALTER TABLE "isissecurity"."ApplicationTenancy" ADD CONSTRAINT "ApplicationTenancy_FK1" FOREIGN KEY ("parentPath") REFERENCES "isissecurity"."ApplicationTenancy" ("path") INITIALLY DEFERRED 
+2017-01-04 21:27:49.058 Tiempo de cumplir = 8 ms
+2017-01-04 21:27:49.059 Crear el indice "ApplicationTenancy_N49" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:49.059 CREATE INDEX "ApplicationTenancy_N49" ON "isissecurity"."ApplicationTenancy" ("parentPath")
+2017-01-04 21:27:49.085 Tiempo de cumplir = 25 ms
+2017-01-04 21:27:49.111 Validando 2 llaves unicas de la tabla "mister"."Combo"
+2017-01-04 21:27:49.328 Validando 31 foreign key(s) de la tabla "mister"."Combo"
+2017-01-04 21:27:49.330 Crear el constreñimiento del foreign key "Combo_FK61" en catalogo "" equema ""mister""
+2017-01-04 21:27:49.330 ALTER TABLE "mister"."Combo" ADD CONSTRAINT "Combo_FK61" FOREIGN KEY ("personal_personal_id_OID") REFERENCES "mister"."Personal" ("personal_id") INITIALLY DEFERRED 
+2017-01-04 21:27:49.354 Tiempo de cumplir = 24 ms
+2017-01-04 21:27:49.378 Validando 3 indic(es) de la tabla "mister"."Combo"
+2017-01-04 21:27:49.380 Crear la llave unica "ApplicationRole_name_UNQ" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:49.380 ALTER TABLE "isissecurity"."ApplicationRole" ADD CONSTRAINT "ApplicationRole_name_UNQ" UNIQUE ("name")
+2017-01-04 21:27:49.401 Tiempo de cumplir = 21 ms
+2017-01-04 21:27:49.428 Validando 2 llaves unicas de la tabla "mister"."Proveedor"
+2017-01-04 21:27:49.569 Validando 31 foreign key(s) de la tabla "mister"."Proveedor"
+2017-01-04 21:27:49.571 Crear el constreñimiento del foreign key "Proveedor_FK61" en catalogo "" equema ""mister""
+2017-01-04 21:27:49.571 ALTER TABLE "mister"."Proveedor" ADD CONSTRAINT "Proveedor_FK61" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
+2017-01-04 21:27:49.587 Tiempo de cumplir = 16 ms
+2017-01-04 21:27:49.609 Validando 3 indic(es) de la tabla "mister"."Proveedor"
+2017-01-04 21:27:49.631 Validando 2 llaves unicas de la tabla "mister"."Personal"
+2017-01-04 21:27:49.759 Validando 0 foreign key(s) de la tabla "mister"."Personal"
+2017-01-04 21:27:49.783 Validando 2 indic(es) de la tabla "mister"."Personal"
+2017-01-04 21:27:49.807 Validando 2 llaves unicas de la tabla "mister"."Cliente"
+2017-01-04 21:27:49.994 Validando 0 foreign key(s) de la tabla "mister"."Cliente"
+2017-01-04 21:27:50.018 Validando 2 indic(es) de la tabla "mister"."Cliente"
+2017-01-04 21:27:50.043 Validando 2 llaves unicas de la tabla "mister"."Articulo"
+2017-01-04 21:27:50.264 Validando 124 foreign key(s) de la tabla "mister"."Articulo"
+2017-01-04 21:27:50.270 Crear el constreñimiento del foreign key "Articulo_FKc1" en catalogo "" equema ""mister""
+2017-01-04 21:27:50.270 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKc1" FOREIGN KEY ("sub_Rubro_subrubro_id_OID") REFERENCES "mister"."SubRubro" ("subrubro_id") INITIALLY DEFERRED 
+2017-01-04 21:27:50.286 Tiempo de cumplir = 15 ms
+2017-01-04 21:27:50.287 Crear el constreñimiento del foreign key "Articulo_FKc0" en catalogo "" equema ""mister""
+2017-01-04 21:27:50.288 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKc0" FOREIGN KEY ("rubro_rubro_id_OID") REFERENCES "mister"."Rubro" ("rubro_id") INITIALLY DEFERRED 
+2017-01-04 21:27:50.302 Tiempo de cumplir = 14 ms
+2017-01-04 21:27:50.303 Crear el constreñimiento del foreign key "Articulo_FKbf" en catalogo "" equema ""mister""
+2017-01-04 21:27:50.303 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKbf" FOREIGN KEY ("proveedor_proveedor_id_OID") REFERENCES "mister"."Proveedor" ("proveedor_id") INITIALLY DEFERRED 
+2017-01-04 21:27:50.319 Tiempo de cumplir = 16 ms
+2017-01-04 21:27:50.321 Crear el constreñimiento del foreign key "Articulo_FKbe" en catalogo "" equema ""mister""
+2017-01-04 21:27:50.321 ALTER TABLE "mister"."Articulo" ADD CONSTRAINT "Articulo_FKbe" FOREIGN KEY ("personal_personal_id_OID") REFERENCES "mister"."Personal" ("personal_id") INITIALLY DEFERRED 
+2017-01-04 21:27:50.332 Tiempo de cumplir = 11 ms
+2017-01-04 21:27:50.356 Validando 6 indic(es) de la tabla "mister"."Articulo"
+2017-01-04 21:27:50.359 Crear la llave unica "ApplicationPermission_role_feature_rule_UNQ" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:50.360 ALTER TABLE "isissecurity"."ApplicationPermission" ADD CONSTRAINT "ApplicationPermission_role_feature_rule_UNQ" UNIQUE ("roleId","featureType","featureFqn","rule")
+2017-01-04 21:27:50.386 Tiempo de cumplir = 26 ms
+2017-01-04 21:27:50.387 Crear el constreñimiento del foreign key "ApplicationPermission_FK1" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:50.388 ALTER TABLE "isissecurity"."ApplicationPermission" ADD CONSTRAINT "ApplicationPermission_FK1" FOREIGN KEY ("roleId") REFERENCES "isissecurity"."ApplicationRole" ("id") INITIALLY DEFERRED 
+2017-01-04 21:27:50.399 Tiempo de cumplir = 11 ms
+2017-01-04 21:27:50.400 Crear el indice "ApplicationPermission_N49" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:50.400 CREATE INDEX "ApplicationPermission_N49" ON "isissecurity"."ApplicationPermission" ("roleId")
+2017-01-04 21:27:50.421 Tiempo de cumplir = 21 ms
+2017-01-04 21:27:50.428 Crear el constreñimiento del foreign key "ApplicationUserRoles_FK1" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:50.428 ALTER TABLE "isissecurity"."ApplicationUserRoles" ADD CONSTRAINT "ApplicationUserRoles_FK1" FOREIGN KEY ("userId") REFERENCES "isissecurity"."ApplicationUser" ("id") INITIALLY DEFERRED 
+2017-01-04 21:27:50.437 Tiempo de cumplir = 8 ms
+2017-01-04 21:27:50.438 Crear el constreñimiento del foreign key "ApplicationUserRoles_FK2" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:50.438 ALTER TABLE "isissecurity"."ApplicationUserRoles" ADD CONSTRAINT "ApplicationUserRoles_FK2" FOREIGN KEY ("roleId") REFERENCES "isissecurity"."ApplicationRole" ("id") INITIALLY DEFERRED 
+2017-01-04 21:27:50.447 Tiempo de cumplir = 9 ms
+2017-01-04 21:27:50.449 Crear el indice "ApplicationUserRoles_N50" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:50.450 CREATE INDEX "ApplicationUserRoles_N50" ON "isissecurity"."ApplicationUserRoles" ("userId")
+2017-01-04 21:27:50.475 Tiempo de cumplir = 25 ms
+2017-01-04 21:27:50.476 Crear el indice "ApplicationUserRoles_N49" en catalogo "" equema ""isissecurity""
+2017-01-04 21:27:50.476 CREATE INDEX "ApplicationUserRoles_N49" ON "isissecurity"."ApplicationUserRoles" ("roleId")
+2017-01-04 21:27:50.492 Tiempo de cumplir = 16 ms
+2017-01-04 21:27:50.493 Committing transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@18d6d30"
+2017-01-04 21:27:50.500 Cerrando la conneccion de la transaccion del esquema "org.datanucleus.store.rdbms.datasource.dbcp.PoolingDataSource$PoolGuardConnectionWrapper@18d6d30"
+2017-01-04 21:28:01.816 SELECT 'org.isisaddons.module.security.dom.tenancy.ApplicationTenancy' AS "NUCLEUS_TYPE","A0"."name","A0"."path","A0"."version" FROM "isissecurity"."ApplicationTenancy" "A0" WHERE "A0"."name" = <'Global'>
+2017-01-04 21:28:02.172 INSERT INTO "isissecurity"."ApplicationTenancy" ("name","parentPath","path","version") VALUES (<'Global'>,<null>,<'/'>,<1>)
+2017-01-04 21:28:02.356 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-admin'>
+2017-01-04 21:28:02.376 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-admin'>
+2017-01-04 21:28:02.408 INSERT INTO "isissecurity"."ApplicationRole" ("description","name") VALUES (<'Administer security'>,<'isis-module-security-admin'>)
+2017-01-04 21:28:02.639 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <1> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'PACKAGE'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.app'>
+2017-01-04 21:28:02.685 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.app'>,<'PACKAGE'>,<'CHANGING'>,<1>,<'ALLOW'>,<1>)
+2017-01-04 21:28:02.706 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <1> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'PACKAGE'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom'>
+2017-01-04 21:28:02.722 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom'>,<'PACKAGE'>,<'CHANGING'>,<1>,<'ALLOW'>,<1>)
+2017-01-04 21:28:02.737 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-fixtures'>
+2017-01-04 21:28:02.753 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-fixtures'>
+2017-01-04 21:28:02.768 INSERT INTO "isissecurity"."ApplicationRole" ("description","name") VALUES (<'Security module fixtures'>,<'isis-module-security-fixtures'>)
+2017-01-04 21:28:02.784 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <2> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'PACKAGE'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.fixture'>
+2017-01-04 21:28:02.815 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.fixture'>,<'PACKAGE'>,<'CHANGING'>,<2>,<'ALLOW'>,<1>)
+2017-01-04 21:28:02.815 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-regular-user'>
+2017-01-04 21:28:02.836 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-regular-user'>
+2017-01-04 21:28:02.851 INSERT INTO "isissecurity"."ApplicationRole" ("description","name") VALUES (<'Regular user of the security module'>,<'isis-module-security-regular-user'>)
+2017-01-04 21:28:03.060 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.app.user.MeService#me'>
+2017-01-04 21:28:03.091 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.app.user.MeService#me'>,<'MEMBER'>,<'CHANGING'>,<3>,<'ALLOW'>,<1>)
+2017-01-04 21:28:03.091 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-regular-user'>
+2017-01-04 21:28:03.327 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'CLASS'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser'>
+2017-01-04 21:28:03.343 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser'>,<'CLASS'>,<'VIEWING'>,<3>,<'ALLOW'>,<1>)
+2017-01-04 21:28:03.358 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-regular-user'>
+2017-01-04 21:28:03.407 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#updateName'>
+2017-01-04 21:28:03.459 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#updateName'>,<'MEMBER'>,<'CHANGING'>,<3>,<'ALLOW'>,<1>)
+2017-01-04 21:28:03.484 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#updatePassword'>
+2017-01-04 21:28:03.502 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#updatePassword'>,<'MEMBER'>,<'CHANGING'>,<3>,<'ALLOW'>,<1>)
+2017-01-04 21:28:03.518 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#updateEmailAddress'>
+2017-01-04 21:28:03.549 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#updateEmailAddress'>,<'MEMBER'>,<'CHANGING'>,<3>,<'ALLOW'>,<1>)
+2017-01-04 21:28:03.565 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#updatePhoneNumber'>
+2017-01-04 21:28:03.580 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#updatePhoneNumber'>,<'MEMBER'>,<'CHANGING'>,<3>,<'ALLOW'>,<1>)
+2017-01-04 21:28:03.601 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#updateFaxNumber'>
+2017-01-04 21:28:03.616 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#updateFaxNumber'>,<'MEMBER'>,<'CHANGING'>,<3>,<'ALLOW'>,<1>)
+2017-01-04 21:28:03.634 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-regular-user'>
+2017-01-04 21:28:03.653 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'VETO'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#filterPermissions'>
+2017-01-04 21:28:03.686 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#filterPermissions'>,<'MEMBER'>,<'VIEWING'>,<3>,<'VETO'>,<1>)
+2017-01-04 21:28:03.701 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'VETO'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#resetPassword'>
+2017-01-04 21:28:03.734 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#resetPassword'>,<'MEMBER'>,<'VIEWING'>,<3>,<'VETO'>,<1>)
+2017-01-04 21:28:03.754 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'VETO'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#updateTenancy'>
+2017-01-04 21:28:03.774 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#updateTenancy'>,<'MEMBER'>,<'VIEWING'>,<3>,<'VETO'>,<1>)
+2017-01-04 21:28:03.794 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'VETO'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#lock'>
+2017-01-04 21:28:03.804 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#lock'>,<'MEMBER'>,<'VIEWING'>,<3>,<'VETO'>,<1>)
+2017-01-04 21:28:03.820 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'VETO'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#unlock'>
+2017-01-04 21:28:03.836 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#unlock'>,<'MEMBER'>,<'VIEWING'>,<3>,<'VETO'>,<1>)
+2017-01-04 21:28:03.856 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'VETO'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#addRole'>
+2017-01-04 21:28:03.872 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#addRole'>,<'MEMBER'>,<'VIEWING'>,<3>,<'VETO'>,<1>)
+2017-01-04 21:28:03.915 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'VETO'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.user.ApplicationUser#removeRole'>
+2017-01-04 21:28:03.964 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.user.ApplicationUser#removeRole'>,<'MEMBER'>,<'VIEWING'>,<3>,<'VETO'>,<1>)
+2017-01-04 21:28:03.974 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-regular-user'>
+2017-01-04 21:28:04.006 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.role.ApplicationRole#name'>
+2017-01-04 21:28:04.031 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.role.ApplicationRole#name'>,<'MEMBER'>,<'VIEWING'>,<3>,<'ALLOW'>,<1>)
+2017-01-04 21:28:04.054 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <3> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'MEMBER'> AND "A0"."featureFqn" = <'org.isisaddons.module.security.dom.role.ApplicationRole#description'>
+2017-01-04 21:28:04.076 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.isisaddons.module.security.dom.role.ApplicationRole#description'>,<'MEMBER'>,<'VIEWING'>,<3>,<'ALLOW'>,<1>)
+2017-01-04 21:28:04.096 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'isis-module-security-admin'>
+2017-01-04 21:28:04.121 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'isis-module-security-admin'>
+2017-01-04 21:28:04.756 INSERT INTO "isissecurity"."ApplicationUser" ("accountType","emailAddress","encryptedPassword","familyName","faxNumber","givenName","knownAs","phoneNumber","status","atPath","username","version") VALUES (<'LOCAL'>,<null>,<'$2a$10$TqyEtHlmcpPVsdLvqfVzB.llJDbBwZeYpFpjBNRteVf2LVr4GILHe'>,<null>,<null>,<null>,<null>,<null>,<'ENABLED'>,<null>,<'isis-module-security-admin'>,<1>)
+2017-01-04 21:28:04.773 SELECT 'org.isisaddons.module.security.dom.tenancy.ApplicationTenancy' AS "NUCLEUS_TYPE","A0"."name","A0"."path","A0"."version" FROM "isissecurity"."ApplicationTenancy" "A0" WHERE "A0"."path" = <'/'>
+2017-01-04 21:28:04.826 UPDATE "isissecurity"."ApplicationUser" SET "atPath"=<'/'>, "version"=<2> WHERE "id"=<1>
+2017-01-04 21:28:04.833 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-admin'>
+2017-01-04 21:28:04.866 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <1>
+2017-01-04 21:28:04.890 SELECT "roleId" FROM "isissecurity"."ApplicationUserRoles" THIS WHERE THIS."roleId"=<1> AND THIS."userId"=<1>
+2017-01-04 21:28:04.903 INSERT INTO "isissecurity"."ApplicationUserRoles" ("userId","roleId") VALUES (<1>,<1>) 
+2017-01-04 21:28:04.920 UPDATE "isissecurity"."ApplicationUser" SET "version"=<3> WHERE "id"=<1>
+2017-01-04 21:28:04.925 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-applib-fixtureresults'>
+2017-01-04 21:28:04.933 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-applib-fixtureresults'>
+2017-01-04 21:28:04.948 INSERT INTO "isissecurity"."ApplicationRole" ("description","name") VALUES (<'Access results of running Fixture Scripts'>,<'isis-applib-fixtureresults'>)
+2017-01-04 21:28:04.955 SELECT "roleId" FROM "isissecurity"."ApplicationUserRoles" THIS WHERE THIS."roleId"=<1> AND THIS."userId"=<1>
+2017-01-04 21:28:04.968 UPDATE "isissecurity"."ApplicationTenancy" SET "version"=<2> WHERE "path"=<'/'>
+2017-01-04 21:28:04.980 SELECT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" WHERE "A0"."roleId" = <4> AND "A0"."rule" = <'ALLOW'> AND "A0"."featureType" = <'CLASS'> AND "A0"."featureFqn" = <'org.apache.isis.applib.fixturescripts.FixtureResult'>
+2017-01-04 21:28:05.053 INSERT INTO "isissecurity"."ApplicationPermission" ("featureFqn","featureType","mode","roleId","rule","version") VALUES (<'org.apache.isis.applib.fixturescripts.FixtureResult'>,<'CLASS'>,<'CHANGING'>,<4>,<'ALLOW'>,<1>)
+2017-01-04 21:28:52.030 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'sven'>
+2017-01-04 21:29:45.714 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'sven'>
+2017-01-04 21:41:36.036 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'isis-module-security-admin'>
+2017-01-04 21:41:36.110 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <1>
+2017-01-04 21:41:36.202 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'isis-module-security-admin'>
+2017-01-04 21:41:36.999 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'isis-module-security-admin'>
+2017-01-04 21:41:37.034 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <1>
+2017-01-04 21:41:37.052 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'isis-module-security-admin'>
+2017-01-04 21:42:05.573 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0"
+2017-01-04 21:42:06.542 SELECT "B0"."name","B0"."path","B0"."version","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" LEFT OUTER JOIN "isissecurity"."ApplicationTenancy" "B0" ON "A0"."atPath" = "B0"."path" WHERE "A0"."id" = <1>
+2017-01-04 21:42:06.666 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:42:06.694 SELECT COUNT(*) FROM "isissecurity"."ApplicationUserRoles" THIS WHERE THIS."userId"=<1>
+2017-01-04 21:42:06.704 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <1>
+2017-01-04 21:42:09.322 SELECT "A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."id" = <1>
+2017-01-04 21:42:10.155 SELECT "A0"."name","A0"."version" FROM "isissecurity"."ApplicationTenancy" "A0" WHERE "A0"."path" = <'/'>
+2017-01-04 21:42:10.250 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <1>
+2017-01-04 21:42:10.560 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'isis-module-security-admin'>
+2017-01-04 21:43:02.938 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-regular-user'>
+2017-01-04 21:43:03.012 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:43:21.558 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-regular-user'>
+2017-01-04 21:43:21.627 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-regular-user'>
+2017-01-04 21:43:21.666 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:43:26.986 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <3>
+2017-01-04 21:43:26.999 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:43:36.125 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <3>
+2017-01-04 21:43:36.136 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:43:41.825 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <3>
+2017-01-04 21:43:41.849 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:43:42.320 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <1>
+2017-01-04 21:43:42.332 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <2>
+2017-01-04 21:43:42.346 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <3>
+2017-01-04 21:43:42.357 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <4>
+2017-01-04 21:43:49.081 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <1>
+2017-01-04 21:43:49.093 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <2>
+2017-01-04 21:43:49.104 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <3>
+2017-01-04 21:43:49.115 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <4>
+2017-01-04 21:43:51.312 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <1>
+2017-01-04 21:43:51.324 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:44:02.907 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <1>
+2017-01-04 21:44:02.920 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:44:03.571 SELECT "A0"."description","A0"."name" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."id" = <1>
+2017-01-04 21:44:03.683 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'Fran'>
+2017-01-04 21:44:04.358 INSERT INTO "isissecurity"."ApplicationUser" ("accountType","emailAddress","encryptedPassword","familyName","faxNumber","givenName","knownAs","phoneNumber","status","atPath","username","version") VALUES (<'LOCAL'>,<'francisco.bellani@gmail.com'>,<'$2a$10$TqyEtHlmcpPVsdLvqfVzB.KCF2QL9xGLK5Hr0dxeUvnFuoyAqI81K'>,<null>,<null>,<null>,<null>,<null>,<'DISABLED'>,<null>,<'Fran'>,<1>)
+2017-01-04 21:44:04.376 INSERT INTO "isissecurity"."ApplicationUserRoles" ("userId","roleId") VALUES (<2>,<1>) 
+2017-01-04 21:44:04.744 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:44:04.803 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0" WHERE "A0"."name" = <'isis-module-security-regular-user'>
+2017-01-04 21:44:05.678 SELECT "A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."id" = <2>
+2017-01-04 21:44:05.963 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <2>
+2017-01-04 21:44:06.029 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'Fran'>
+2017-01-04 21:44:39.384 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'fran'>
+2017-01-04 21:44:46.384 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'fran'>
+2017-01-04 21:44:54.909 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'Fran'>
+2017-01-04 21:44:54.974 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <2>
+2017-01-04 21:44:54.994 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'Fran'>
+2017-01-04 21:45:00.857 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'Fran'>
+2017-01-04 21:45:00.912 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <2>
+2017-01-04 21:45:00.937 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'Fran'>
+2017-01-04 21:45:37.879 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'isis-module-security-admin'>
+2017-01-04 21:45:37.925 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <1>
+2017-01-04 21:45:37.944 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'isis-module-security-admin'>
+2017-01-04 21:45:52.629 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'isis-module-security-admin'>
+2017-01-04 21:45:52.661 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <1>
+2017-01-04 21:45:52.678 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'isis-module-security-admin'>
+2017-01-04 21:45:53.470 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'isis-module-security-admin'>
+2017-01-04 21:45:53.499 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <1>
+2017-01-04 21:45:53.515 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'isis-module-security-admin'>
+2017-01-04 21:46:02.351 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0"
+2017-01-04 21:46:03.516 SELECT "A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."id" = <1>
+2017-01-04 21:46:03.531 SELECT "A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."id" = <2>
+2017-01-04 21:46:03.585 SELECT "B0"."name","B0"."path","B0"."version","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" LEFT OUTER JOIN "isissecurity"."ApplicationTenancy" "B0" ON "A0"."atPath" = "B0"."path" WHERE "A0"."id" = <1>
+2017-01-04 21:46:03.628 SELECT "B0"."name","B0"."path","B0"."version","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" LEFT OUTER JOIN "isissecurity"."ApplicationTenancy" "B0" ON "A0"."atPath" = "B0"."path" WHERE "A0"."id" = <2>
+2017-01-04 21:46:17.289 SELECT "A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."id" = <2>
+2017-01-04 21:46:17.563 SELECT "B0"."name","B0"."path","B0"."version","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" LEFT OUTER JOIN "isissecurity"."ApplicationTenancy" "B0" ON "A0"."atPath" = "B0"."path" WHERE "A0"."id" = <2>
+2017-01-04 21:46:17.594 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:46:17.623 SELECT COUNT(*) FROM "isissecurity"."ApplicationUserRoles" THIS WHERE THIS."userId"=<2>
+2017-01-04 21:46:17.633 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <2>
+2017-01-04 21:46:18.405 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'Fran'>
+2017-01-04 21:46:39.387 SELECT "A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."id" = <2>
+2017-01-04 21:46:39.416 SELECT "B0"."name","B0"."path","B0"."version","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" LEFT OUTER JOIN "isissecurity"."ApplicationTenancy" "B0" ON "A0"."atPath" = "B0"."path" WHERE "A0"."id" = <2>
+2017-01-04 21:46:39.712 UPDATE "isissecurity"."ApplicationUser" SET "status"=<'ENABLED'>, "version"=<2> WHERE "id"=<2>
+2017-01-04 21:46:39.720 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A0"."description","A0"."name","A0"."id" FROM "isissecurity"."ApplicationRole" "A0"
+2017-01-04 21:46:39.752 SELECT COUNT(*) FROM "isissecurity"."ApplicationUserRoles" THIS WHERE THIS."userId"=<2>
+2017-01-04 21:46:39.762 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <2>
+2017-01-04 21:46:41.153 SELECT "A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."id" = <2>
+2017-01-04 21:46:41.432 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <2>
+2017-01-04 21:46:41.510 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'Fran'>
+2017-01-04 21:47:19.512 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'fran'>
+2017-01-04 21:47:29.315 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'fran'>
+2017-01-04 21:47:37.695 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'Fran'>
+2017-01-04 21:47:37.722 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <2>
+2017-01-04 21:47:37.738 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'Fran'>
+2017-01-04 21:47:38.549 SELECT 'org.isisaddons.module.security.dom.user.ApplicationUser' AS "NUCLEUS_TYPE","A0"."accountType","A0"."emailAddress","A0"."encryptedPassword","A0"."familyName","A0"."faxNumber","A0"."givenName","A0"."knownAs","A0"."phoneNumber","A0"."status","A0"."username","A0"."id","A0"."version" FROM "isissecurity"."ApplicationUser" "A0" WHERE "A0"."username" = <'Fran'>
+2017-01-04 21:47:38.591 SELECT 'org.isisaddons.module.security.dom.role.ApplicationRole' AS "NUCLEUS_TYPE","A1"."description","A1"."name","A1"."id" FROM "isissecurity"."ApplicationUserRoles" "A0" INNER JOIN "isissecurity"."ApplicationRole" "A1" ON "A0"."roleId" = "A1"."id" WHERE "A0"."userId" = <2>
+2017-01-04 21:47:38.607 SELECT DISTINCT 'org.isisaddons.module.security.dom.permission.ApplicationPermission' AS "NUCLEUS_TYPE","A0"."featureFqn","A0"."featureType","A0"."mode","A0"."rule","A0"."id","A0"."version" FROM "isissecurity"."ApplicationPermission" "A0" CROSS JOIN "isissecurity"."ApplicationUser" "VAR_u" INNER JOIN "isissecurity"."ApplicationUserRoles" "C0" ON "VAR_u"."id" = "C0"."userId" INNER JOIN "isissecurity"."ApplicationRole" "D0" ON "C0"."roleId" = "D0"."id" WHERE "D0"."id" = "A0"."roleId" AND "VAR_u"."username" = <'Fran'>
