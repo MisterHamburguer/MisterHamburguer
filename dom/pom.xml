@@ -56,7 +56,28 @@
             <artifactId>isis-core-unittestsupport</artifactId>
             <scope>test</scope>
         </dependency>
-
+     <!-- JASPERREPORTS -->
+		<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+		<dependency>
+		    <groupId>net.sf.jasperreports</groupId>
+		    <artifactId>jasperreports</artifactId>
+		    <version>6.3.1</version>
+		</dependency>
+		
+		<!-- AGREGO PARA JASPERREPORTS 02 -->
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-email</artifactId>
+		    <version>1.4</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+		<dependency>
+		    <groupId>org.apache.httpcomponents</groupId>
+		    <artifactId>httpclient</artifactId>
+		    <version>4.5.2</version>
+		</dependency>
+ 
         <!-- Bytecode libraries (for mocking) -->
         <dependency>
             <groupId>org.objenesis</groupId>

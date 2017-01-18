@@ -124,7 +124,7 @@
                 <property>
                     <name>!skip.jdbc-hsqldb</name>
                 </property>
-            </activation>r
+            </activation>
             <dependencies>
                 <dependency>
                     <groupId>org.hsqldb</groupId>
